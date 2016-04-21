@@ -1,0 +1,210 @@
+\chapter{Relative network centrality and structural Ricardian comparative advantage}
+%%Rajski?s information indices
+In this chapter, I analyze the association between the structural RCA indicator and network centrality. The motivation is as follows. First according to RCA  we expect that a  country with relative lower cost to produce a good of one industry will produce and exports relative more of that good. The eigenvector centrality  a country is high in a industry network if it exports to destinations which are important exporters themselves. A higher centrality of a country corresponds to higher trade shares. Therefore we hypothesize that there may be a link between both measures. \\
+The literature propagation of shocks in network  \cite{acemoglu2012} showed that network centrality 
+%why do we care
+%similarity of network centrality to predictions of micro Ricardo model. Lower realtive cost to produce a good, hence higher trade shares. Eigenvector centrality by definition relative higher if I export to more important exporting countries. 
+% Acemolgu et al showed for the input output structure of an economy that industries with a higher network centrality conriubte more to a countrys GDP. Further they highlighted that network centrality is related to micro shocks. 
+% If the ranking of relative cost advantage is similar to network centrality, the latter is a more simple measure. 
+Further, I analyze the robustness of the correlation results to changes of the normalization or changes of the sample.
+\section{International trade network}
+In the following I define the trade network as directed and weighted network. I will provide a definition based on \textcite{jackson2010} and \textcite{de2010}.\par 
+In the network terminology, nodes are connected by edges. In the trade network each node represents a particular industry $k$ in different countries $N^k = 1, \dots , n$, to simplify notation we will omit high script $k$ as the set of nodes is the same across countries. Each edge $g_{i,j}^k $ represents a trade linkages between an industry $k$ in exporting country $i$ to importing country $j$.  In the trade network I exports are not equal to imports $g_{i,j}^k \neq g_{j,i}^k$ and therefore the network is directed. Further, the edge variable $g_{i,j}^k$ is one if there are positive exports in industry $k$ in country $i$ to country $j$, it is zero otherwise. Thus,
+$g_{i,j}^k = \begin{cases}
+ 1 \quad \text{if} \quad x_{i,j}^k \neq 0 \\
+0 \quad \text{if} \quad x_{i,j}^k = 0 \end{cases} $
+To simplify the notation I represent all $g_{i,j}^k $ for all exporting countries and importing countries for all industry in $k$ symmetric
+matrix $g^k$ of the dimensions $n \times n$. The binary trade network for all industries is represented by the $k$ tuple combining the set of nodes and trade linkages $\cG^k(N, g^k)$. \par
+In the next step I define the weighted international trade network. First, I define the
+weight variable $W_{i,j}^k$ which represents the value of exports from industry $k$  in country $i$ to country $j$. To simplify we represent the weight variable, in $k$  matrices $W^k$, which I denote as weight matrices. %Further, it has the interpretation of recording  the equilibrium relations after interactions have taken place \parencite{de2010}. \par
+ The international trade network in each industry is therefore the binary trade network combined with the  $ITN^k =( \cG^k(N, g^k),W^k)$.
+ \section{Network centrality}
+After having defined the international trade network, in turn I outline the concept of eigenvector network centrality. The definition is based on the textbook of \textcite{jackson2010}
+The outline of  network centrality of  \textcite{jackson2010}  is based on the mathematical outline in \textcite{Bonacich77}. The outline will be based on the binary trade network, it can be applied without changes to both weighted and directed networks \parencite{jackson2010}.  \par
+The idea of centrality is as follows, a node is more central if it is connected to more central nodes. The centrality of the connected nodes is as well determined by how central the nodes are they are connected to. This recursion can be mathematical represented
+\[  \lambda C^e_i (g^k) = \sum_{j \neq i}  g^k_{i,j}C^e_{i,j}(g^k)  \]
+Restating the equation in matrix notation and solving it
+\begin{align*} 
+ \lambda C^e (g^k) & =  g^k C^e (g^k) \\
+(g^k - I  \lambda) C^e(g^k) & = 0
+ \end{align*}
+where $ \lambda$ is the corresponding eigenvalue to the eigenvector $C^e(g^k)$.  Following the convention
+ I use the leading eigenvector, which corresponds with the largest eigenvalue. \par  
+To compute the relative network centrality I calculate the eigenvector centrality for the weight matrix $W^k$ for each industry $k$. 
+In addition, in the computation of the eigenvector centrality I column normalize the weight matrix, which therefore  the export shares of each exporting country. Further important for the computations, is the Perron-Frobenius Theorem. As the weight matrix is nonzero and for some power $n$, where $n$ is a positive integer, there exists according to the theorem a unique right-hand eigenvector $C^e(g^k)$, which solves the centrality equation with the largest eigenvalue equal to one $\lambda = 1$.  The interpretation of 
+ centrality of an industry $k$ in country $i$ in this , how important in terms of \$ it is in the network of imports from all other countries $j$. 
+
+%Moreover I highlighted in the introduction that the literature on shock propagation in networks, offers an interpretation of network centrality as a measure of ability to produce goods.  In the trade network I describe here, hence the network centrality describe the ability of an industry in a certain country.  \par The TiVA indicator as I described in section 2. describes the break down of domestic value-added sold across destinations
+%Therefore for the network centrality I expect that industries, which are more central, contribute more to the value added sold across destinations. Further, if my interpretation of network centrality is correct, it should be the case that the relative centrality may be interpreted as measure of the relative ability to of an industry in some country to export relative to a benchmark industry and country. Therefore  I hypothesize that the ranking of relative centrality is similar to the ranking I obtain from the structural RCA measure. 
+\section{Network centrality and structural Ricardian comparative advantage}
+In this subsection, I analyze the association between relative network centrality and  structural RCA based on domestic value added exports. In the introduction I  outlined the similarity of centrality and the stochastic  interpretation of trade shares. Network centrality may be interpreted as how much each industry contributes in terms of dollars to the exporting network. The stochastic interpretation of trade  shares reflects productivity  draws. This similarity is the motivation behind the analysis conducted.     \par
+%In the introduction I hypothesized based on the network shock propagation literature, that interpret network centrality may be interpreted as a measure of ability of an industry.   Moreover, the empirical heterogeneous firms literature found that firms with a higher ability to produce goods are more likely to export (\cite{bernard2007}, \cite{ottaviano}), which is in line with results of the theoretical heterogeneous firms literature  (\cite{bernard2003}, \cite{melitz}). 
+I compared the association of network centrality and structural RCA based on simple and rank correlations. The simple correlation should indicate a stronger association than the rank correlation if the relationship is linear, when both measures are approximately normal distributed and outliners are absent. The second method is more robust to outliners and does not assume that the measures analyzed are normally distributed. Further, a stronger rank correlation than simple correlation would imply that the relation between the measures is monotone instead of linear. \par
+In table \ref{tab:prod_cent} the correlation between both measures shows is between 0.51-0.87. The lowest correlation is in the construction industry. The highest coefficient is in the food and beverages industry (ISIC 15-16). In column two, which shows rank correlation, most coefficients are concentrated around 0.9.  Further the coefficents span a smaller interval from 0.76 to 0.95.  The highest coefficient is in the machinery and equipment industry and the other non-metal mineral products industry. The lowest rank correlation is in the food and beverages industry. \par
+The rank correlation is for most industries  larger  than the simple correlation coefficients. The relative magnitude of the differences between the  coefficients is between 67\% for social services and -12\% for the food industry. The food industry shows the only decreased coefficient, another industry, the  petroleum industry, shows an rank correlation coefficient, which is only slightly higher.\par
+ Overall the results in the table \ref{tab:prod_cent} show that between relative centrality and structural RCA a higher rank correlation, and therefore the relation between both measures is rather monotone instead of linear. The economic interpretation of this is that the sector-specific input and sourcing structures do not vary strongly across sectors. 
+\begin{table}[ht]
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\footnotesize
+\centering  \caption{Correlation between relative network centrality  and structural RCA in 2005}
+\label{tab:prod_cent}
+\begin{tabular}{l*{3}{S}}
+  \toprule
+ISIC & \multicolumn{1}{c}{Correlation} & \multicolumn{1}{c}{Rank correlation}   & \multicolumn{1}{c}{Difference}\\ 
+  \midrule                                          % Rel. Diff
+15-16 & 0.87 \sym{***}& 0.76  \sym{***}& -0.11 \\  %-10
+  17-19 & 0.61  \sym{***}& 0.95  \sym{***}& 0.34 \\ % 34
+  20 & 0.74  \sym{***}& 0.88 \sym{***} & 0.14 \\ %14
+  21-22 & 0.73  \sym{***}& 0.93 \sym{***} & 0.20 \\ %20
+  23 & 0.75  \sym{***}& 0.78 \sym{***} & 0.03 \\ %2
+  24 & 0.77  \sym{***}& 0.93 \sym{***} & 0.16 \\ %16
+  25 & 0.70  \sym{***}& 0.95 \sym{***} & 0.25 \\ %25
+  26 & 0.65  \sym{***}& 0.97 \sym{***} & 0.32 \\ % 32
+  27-28 & 0.78 \sym{***} & 0.94 \sym{***} & 0.21 \\ %16
+  29 & 0.73  \sym{***}& 0.96  \sym{***}& 0.23 \\ %23
+  30-33 & 0.66  \sym{***}& 0.94  \sym{***}& 0.28 \\ % 28
+  34-35 & 0.70  \sym{***}& 0.93  \sym{***}& 0.23 \\ %23
+  36-37 & 0.61  \sym{***}& 0.90 \sym{***} & 0.29 \\ %29
+  45 & 0.55 \sym{***} & 0.89 \sym{***} & 0.34 \\ % 34
+  50-52 & 0.79  \sym{***}& 0.92 \sym{***} & 0.13\\ %13
+  55 & 0.58  \sym{***}& 0.89  \sym{***}& 0.31 \\ % 31
+  60-64 & 0.66 \sym{***} & 0.87  \sym{***}& 0.21 \\ %
+  65-67 & 0.72  \sym{***}& 0.92 \sym{***} & 0.20 \\ %20
+  70-74 & 0.69  \sym{***}& 0.85 \sym{***} & 0.26 \\ %26
+  75-95 & 0.51  \sym{***}& 0.85  \sym{***}& 0.34 \\ \midrule %34
+  AVG & 0.69 & 0.90 &0.21  \\
+   \bottomrule
+   \multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+   \multicolumn{4}{l}{ISIC Rev. 3.1 Code} \\
+   \multicolumn{4}{l}{Structural RCA based on domestic valued added exports} \\
+   \multicolumn{4}{l}{Benchmark Industry ISIC Rev. 3 01-05 Agriculture}\\
+   \multicolumn{4}{l}{Benchmark Country Rest of the World}\\
+\end{tabular}
+\end{table}
+
+\section{Robustness}
+In this section, I examine the robustness of the correlation between the structural RCA and relative network centrality.  The  robustness test encompass computing the (rank) correlation for a different year 1995, and two different samples. The first sample covers the same countries as the extended sample used to estimate the fixed effects regression, except of the Rest of the world. The second sample includes the same countries as in the estimation of the dispersion. Moreover, in both samples I changed the normalization such that the reference country is the USA.  
+%Moreover, I examine the time stability of the relative network centrality ranking. 
+\par
+In the table \cref{tab:productivity_centrality_without_row} in column (2) and (3) the person and spearman correlation coefficients for the sample with rest of the world and in the columns (4)-(9) I report the deviation of the simple correlation or rank correlation from the coefficients in the columns (2) and (3). Moreover, I highlighted changes larger than 0.1 in grey.  \par First, the table confirms the robustness of the conclusion that the association between relative network centrality and the indicator of structural RCA  is stronger for the rank correlation than for the simple correlation. Moreover it confirms   that the relation between both is rather monotone than linear.  \par In addition, the change of the year shows overall an increased  simple correlation coefficients. The changes are heterogeneous showing both increased coefficients mostly for the service industry and some decreased coefficients in the manufacturing industries (ISIC 15-37). The largest increase is in the social service industry and for the construction industry. The largest decrease is reported for the wood industry. The rank correlation shows less changes in comparison. The largest increases are in the food industry and real estate industry. Overall the robustness check qualitatively leaves the conclusions unaltered. \par The change of the normalization and exclusion of ROW from the sample in the columns (6) to (7) shows  only minor effects for both correlations.  I record only one larger change for the simple correlation coefficient for the metal industry. The robustness check thus confirms the previous conclusions. \par In the last two columns I report the results of changing the sample to include only those countries, which were present in the estimation of the dispersion parameter. Eight industries have strong positive increased coefficients.  The industry with the largest increase is the communication industry. Four industries show small decreased coefficients. The industry with the largest decrease is  the wood industry.  Overall the simple correlation coefficients show a modest increase of about 0.09 or in relative terms of 13 \%. \par The rank correlation coefficients show for sixteen industries decreased coefficients. The largest decrease is in the gastronomy industry and in the social services industry.  Overall the decrease is on average 0.04 and is more modest  than the average increase of the simple correlation coefficients.  In the smaller sample the difference between the simple and rank correlation is half the size compared to the difference in the largest sample with ROW in 2005.\par  To conclude, all robustness test confirmed the previous results about the association between structural RCA and relative network centrality.
+%Overall the table \cref{tab:productivity_centrality_without_row}, confirms that the correlations between structural RCA and relative network centrality ranking is robust to changes in the reference country. The Pearson correlation shows the difference between column one and three of the absolute magnitude from -.07 to 0.13. The differences in the Pearson correlation are greater than the Spearman correlation. The differences in the Spearman correlations between column 2 and 4 are between 0.0 and 0.04, highlighting the robustness of the results.  %strange paragraph
+\begin{table}[H]
+\footnotesize
+\centering
+  \resizebox{0.9\textwidth}{!}{\begin{minipage}{\textwidth}
+\caption{Correlation structural RCA and relative network centrality -- robustness to changes in time, normalization and sample coverages}
+\label{tab:productivity_centrality_without_row}
+\begin{tabular}{l*{8}{S}}
+  \toprule
+ &\multicolumn{2}{c}{with Rest of the world 2005}& \multicolumn{2}{c}{with Rest of the world 1995} & \multicolumn{2}{c}{without Rest of the World} & \multicolumn{2}{c}{estimation sample*} \\ 
+ ISIC & \multicolumn{1}{c}{Simple}&\multicolumn{1}{c}{Rank} & \multicolumn{1}{c}{Simple} &\multicolumn{1}{c}{Rank  }  & \multicolumn{1}{c}{Simple}  &\multicolumn{1}{c}{Rank } &\multicolumn{1}{c}{Simple}  &\multicolumn{1}{c}{Rank  } \\ \midrule
+15-16	&	0.87	&	0.76	&	-0.01	&	0.10	&	0.01	&	0.00	&	0.03	&	0.07	\\
+17-19	&	0.61	&	0.95	&	\cellcolor{lightgray}0.13	&	-0.05	&	0.03	&	-0.03	&	\cellcolor{lightgray}	0.17	&	-0.07	\\
+20	&	0.74	&	0.88	&	-0.09	&	-0.08	&	-0.08	&	0.01	&	-0.04	&	0.07	\\
+21-22	&	0.74	&	0.93		&	0.00	&	0.00	&	0.03	&	0.00	&	-0.01	&	-0.01	\\
+23	&	0.75	&	0.78		&		\cellcolor{lightgray}-0.18	&	0.04	&	-0.03	&	0.00	&	0.10	&	0.03	\\
+24	&	0.77	&	0.93	&	-0.09	&	0.00	&	-0.06	&	-0.01	&	0.10	&	-0.02	\\
+25	&	0.71	&	0.95		&	0.07	&	-0.02	&	0.03	&	-0.01	&	\cellcolor{lightgray}	0.12	&	-0.05	\\
+26	&	0.65	&	0.97	&		\cellcolor{lightgray} 0.15	&	-0.03	&	0.07	&	-0.02	&	\cellcolor{lightgray}	0.18	&	-0.03	\\
+27-28	&	0.78	&	0.94	&	-0.02	&	-0.01	&	\cellcolor{lightgray}-0.13	&	-0.02	&	-0.02	&	-0.06	\\
+29	&	0.73	&	0.96	&	-0.05	&	-0.02	&	-0.03	&	-0.03	&	0.10	&	-0.06	\\
+30-33	&	0.66	&	0.94	&	0.03	&	0.00	&	0.02	&	0.01	&	0.10	&	-0.02	\\
+34-35	&	0.70	&	0.93	&	0.01	&	-0.01	&	0.03	&	-0.02	&		\cellcolor{lightgray}0.12	&	-0.06	\\
+36-37	&	0.61	&	0.90		&	\cellcolor{lightgray}	0.18	&	0.03	&	0.02	&	-0.04	&		\cellcolor{lightgray}0.15	&	0.03	\\
+45	&	0.55	&	0.89	&		\cellcolor{lightgray} 0.21	&	0.00	&	0.06	&	-0.01	&	0.10	&	-0.07	\\
+50-52	&	0.79	&	0.92	&	0.01	&	-0.01	&	0.02	&	-0.01	&	0.02	&	-0.04	\\
+55	&	0.58	&	0.89&		\cellcolor{lightgray}0.16	&	-0.10	&	0.05	&	-0.01	&		\cellcolor{lightgray}0.20	&		\cellcolor{lightgray}-0.11	\\
+60-64	&	0.66	&	0.87	&		\cellcolor{lightgray}0.13	&	0.01	&	0.02	&	-0.03	&		\cellcolor{lightgray}0.23	&	-0.04	\\
+65-67	&	0.72	&	0.92	&	0.01	&	-0.01	&	0.01	&	-0.01	&	0.06	&	-0.05	\\
+70-74	&	0.69	&	0.85	&	0.10	&	0.09	&	-0.01	&	-0.02	&	-0.03	&	-0.03	\\
+75-95	&	0.51	&	0.85		&		\cellcolor{lightgray} 0.26	&	0.03	&	0.03	&	-0.03	&	\cellcolor{lightgray}0.19	&	\cellcolor{lightgray}	-0.18	\\ \midrule
+AVG	&	0.69	&	0.90&	0.05	&	0.00	&	0.00	&	-0.01	&	0.09	&	-0.04	\\  
+median	&	0.70	&	0.92	&	0.05	&	0.00	&	-0.01	&	-0.01	&	0.08 &	-0.04	\\  \bottomrule
+ \multicolumn{9}{l}{*The estimation sample covers the same countries as in the estimation of the productivity dispersion parameter}\\
+   \multicolumn{9}{l}{Benchmark Industry ISIC Rev. 3 01-05 } \\
+\multicolumn{9}{l}{Benchmark Country Rest  of the World \&  United States of America}  \\ 
+   \multicolumn{9}{l}{Industries with an deviation > 0.1 compared to  column 1/2 are highlighted grey  } \\
+  \end{tabular}
+      \end{minipage}}
+\end{table}
+%Further as a robustness test I report the correlations between structural RCA  and relative network centrality for the full sample and the sample including only countries, which were also present in the estimation sample. \par Overall the Spearman correlation coefficients show a slightly reduced correlation in the estimation sample compared to the full sample. The Pearson correlation results point in the opposite direction. They show mostly higher coefficients in the estimation sample. Therefore both correlations show more similar correlation coefficients in the estimation sample. \par The conclusion from the table \ref{tab:prod_cent} remain unaltered. The relation between both concepts is monotone rather than linear because the Spearman correlation coefficients are mostly higher than the Pearson correlation. Further, both concepts show a very high correlation.
+%
+%\begin{table}[H]
+%\footnotesize
+%\centering\caption{Correlation structural RCA and relative network centrality*  in 2005 with Rest of the World and the estimation sample**}
+%\label{tab:productivity_centrality_estimation_sample}
+%\begin{tabular}{l*{4}{c}}
+%\toprule
+%&  \multicolumn{2}{c}{with Rest of the world} &\multicolumn{2}{c}{Estimation Sample} \\ \\
+% ISIC& Pearson & Spearman  & Pearson & Spearman \\ 
+%  \midrule
+%15-16 & 0.87 & 0.76 & 0.90 & 0.83 \\ 
+%  17-19 & 0.61 & 0.95 & 0.79 & 0.89 \\ 
+%  20 & 0.74 & 0.88 & 0.70 & 0.95 \\ 
+%  21-22 & 0.74 & 0.93 & 0.72 & 0.91 \\ 
+%  23 & 0.75 & 0.78 & 0.84 & 0.79 \\ 
+%  24 & 0.77 & 0.93 & 0.87 & 0.92 \\ 
+%  25 & 0.71 & 0.95 & 0.83 & 0.91 \\ 
+%  26 & 0.65 & 0.97 & 0.83 & 0.94 \\ 
+%  27-28 & 0.78 & 0.94 & 0.75 & 0.88 \\ 
+%  29 & 0.73 & 0.96 & 0.83 & 0.90 \\ 
+%  30-33 & 0.66 & 0.94 & 0.76 & 0.91 \\ 
+%  34-35 & 0.70 & 0.93 & 0.82 & 0.87 \\ 
+%  36-37 & 0.61 & 0.90 & 0.76 & 0.93 \\  % Diff: 15 % Diff 3
+%  45 & 0.55 & 0.89 & 0.63 & 0.83 \\ 
+%  50-52 & 0.79 & 0.92 & 0.81 & 0.88 \\ 
+%  55 & 0.58 & 0.89 & 0.78 & 0.76 \\  % Diff: 20 % Diff 12
+%  60-64 & 0.66 & 0.87 & 0.89 & 0.80 \\ 
+%  65-67 & 0.72 & 0.92 & 0.75 & 0.88 \\ 
+%  70-74 & 0.69 & 0.85 & 0.65 & 0.81 \\ 
+%  75-95 & 0.51 & 0.85 & 0.67 & 0.67 \\  \midrule
+%  AVG & 0.69 & 0.90 & 0.78 & 0.86 \\ 
+%  median & 0.70 & 0.92 & 0.78 & 0.88 \\   \bottomrule
+%  \multicolumn{5}{l}{*based on domestic valued added exports}\\
+%  \multicolumn{5}{l}{**The estimation sample covers the same countries}\\
+% \multicolumn{5}{l}{Ricardo estimation sample}\\
+%    \multicolumn{5}{l}{Benchmark Industry ISIC Rev. 3 01-05 }\\
+%\multicolumn{5}{l}{Benchmark Country Rest of the World \& USA}\\
+%\end{tabular}
+%\end{table}
+%
+%%
+%%Further I examine the time stability of relative network centrality between 1995 and 2005 in the table \ref{tab:rel_centr_95_05}.  For most sectors  I find that the table shows a strong or very strong correlation. The Pearson correlation coefficient spans between 0.51 and 0.97 \par
+%%The Pearson correlation coefficient is the lowest for the construction sector, whereas the Spearman correlation is the lowest for the fuel industry. Most differences between both correlation coefficients are small except for the construction and the mineral industry. Most industries show a higher Spearman  correlation coefficient compared to the Pearson correlation coefficient. The table shows a substantial relative increase of the Spearman correlation coefficient compared to the Pearson coefficient by 36 \% from 0.51 to 0.80 in the construction industry.   The results suggest that the network centrality in most industries shows stable time ranking property. 
+%%\begin{table}[H]
+%%\footnotesize
+%%\centering\caption{Correlation between relative centrality* in 1995 \& 2005 }
+%%\label{tab:rel_centr_95_05}
+%%\begin{tabular}{l*{4}{c}}
+%%  \toprule
+%%ISIC Code & Pearson  & Spearman& P-val Pearson & P-val Spearman \\ 
+%%  \midrule
+%%15-16 & 0.78 & 0.85 & 0.00 & 0.00 \\  %7
+%%  17-19 & 0.92 & 0.94 & 0.00 & 0.00 \\ %2
+%%  20 & 0.87 & 0.91 & 0.00 & 0.00 \\ %4
+%%  21-22 & 0.90 & 0.92 & 0.00 & 0.00 \\ %2
+%%  23 & 0.97 & 0.66 & 0.00 & 0.00 \\ %-21
+%%  24 & 0.89 & 0.91 & 0.00 & 0.00 \\ %2
+%%  25 & 0.98 & 0.94 & 0.00 & 0.00 \\ %-4
+%%  26 & 0.75 & 0.93 & 0.00 & 0.00 \\ %18
+%%  27-28 & 0.90 & 0.91 & 0.00 & 0.00 \\ %1
+%%  29 & 0.90 & 0.94 & 0.00 & 0.00 \\ %4
+%%  30-33 & 0.90 & 0.91 & 0.00 & 0.00 \\ %1
+%%  34-35 & 0.86 & 0.90 & 0.00 & 0.00 \\ %4
+%%  36-37 & 0.73 & 0.89 & 0.00 & 0.00 \\ %14
+%%  45 & 0.51 & 0.80 & 0.00 & 0.00 \\ %39
+%%  50-52 & 0.92 & 0.93 & 0.00 & 0.00 \\ %1
+%%  55 & 0.80 & 0.85 & 0.00 & 0.00 \\ %5
+%%  60-64 & 0.80 & 0.89 & 0.00 & 0.00 \\ %9
+%%  65-67 & 0.95 & 0.86 & 0.00 & 0.00 \\ %-9
+%%  70-74 & 0.77 & 0.85 & 0.00 & 0.00 \\ %8
+%%  75-95 & 0.85 & 0.87 & 0.00 & 0.00 \\  \midrule
+%%  AVG & 0.85 & 0.88 &   &   \\ 
+%%   \bottomrule
+%%     \multicolumn{5}{l}{*based on domestic valued added exports}\\
+%%   \multicolumn{5}{l}{Benchmark Industry ISIC Rev. 3 01-05 Agriculture}\\
+%%\multicolumn{5}{l}{Benchmark Country Rest of the World}\\
+%%\end{tabular}
+%%\end{table}
+%In this section, I conducted several robustness checks to assess whether the high correlations for the revealed productivity based on different indicators and between revealed productivity and network centrality. Overall I conclude that the conclusions form the previous section are robust to the choice of the country coverage and changes in the normalization and the time. %Further examining the time stability I found that the  the ranking of network centrality shows in most industries a strong time stability.
+\endinput
