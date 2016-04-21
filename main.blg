@@ -1,0 +1,16 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[1] Config.pm:327> INFO - Logfile is 'main.blg'
+[76] biber-darwin:276> INFO - === Thu Apr 21, 2016, 19:26:25
+[76] Biber.pm:333> INFO - Reading 'main.bcf'
+[213] Biber.pm:645> INFO - Found 37 citekeys in bib section 0
+[261] Biber.pm:2977> INFO - Processing section 0
+[294] Biber.pm:3115> INFO - Looking for bibtex format file 'main.bib' for section 0
+[303] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[314] bibtex.pm:895> INFO - Found BibTeX data source 'main.bib'
+[316] Utils.pm:146> WARN - Entry Angrist does not parse correctly
+[364] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Costinot' and 'costinot' in file 'main.bib'
+[365] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Eaton' and 'eaton' in file 'main.bib'
+[383] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/bt/8zrdnhx54mj7p2z_84hfg9yc0000gn/T/VETsCkFbnu/main.bib_35426.utf8, line 107, warning: possible runaway string started at line 106
+[383] Utils.pm:162> ERROR - BibTeX subsystem: /var/folders/bt/8zrdnhx54mj7p2z_84hfg9yc0000gn/T/VETsCkFbnu/main.bib_35426.utf8, line 112, syntax error: found "@Article", expected end of entry ("}" or ")") (skipping to next "@")
+[383] Biber.pm:106> INFO - WARNINGS: 4
+[383] Biber.pm:110> INFO - ERRORS: 1

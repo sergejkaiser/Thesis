@@ -1,0 +1,28 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Abbreviations}{V}{chapter*.4}
+\contentsline {chapter}{Symbols}{XI}{chapter*.7}
+\contentsline {chapter}{Preface}{XIII}{chapter*.8}
+\contentsline {chapter}{\numberline {1}Structural Ricardian comparative advantage for value-added trade}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}What for value-added exports and which indicator of value added exports ?}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Ricardian model}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Empirical predictions}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Generalization}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Estimation method}{6}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Missing data imputation}{6}{subsection.1.5.1}
+\contentsline {section}{\numberline {1.6}Empirical results structural RCA}{7}{section.1.6}
+\contentsline {section}{\numberline {1.7}Ranking of structural Ricardian comparative advantage}{9}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Structural Ricardian comparative advantage based gross exports and value-added exports}{9}{subsection.1.7.1}
+\contentsline {chapter}{\numberline {2}Relative network centrality and structural Ricardian comparative advantage}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}International trade network}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Network centrality}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Network centrality and structural Ricardian comparative advantage}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Robustness}{13}{section.2.4}
+\contentsline {chapter}{\numberline {3}Conclusion}{15}{chapter.3}
+\contentsline {chapter}{Appendix}{17}{appendix.A}
+\contentsline {section}{\numberline {A.1}Decomposition of gross exports into value-added exports}{18}{section.A.1}
+\contentsline {section}{\numberline {A.2}ISIC and ISO 3 Alpha Classification}{18}{section.A.2}
+\contentsline {section}{\numberline {A.3}Data Appendix}{19}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Sample Statistics}{19}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}First Stage}{22}{subsection.A.3.2}

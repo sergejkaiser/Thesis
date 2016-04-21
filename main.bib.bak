@@ -1,0 +1,1117 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Created for Sergej at 2015-11-03 19:56:20 +0100 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+@Article{1991Rubin,
+  title={Significance levels from repeated p-values with multiply-imputed data},
+  author={Li, Kim-Hung and Meng, Xiao-Li and Raghunathan, Trivellore E and Rubin, Donald B},
+  journal={Statistica Sinica},
+  pages={65--92},
+  year={1991},
+  publisher={JSTOR}
+}
+@techreport{van2000mice,
+  title={Multivariate imputation by chained equations: MICE V1. 0 user's manual},
+  author={Buuren, S van and Oudshoorn, CGM},
+  year={2000},
+  institution={TNO}
+}
+@Article{mi_practice,
+ ISSN = {00031305},
+ URL = {http://www.jstor.org/stable/2685809},
+author = {Nicholas J. Horton, Stuart R. Lipsitz},
+ journal = {The American Statistician},
+ number = {3},
+ pages = {244-254},
+ publisher = {[American Statistical Association, Taylor & Francis, Ltd.]},
+ title = {Multiple Imputation in Practice: Comparison of Software Packages for Regression Models with Missing Variables},
+ volume = {55},
+ year = {2001}
+}
+
+@Article{van2007multiple,
+  title={Multiple imputation of discrete and continuous data by fully conditional specification},
+  author={Van Buuren, Stef},
+  journal={Statistical methods in medical research},
+  volume={16},
+  number={3},
+  pages={219--242},
+  year={2007},
+  publisher={Sage Publications}
+}
+
+@article {White_MI_chained,
+author = {White, Ian R. and Royston, Patrick and Wood, Angela M.},
+title = {Multiple imputation using chained equations: Issues and guidance for practice},
+journal = {Statistics in Medicine},
+volume = {30},
+number = {4},
+publisher = {John Wiley & Sons, Ltd.},
+issn = {1097-0258},
+url = {http://dx.doi.org/10.1002/sim.4067},
+doi = {10.1002/sim.4067},
+pages = {377--399},
+keywords = {missing data, multiple imputation, fully conditional specification},
+year = {2011},
+}
+@Article{schafer99,
+	Author = {Schafer, Joseph L.},
+	Journal = {Statistical Methods in Medical Research },
+	Number = {},
+	Pages = {3--15},
+	Title = {Multiple imputation: a primer},
+	Volume = {8},
+	Year = {1999}}
+@Article{schafer1998multiple,
+  title={Multiple imputation for multivariate missing-data problems: A data analyst's perspective},
+  author={Schafer, Joseph L and Olsen, Maren K},
+  journal={Multivariate behavioral research},
+  volume={33},
+  number={4},
+  pages={545--571},
+  year={1998},
+  publisher={Taylor \& Francis}
+}
+@Article{bernard2004,
+  title={Why some firms export},
+  author={Bernard, Andrew B and Jensen, J Bradford},
+  journal={Review of Economics and Statistics},
+  volume={86},
+  number={2},
+  pages={561--569},
+  year={2004}
+}
+
+@book{rubin1987,
+    author = {Rubin, Donald B.},
+    edition = {99},
+    publisher = {Wiley},
+    title = {Multiple Imputation for Nonresponse in Surveys (Wiley Series in Probability and Statistics)},
+    year = {1987}
+}
+
+@Article{Morris2014,
+author={Morris, Tim P. and White, Ian R. and Royston, Patrick},
+title={Tuning multiple imputation by predictive mean matching and local residual draws},
+journal={BMC Medical Research Methodology},
+year={2014},
+volume={14},
+number={1},
+pages={1--13},
+doi={10.1186/1471-2288-14-75}
+}
+
+
+@book{Angrist,
+author={Angrist, Joshua D. and Pischke ,J{\{o}rn-Steffen },
+title={Mastering' Metrics:  The Path from Cause to Effect},
+year={2014},
+publisher={Princeton University Press}
+}
+
+@Article{hausman1978,
+  title={Specification tests in econometrics},
+  author={Hausman, Jerry A},
+  journal={Econometrica: Journal of the Econometric Society},
+  pages={1251--1271},
+  year={1978},
+  publisher={JSTOR}
+}
+@Article{Costinot2010,
+ title = {What Goods Do Countries Trade? A Quantitative Exploration of Ricardo's Ideas},
+ author = {Arnaud Costinot and Dave Donaldson and Ivana Komunjer},
+Institution = {National Bureau of Economic Research, Inc},
+Journal = {NBER Working Papers},
+ number = {16262},
+ year = {2010},
+ doi = {10.3386/w16262}
+}
+
+@Article{brownstone2001mi,
+  title={The bootstrap and multiple imputations: harnessing increased computing power for improved statistical tests},
+  author={Brownstone, David and Valletta, Robert},
+  journal={The Journal of Economic Perspectives},
+  volume={15},
+  number={4},
+  pages={129--141},
+  year={2001},
+  publisher={JSTOR}
+}
+
+@Article{Angrist-Krueger01,
+Author = {Angrist, Joshua D. and Krueger, Alan B.},
+Title = {Instrumental Variables and the Search for Identification: From Supply and Demand to Natural Experiments},
+Journal = {Journal of Economic Perspectives},
+Volume = {15},
+Number = {4},
+Year = {2001},
+Pages = {69-85},
+}
+
+@Article{Shikher,
+author = { Serge   Shikher},
+title = {Capital, technology, and specialization in the neoclassical model },
+journal = {Journal of International Economics },
+volume = {83},
+number = {2},
+pages = {229 -- 242},
+year = {2011}
+}
+@Article{Krugman1995,
+  author={Paul Krugman},
+  title={Growing World Trade: Causes and Consequences},
+  journal={Brookings Papers on Economic Activity},
+  year={1995},
+  volume={26},
+  number={1, 25th A},
+  pages={327-377}
+}
+@Article{Kleibergen06,
+  author={Kleibergen, Frank and Paap, Richard},
+  title={Generalized reduced rank tests using the singular value decomposition},
+  journal={Journal of Econometrics},
+  year={2006},
+  volume={133},
+  number={1},
+  pages={97--126}
+}
+
+@article {Baum07,
+	author = {Baum, C. F. and Schaffer, M. E.and Stillman, S.},
+	title = {Enhanced routines for instrumental variables/generalized method of moments estimation and testing},
+	journal = {Stata Journal},
+	publisher = {Stata Press},
+	volume = {7},
+	number = {4},
+	year = {2007},
+	pages = {465--506}
+}
+
+
+@inbook{Arndt_K,
+author = {Arndt, S. W. and Kierzkowski, H. },
+title = {A Framework for Fragmentation },
+booktitle = {Fragmentation: New production patterns in the world economy},
+year = {2001},
+editor = {Arndt, S. W. and Kierzkowski, H. },
+publisher = {Oxford: Oxford University Press},
+location = {Oxford},
+chapter = {3}
+}
+
+@book{greene,
+  title={Econometric analysis},
+  author={Greene, William H},
+  year={2003},
+  publisher={Pearson Education India}
+}
+@book{Dhaene,
+	Author = {Dhaene, Geert},
+	Publisher = {Leuven Ekonomika},
+	location = {Leuven},
+	Title = {Advanced Econometrics},
+	Year = 2014}
+
+@Article{Stock-Staiger,
+ ISSN = {00129682, 14680262},
+ URL = {http://www.jstor.org/stable/2171753},
+ author = {Douglas Staiger, James H. Stock},
+ journal = {Econometrica},
+ number = {3},
+ pages = {557-586},
+ publisher = {The Econometric Society},
+ title = {Instrumental Variables Regression with Weak Instruments},
+ volume = {65},
+ year = {1997}
+}
+
+@Article{bernard2007,
+	Author = {Bernard, Andrew B. and Jensen, J. Bradford and Redding, Stephen J. and Schott, Peter K.},
+	Issn = {08953309},
+	Journal = {The Journal of Economic Perspectives},
+	Number = {3},
+	Pages = {105--130},
+	Publisher = {American Economic Association},
+	Title = {Firms in International Trade},
+	Url = {http://www.jstor.org/stable/30033737},
+	Volume = {21},
+	Year = {2007},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/30033737}}
+
+@book{cameron2009,
+	Author = {Cameron, A.C. and Trivedi, P.K.},
+	Isbn = {9780521848053},
+	Lccn = {2004022273},
+	location = {Cambridge},
+	Publisher = {Cambridge University Press},
+	Title = {Microeconometrics: Methods and Applications},
+	Year = {2005}
+}
+
+
+
+@inbook{bhagwati98,
+	Author = {Bhagwati, Jagdish and Dehejia, Vivek},
+	Booktitle = {Trade and Wages: Leveling Wages Down?},
+	Editors = {Bhagwati, Bagdish and Kosters, Marvin H.},
+	Location = {Washington, D.C.},
+	Pages = {36--75},
+	Publisher = {The American Enterprise Institute Press},
+	Title = {Freer trade and wages of the unskilled: is Marx striking again?},
+	Year = {1994}}
+
+@book{combes,
+	Author = {Combes, Pierre-Philippe and Mayer, Thierry and Thisse, Jacques-Fran{\c{c}}ois},
+	Publisher = {Princeton University Press},
+	Location={Princeton, N.J.},
+	Title = {Economic geography: The integration of regions and nations},
+	Year = {2008}}
+
+@misc{stan2,
+	Author = {OECD},
+	Title = {STAN R \& D expenditures in Industry},
+	Year = {2013}}
+
+@Article{yeats,
+	Author = {Yeats, AlexanderJ.},
+	Doi = {10.1007/BF02705840},
+	Issn = {0043-2636},
+	Journal = {Weltwirtschaftliches Archiv},
+	Number = {1},
+	Pages = {61-73},
+	Publisher = {Springer-Verlag},
+	Title = {On the appropriate interpretation of the revealed comparative advantage index: Implications of a methodology based on industry sector analysis},
+	Volume = {121},
+	Year = {1985},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/BF02705840}}
+
+@Article{Leromain,
+	Author = {Leromain, Elsa and Orefice, Gianluca},
+	Journal = {International Economics},
+	Number = {139},
+	Pages = {48--70},
+	Title = {New revealed comparative advantage index: Dataset and empirical distribution},
+	Url = {http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3},
+	Year = {2014},
+	Bdsk-Url-1 = {http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3}}
+
+@Article{krugman1998,
+	Author = {Krugman, Paul R.},
+	Issn = {08953309},
+	Journal = {The Journal of Economic Perspectives},
+	Number = {2},
+	Pages = {61--174},
+	Publisher = {American Economic Association},
+	Title = {Space: The Final Frontier},
+	Url = {http://www.jstor.org/stable/2646968},
+	Volume = {12},
+	Year = {1998},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/2646968}}
+
+@book{Ricardo,
+	Author = {Ricardo, David},
+	Edition = {3},
+	Location = {London},
+	Note = {Library of Economics and Liberty. August 7, 2015: http://www.econlib.org/library/Ricardo/ricP.html},
+	Publisher = {John Murray},
+	Title = {On the Principles of Political Economy and Taxation},
+	Year = {1821}}
+
+@Article{Balassa1963,
+	Author = {Balassa, Bela},
+	Issn = {00346535},
+	Journal = {The Review of Economics and Statistics},
+	Number = {3},
+	Pages = {231--238},
+	Publisher = {The MIT Press},
+	Title = {An Empirical Demonstration of Classical Comparative Cost Theory},
+	Url = {http://www.jstor.org/stable/1923892},
+	Volume = {45},
+	Year = {1963},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/1923892}}
+
+@misc{tiva2,
+	Author = {OECD-WTO},
+	Title = {Trade in Value Added (TiVA)},
+	Year = {2015}}
+
+@Article{ottaviano,
+	Author = {Mayer, Thierry and Ottaviano, Gianmarco I. P.},
+	Date-Modified = {2015-11-02 15:03:21 +0000},
+	Doi = {10.1007/s10272-008-0247-x},
+	Issn = {0020-5346},
+	Journal = {International economics},
+	Number = {3},
+	Pages = {135-148},
+	Publisher = {Springer-Verlag},
+	Title = {The Happy Few: The Internationalisation of European Firms},
+	Url = {http://dx.doi.org/10.1007/s10272-008-0247-x},
+	Volume = {43},
+	Year = {2008},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10272-008-0247-x}}
+
+@techreport{acemoglu2015,
+	Author = {Acemoglu, Daron and Ozdaglar, Asuman and Tahbaz-Salehi,Alireza},
+	Doi = {10.3386/w20931},
+	Institution = {National Bureau of Economic Research},
+	Number = {20931},
+	Series = {Working Paper Series},
+	Title = {Networks, Shocks, and Systemic Risk},
+	Type = {Working Paper},
+	Year = {2015},
+	Bdsk-Url-1 = {http://dx.doi.org/10.3386/w20931}}
+
+@Article{acemoglu2012,
+	Author = {Acemoglu, Daron and Carvalho, Vasco M. and Ozdaglar, Asuman and Tahbaz-Salehi, Alireza},
+	Journal = {Econometrica},
+	Number = {5},
+	Pages = {1977--2016},
+	Publisher = {Wiley Online Library},
+	Title = {The network origins of aggregate fluctuations},
+	Volume = {80},
+	Year = {2012}}
+
+@Article{cregg,
+	Author = {Cragg, John G. and Donald, Stephen G.},
+	Journal = {Econometric Theory},
+	Jstor_Articletype = {research-article},
+	Jstor_Formatteddate = {Jun., 1993},
+	Number = {2},
+	Pages = {222--240},
+	Publisher = {Cambridge University Press},
+	Title = {Testing Identifiability and Specification in Instrumental Variable Models},
+	Url = {http://www.jstor.org/stable/3532477},
+	Volume = {9},
+	Year = {1993},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/3532477}}
+
+@Article{stock,
+	Author = {Stock, James H and Yogo, Motohiro},
+	Journal = {Identification and inference for econometric models: Essays in honor of Thomas Rothenberg},
+	Title = {Testing for weak instruments in linear IV regression},
+	Year = {2005}}
+
+@Article{dixit,
+	Author = {Dixit, Avinash K and Stiglitz, Joseph E},
+	Date-Added = {2015-04-27 13:29:42 +0000},
+	Date-Modified = {2015-04-27 13:34:26 +0000},
+	Journal = {The American Economic Review},
+	Number = {3},
+	Pages = {297--308},
+	Publisher = {JSTOR},
+	Title = {Monopolistic competition and optimum product diversity},
+	Volume = {67},
+	Year = {1977}}
+
+@Article{golub,
+	Author = {Golub, Stephen S. and Hsieh, Chang-Tai},
+	Journal = {Review of International Economics},
+	Number = {2},
+	Pages = {221--234},
+	Publisher = {Wiley Online Library},
+	Title = {Classical Ricardian theory of comparative advantage revisited},
+	Volume = {8},
+	Year = {2000}}
+
+@misc{boyd2009,
+	Author = {Boyd, Stephen},
+	Howpublished = {University Lecture},
+	Institution = {Stanford University},
+	Note = {{\url{http://stanford.edu/class/ee363/lectures/pf.pdf}}},
+	Title = {Perron-Frobenius Theory},
+	Year = {2009}
+	}
+
+@Article{krugman,
+	Author = {Krugman, Paul R.},
+	Journal = {The American Economic Review},
+	Number = {9},
+	Pages = {950--959},
+	Publisher = {JSTOR},
+	Title = {Scale economies, product differentiation, and the pattern of trade},
+	Volume = {70},
+	Year = {1980}
+	}
+
+@Article{silva,
+	Author = {Silva, J. M. C. Santos and Tenreyro, Silvana},
+	Journal = {The Review of Economics and statistics},
+	Number = {4},
+	Pages = {641--658},
+	Publisher = {MIT Press},
+	Title = {The log of gravity},
+	Volume = {88},
+	Year = {2006}
+	}
+
+@Article{melitz08,
+	Author = {Melitz, Marc J. and Ottaviano, Gianmarco I. P.},
+	Doi = {10.1111/j.1467-937X.2007.00463.x},
+	Journal = {The Review of Economic Studies},
+	Number = {1},
+	Pages = {295-316},
+	Title = {Market Size, Trade, and Productivity},
+	Volume = {75},
+	Year = {2008}
+	}
+
+@Article{melitz,
+	Author = {Melitz, Marc J},
+	Date-Added = {2015-03-14 22:27:44 +0000},
+	Date-Modified = {2015-03-14 22:27:44 +0000},
+	Journal = {Econometrica},
+	Number = {6},
+	Pages = {1695--1725},
+	Publisher = {Wiley Online Library},
+	Title = {The impact of trade on intra-industry reallocations and aggregate industry productivity},
+	Volume = {71},
+	Year = {2003}
+	}
+
+@unpublished{donaldson,
+	Author = {Dave Donaldson},
+	Howpublished = {University Lecture},
+	Institution = {Massachusetts Institute of Technology},
+	Note = {\href{http://economics.mit.edu/files/7438}},
+	Title = {Lecture 4: The Ricardian Model (Empirics)},
+	Year = {2011}}
+
+@Article{dornbusch,
+	Author = {Dornbusch, Rudiger and Fischer, Stanley and Samuelson, Paul Anthony},
+	Date-Added = {2015-04-23 15:53:18 +0000},
+	Date-Modified = {2015-04-23 16:06:53 +0000},
+	Journal = {The American Economic Review},
+	Number = {5},
+	Pages = {823--839},
+	Publisher = {JSTOR},
+	Title = {Comparative advantage, trade, and payments in a Ricardian model with a continuum of goods},
+	Volume = {67},
+	Year = {1977}}
+
+@Article{Simonovska,
+	Author = {Ina Simonovska and Michael E. Waugh},
+	Doi = {http://dx.doi.org/10.1016/j.jinteco.2013.10.001},
+	Issn = {0022-1996},
+	Journal = {Journal of International Economics},
+	Keywords = {Indirect inference},
+	Number = {1},
+	Pages = {34 - 50},
+	Title = {The elasticity of trade: Estimates and evidence},
+	Url = {http://www.sciencedirect.com/science/article/pii/S0022199613000986},
+	Volume = {92},
+	Year = {2014},
+	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S0022199613000986},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.jinteco.2013.10.001}}
+
+@Article{eaton,
+	Author = {Eaton, Jonathan and Kortum, Samuel S.},
+	Journal = {Econometrica},
+	Number = {5},
+	Pages = {1741--1779},
+	Publisher = {Wiley Online Library},
+	Title = {Technology, geography, and trade},
+	Volume = {70},
+	Year = {2002}}
+
+@book{helpman,
+	Author = {Helpman, Elhanan and Krugman, Paul Robin},
+	Date-Added = {2015-04-23 15:51:54 +0000},
+	Date-Modified = {2015-04-23 15:57:48 +0000},
+	Publisher = {MIT press},
+	Location={Cambridge, Mass.},
+	Title = {Market structure and foreign trade: Increasing returns, imperfect competition, and the international economy},
+	Year = {1985}}
+
+@unpublished{miskusheva,
+	Author = {Mikusheva, Anna},
+	Note = {{\url{http://ocw.mit.edu} (Online; accessed 03.08 2015)}},
+	Publisher = {Massachusetts Institute of Technology: MIT OpenCourseWare},
+	Title = {14.384 Time Series Analysis, Fall 2013. Lecture 7 and 8. Weak IV.},
+	Url = {http://ocw.mit.edu},
+	Year = {2013},
+	Bdsk-Url-1 = {http://ocw.mit.edu}
+	}
+
+@book{feenstra2003,
+	Author = {Feenstra, Robert C},
+	Publisher = {Princeton University Press},
+	Location={Princeton, N.J.},
+	Title = {Advanced international trade: theory and evidence},
+	Year = {2003}}
+
+@Article{stern,
+	Author = {Stern, Robert M},
+	Date-Added = {2015-04-23 15:46:54 +0000},
+	Date-Modified = {2015-04-23 16:07:44 +0000},
+	Journal = {Oxford Economic Papers},
+	Pages = {275--296},
+	Publisher = {JSTOR},
+	Title = {British and American productivity and comparative costs in international trade},
+	Volume = {14},
+	Year = {1962}}
+
+@Article{macdougall,
+	Author = {MacDougall, G. D. A.},
+	Date-Added = {2015-04-23 15:46:27 +0000},
+	Date-Modified = {2015-04-23 15:59:54 +0000},
+	Journal = {The Economic Journal},
+	Number = {244},
+	Pages = {697--724},
+	Publisher = {JSTOR},
+	Title = {British and American exports: A study suggested by the theory of comparative costs. Part I},
+	Volume = {61},
+	Year = {1951}}
+
+@Article{bound,
+	Author = {Bound, John and Jaeger, David and Baker, Regina},
+	Institution = {National Bureau of Economic Research, Inc},
+	Journal = {NBER Working Papers},
+	Number = {0137},
+	Title = {The Cure Can Be Worse than the Disease: A Cautionary Tale Regarding Instrumental Variables},
+	Url = {http://EconPapers.repec.org/RePEc:nbr:nberte:0137},
+	Year = {1993},
+	Bdsk-Url-1 = {http://EconPapers.repec.org/RePEc:nbr:nberte:0137}}
+
+@Article{harrigan_spec,
+	Author = {Harrigan, James},
+	Institution = {National Bureau of Economic Research, Inc},
+	Journal = {NBER Working Papers},
+	Number = {8675},
+	Title = {Specialization and the Volume of Trade: Do the Data Obey the Laws?},
+	Year = {2001},
+	}
+
+@incollection{deardorff1984,
+	Author = {Deardorff, Alan},
+	Booktitle = {Handbook of International Economics},
+	Chapter = {10},
+	Edition = {1},
+	Editor = {R., W. Jones and P., B. Kenen},
+	Pages = {467-517},
+	Publisher = {Elsevier},
+	Location={Amsterdam ; New York : North Holland ; New York, N.Y., U.S.A.},
+	Title = {Testing trade theories and predicting trade flows},
+	Url = {http://EconPapers.repec.org/RePEc:eee:intchp:1-10},
+	Volume = {1},
+	Year = {1984},
+	Bdsk-Url-1 = {http://EconPapers.repec.org/RePEc:eee:intchp:1-10}}
+
+@Article{oecd-mfn,
+	Author = {OECD},
+	Publisher = {OECD Publishing},
+	Title = {Most-Favoured-Nation Treatment in International Investment Law},
+	Year = {2004} 
+	}
+
+@Article{Timmer2015,
+  title={An Illustrated User Guide to the World Input--Output Database: the Case of Global Automotive Production},
+  author={Timmer, Marcel P and Dietzenbacher, Erik and Los, Bart and Stehrer, Robert and Vries, Gaaitzen J},
+  journal={Review of International Economics},
+  year={2015},
+  publisher={Wiley Online Library}
+}
+
+@Article{Timmer2012,
+	Author = {Timmer, Marcel P.},
+	Date-Modified = {2015-08-11 12:16:12 +0000},
+	Institution = {University of Groningen, 2012},
+	Journal = {WIOD Working Paper No. 10},
+	Title = {The world input-output database (WIOD): contents, sources and methods},
+	Year = {2012}}
+
+@Article{timmer_gvc,
+	Author = {Timmer, Marcel P. and Erumban, Abdul Azeez and Los, Bart and Stehrer, Robert and de Vries, Gaaitzen J.},
+	Journal = {The Journal of Economic Perspectives},
+	Pages = {99--118},
+	Publisher = {JSTOR},
+	Title = {Slicing up global value chains},
+	Year = {2014}}
+
+@Article{Feenstra,
+	Author = {Feenstra, Robert C. and Heston, Alan and Timmer, Marcel P. and Deng, Haiyan},
+	Journal = {Review of Economics and Statistics},
+	Number = {1},
+	Pages = {201--212},
+	Title = {Estimating Real Production and Expenditures across Nations: A Proposal for Improving the Penn World Tables},
+	Volume = {91},
+	Year = {2009}}
+
+@Article{costinot,
+	Author = {Costinot, Arnaud and Donaldson, Dave and Komunjer, Ivana},
+	Journal = {The Review of Economic Studies},
+	Pages = {581--608},
+	Publisher = {Oxford University Press},
+	Title = {What goods do countries trade? A quantitative exploration of Ricardo\'s ideas},
+	Volume = {79},
+	Year = {2011}}
+
+@Article{feenstra98,
+	Author = {Feenstra, Robert C.},
+	Doi = {10.1257/jep.12.4.31},
+	Journal = {Journal of Economic Perspectives},
+	Number = {4},
+	Pages = {31-50},
+	Title = {Integration of Trade and Disintegration of Production in the Global Economy},
+	Url = {http://www.aeaweb.org/articles.php?doi=10.1257/jep.12.4.31},
+	Volume = {12},
+	Year = {1998},
+	Bdsk-Url-1 = {http://www.aeaweb.org/articles.php?doi=10.1257/jep.12.4.31},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1257/jep.12.4.31}}
+
+@Article{Balassa,
+	Author = {Balassa, Bela},
+	Date-Added = {2015-04-23 15:44:31 +0000},
+	Date-Modified = {2015-04-27 13:54:57 +0000},
+	Journal = {The Manchester School},
+	Number = {2},
+	Pages = {99--123},
+	Publisher = {Wiley Online Library},
+	Title = {Trade liberalisation and 'revealed' comparative advantage},
+	Volume = {33},
+	Year = {1965}}
+
+@Article{samuelson,
+	Author = {Samuelson, Paul A.},
+	Date-Added = {2015-04-23 15:43:05 +0000},
+	Date-Modified = {2015-04-23 15:59:11 +0000},
+	Journal = {The Economic Journal},
+	Number = {254},
+	Pages = {264--289},
+	Publisher = {JSTOR},
+	Title = {The transfer problem and transport costs, II: Analysis of effects of trade impediments},
+	Volume = {64},
+	Year = {1954}}
+
+@misc{OECDSTAN,
+	Author = {OECD},
+	Title = {STAN Database for Structural Analysis},
+	Year = {2011}}
+
+@Article{Benedictis14,
+	Author = {De Benedictis, Luca and Nenci, Silvia and Santoni, Gianluca and Tajoli, Lucia and Vicarelli, Claudio},
+	Journal = {Global Economy Journal},
+	Number = {3-4},
+	Pages = {287--343},
+	Title = {Network Analysis of World Trade using the BACI-CEPII dataset},
+	Volume = {14},
+	Year = {2014}}
+
+@Article{leontief,
+	Author = {Leontief, Wassily W.},
+	Date-Added = {2015-03-14 22:27:10 +0000},
+	Date-Modified = {2015-03-14 22:27:10 +0000},
+	Journal = {The review of economic statistics},
+	Pages = {105--125},
+	Publisher = {JSTOR},
+	Title = {Quantitative input and output relations in the economic systems of the United States},
+	Year = {1936}}
+
+@Article{leromain2014,
+	Author = {Leromain, Elsa and Orefice, Gianluca},
+	Date-Added = {2015-03-14 22:23:47 +0000},
+	Date-Modified = {2015-03-14 22:23:47 +0000},
+	Journal = {International Economics},
+	Pages = {48--70},
+	Publisher = {Elsevier},
+	Title = {New revealed comparative advantage index: dataset and empirical distribution},
+	Volume = {139},
+	Year = {2014}}
+
+@Article{Cerina2014,
+	Author = {Federica Cerina and Zhen Zhu and Alessandro Chessa and Massimo Riccaboni},
+	Date-Added = {2015-03-14 22:21:54 +0000},
+	Date-Modified = {2015-11-02 15:02:40 +0000},
+	Journal = {PoLS},
+	Keywords = {Complex Networks; Input-Output; PageRank Centrality; Community Detection},
+	Number = {7},
+	Title = {{World Input-Output Network}},
+	Type = {Working Papers},
+	Url = {http://ideas.repec.org/p/ial/wpaper/6-2014.html},
+	Volume = {10},
+	Year = 2015,
+	Bdsk-Url-1 = {http://ideas.repec.org/p/ial/wpaper/6-2014.html}}
+
+@Article{de2010,
+	Author = {De Benedictis, Luca and Tajoli, Lucia},
+	Date-Added = {2015-03-14 22:20:57 +0000},
+	Date-Modified = {2015-03-14 22:20:57 +0000},
+	Journal = {Aussenwirtschaft},
+	Number = {2},
+	Pages = {53--73},
+	Title = {Comparing sectoral international trade networks},
+	Volume = {65},
+	Year = {2010}}
+
+@Article{Rufflin,
+	Author = {Ruffin, Roy},
+	Date-Added = {2015-08-07 16:54:54 +0000},
+	Date-Modified = {2015-08-07 16:54:54 +0000},
+	Journal = {History of Political Economy},
+	Number = {4},
+	Pages = {727--748},
+	Publisher = {Duke University Press},
+	Title = {David Ricardo's discovery of comparative advantage},
+	Volume = {34},
+	Year = {2002}}
+
+@incollection{mill,
+	Author = {Mill, John Stuart},
+	Booktitle = {Essays on Some Unsettled Questions of Political Economy},
+	Date-Added = {2015-08-07 16:52:29 +0000},
+	Date-Modified = {2015-08-07 16:53:53 +0000},
+	Publisher = {JW Parker},
+	Title = {Of the Laws of Interchange between Nations; and the Distribution of the Gains of Commerce among the Countries of the Commercial World},
+	Year = {1874}}
+
+@Article{leamer,
+	Author = {Edward E. Leamer and James Levinsohn},
+Institution = {National Bureau of Economic Research, Inc},
+	Journal = {NBER Working Papers},
+	Title = {{International Trade Theory: The Evidence}},
+	Url = {http://ideas.repec.org/p/nbr/nberwo/4940.html},
+	Year = 1994,
+	Bdsk-Url-1 = {http://ideas.repec.org/p/nbr/nberwo/4940.html}}
+
+@Article{bernard2003,
+	Author = {Bernard, Andrew B. and Eaton, Jonathan and Jensen, J. Bradford and Kortum, Samuel S.},
+	Copyright = {Copyright � 2003 American Economic Association},
+	Issn = {00028282},
+	Journal = {The American Economic Review},
+	Jstor_Articletype = {research-article},
+	Number = {4},
+	Pages = {1268--1290},
+	Publisher = {American Economic Association},
+	Title = {Plants and Productivity in International Trade},
+	Url = {http://www.jstor.org/stable/3132288},
+	Volume = {93},
+	Year = {2003},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/3132288}}
+
+@Article{bernard96,
+	Author = {Bernard, Andrew B. and Jones, Charles I.},
+	Copyright = {Copyright � 1996 The MIT Press},
+	Issn = {00346535},
+	Journal = {The Review of Economics and Statistics},
+	Jstor_Articletype = {research-article},
+	Jstor_Formatteddate = {Feb., 1996},
+	Number = {1},
+	Pages = {135--146},
+	Publisher = {The MIT Press},
+	Title = {Productivity Across Industries and Countries: Time Series Theory and Evidence},
+	Url = {http://www.jstor.org/stable/2109853},
+	Volume = {78},
+	Year = {1996},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/2109853}}
+
+@Article{bhagwati,
+	Author = {Bhagwati, Jagdish},
+	Journal = {The Economic Journal},
+	Number = {293},
+	Pages = {1-84},
+	Publisher = {Wiley on behalf of the Royal Economic Society},
+	Title = {The Pure Theory of International Trade: A Survey},
+	Url = {http://www.jstor.org/stable/2228112},
+	Volume = {74},
+	Year = {1964},
+	Bdsk-Url-1 = {http://www.jstor.org/stable/2228112}}
+
+@Article{de2010comparing,
+	Author = {De Benedictis, Luca and Tajoli, Lucia},
+	Journal = {Aussenwirtschaft},
+	Number = {2},
+	Pages = {53--73},
+	Title = {Comparing sectoral international trade networks},
+	Volume = {65},
+	Year = {2010}}
+
+@Article{de2014network,
+	Author = {De Benedictis Luca and Nenci Silvia and Santoni Gianluca and Tajoli Lucia and Vicarelli Claudio},
+	Date-Modified = {2015-11-02 14:59:49 +0000},
+	Journal = {Global Economy Journal},
+	Number = {3 -- 4},
+	Pages = {287--343},
+	Title = {{Network Analysis of World Trade using the BACI-CEPII Dataset}},
+	Url = {http://ideas.repec.org/a/bpj/glecon/v14y2014i3-4p57n8.html},
+	Volume = {14},
+	Year = 2014,
+	Bdsk-Url-1 = {http://ideas.repec.org/a/bpj/glecon/v14y2014i3-4p57n8.html}}
+
+@Article{de2011world,
+	Author = {De Benedictis, Luca and Tajoli, Lucia},
+	Date-Added = {2015-03-14 22:19:44 +0000},
+	Date-Modified = {2015-03-14 22:19:44 +0000},
+	Journal = {The World Economy},
+	Number = {8},
+	Pages = {1417--1454},
+	Publisher = {Wiley Online Library},
+	Title = {The world trade network},
+	Volume = {34},
+	Year = {2011}}
+
+@Article{Inklaar2012,
+	Author = {Inklaar, Robert and Timmer, Marcel P.},
+	Doi = {10.1111/roiw.12012},
+	Issn = {1475-4991},
+	Journal = {Review of Income and Wealth},
+	Keywords = {Geary-Khamis system, Penn-effect, PPP, prices, services},
+	Number = {4},
+	Pages = {727--746},
+	Title = {The Relative Price of Services},
+	Url = {http://dx.doi.org/10.1111/roiw.12012},
+	Volume = {60},
+	Year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1111/roiw.12012}}
+
+@Article{head_gravity,
+	Author = {Head, Keith and Mayer,Thierry},
+	Journal = {Handbook of International Economics},
+	Pages = {131},
+	Publisher = {Elsevier},
+	Title = {Gravity Equations: Workhorse, Toolkit, and Cookbook},
+	Volume = {4},
+	Year = {2014}}
+
+@misc{opec,
+	Author = {{Organization of the Petroleum Exporting Countries }},
+	Title = {Annual Statistical Bulletin},
+	Year = {2008}}
+
+@Article{kortum,
+	Author = {Kortum, Samuel S.},
+	Journal = {Econometrica},
+	Number = {6},
+	Pages = {1389-1420},
+	Title = {{Research, Patenting, and Technological Change}},
+	Volume = {65},
+	Year = {1997}
+	}
+
+@Article{eaton2,
+	Author = {Eaton, Jonathan and Kortum, Samuel S.},
+	Date-Modified = {2015-11-02 14:59:34 +0000},
+	Issn = {0022-1996},
+	Journal = {Journal of International Economics},
+	Keywords = {Research},
+	Note = {Symposium on Growth and International Trade: Empirical Studies},
+	Number = {3 -- 4},
+	Pages = {251 -- 278},
+	Title = {Trade in ideas Patenting and productivity in the OECD},
+	Url = {http://www.sciencedirect.com/science/article/pii/0022199695014071},
+	Volume = {40},
+	Year = {1996}
+	}
+
+@book{jackson2010,
+	Author = {Jackson, M. O.},
+	Date-Added = {2015-03-14 22:18:57 +0000},
+	Date-Modified = {2015-03-14 22:18:57 +0000},
+	Isbn = {9781400833993},
+	Publisher = {Princeton University Press},
+	Title = {Social and Economic Networks},
+	Year = {2010},
+}
+
+@incollection{deardoff1984,
+	Author = {Deardorff, Alan V.},
+	Booktitle = {{Handbook of International Economics}},
+	Chapter = {10},
+	Editor = {R. W. Jones and P. B. Kenen},
+	Pages = {467-517},
+	Publisher = {Elsevier},
+	Series = {Handbook of International Economics},
+	Title = {{Testing trade theories and predicting trade flows}},
+	Url = {http://ideas.repec.org/h/eee/intchp/1-10.html},
+	Volume = {1},
+	Year = 1984,
+	Bdsk-Url-1 = {http://ideas.repec.org/h/eee/intchp/1-10.html}}
+
+@book{hayashi2011,
+	Author = {Hayashi, F.},
+	Publisher = {Princeton University Press},
+	Title = {Econometrics},
+	Year = {2011}}
+
+@Article{wang2013,
+	Author = {Wang, Zhi and Wei, Shang-Jin and Zhu, Kunfu},
+	Date-Added = {2015-03-14 22:15:42 +0000},
+	Date-Modified = {2015-03-14 22:15:42 +0000},
+Institution = {National Bureau of Economic Research, Inc},
+	Journal = {NBER Working Papers},
+	Number = {w19677},
+	Title = {Quantifying International Production Sharing at the Bilateral and Sector Levels},
+	Year = {2013}}
+
+@Article{Koopman,
+	Author = {Koopman, Robert and Wang, Zhi and Wei, Shang-Jin},
+	Date-Added = {2015-03-14 22:14:41 +0000},
+	Date-Modified = {2015-03-14 22:14:41 +0000},
+	Journal = {The American Economic Review},
+	Number = {2},
+	Pages = {459--494},
+	Publisher = {American Economic Association},
+	Title = {Tracing Value-Added and Double Counting in Gross Exports},
+	Volume = {104},
+	Year = {2014}}
+
+@Article{Krugman87,
+	Author = {Krugman, Paul R.},
+	Doi = {10.1257/jep.1.2.131},
+	Journal = {Journal of Economic Perspectives},
+	Number = {2},
+	Pages = {131-144},
+	Title = {Is Free Trade Passe?},
+	Url = {http://www.aeaweb.org/articles.php?doi=10.1257/jep.1.2.131},
+	Volume = {1},
+	Year = {1987},
+	Bdsk-Url-1 = {http://www.aeaweb.org/articles.php?doi=10.1257/jep.1.2.131},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1257/jep.1.2.131}}
+
+@Article{Krugman79,
+	Author = {Krugman, Paul R.},
+	Doi = {http://dx.doi.org/10.1016/0022-1996(79)90017-5},
+	Issn = {0022-1996},
+	Journal = {Journal of International Economics},
+	Number = {4},
+	Pages = {469 - 479},
+	Title = {Increasing returns, monopolistic competition, and international trade},
+	Volume = {9},
+	Year = {1979}
+	}
+
+@Article{Krugman80,
+	Author = {Krugman, Paul R.},
+	Issn = {00028282},
+	Journal = {The American Economic Review},
+	Jstor_Articletype = {research-article},
+	Number = {5},
+	Pages = {950--959},
+	Publisher = {American Economic Association},
+	Title = {Scale Economies, Product Differentiation, and the Pattern of Trade},
+	Volume = {70},
+	Year = {1980}
+	}
+
+@Article{Bonacich77,
+	Author = {Bonacich, Phillip},
+	Journal = {The Journal of Mathematical Sociology},
+	Number = {1},
+	Pages = {113-120},
+	Title = {Factoring and weighting approaches to status scores and clique identification},
+	Volume = {2},
+	Year = {1972} 
+	}
+
+@Article{daudin2011,
+	Author = {Daudin, Guillaume and Rifflart, Christine and Schweisguth, Danielle},
+	Journal = {Canadian Journal of Economics/Revue canadienne d'{\'e}conomique},
+	Number = {4},
+	Pages = {1403--1437},
+	Publisher = {Wiley Online Library},
+	Title = {Who produces for whom in the world economy?},
+	Volume = {44},
+	Year = {2011}}
+
+@Article{stehrer2012,
+	Author = {Stehrer, Robert},
+	Date-Added = {2015-03-14 22:13:14 +0000},
+	Date-Modified = {2015-03-14 22:13:14 +0000},
+	Journal = {The Vienna Institute for International Economic Studies (wiiw) Working Paper},
+	Title = {Trade in value added and the value added in trade},
+	Volume = {81},
+	Year = {2012}}
+
+@Article{serano,
+	Author = {Serrano, Ma \'Angeles and Bogu\~n\'a, Mari\'an},
+	Doi = {10.1103/PhysRevE.68.015101},
+	Issue = {1},
+	Journal = {Phys. Rev. E},
+	Numpages = {4},
+	Pages = {015101},
+	Publisher = {American Physical Society},
+	Title = {Topology of the world trade web},
+	Url = {http://link.aps.org/doi/10.1103/PhysRevE.68.015101},
+	Volume = {68},
+	Year = {2003},
+	Bdsk-Url-1 = {http://link.aps.org/doi/10.1103/PhysRevE.68.015101},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1103/PhysRevE.68.015101}}
+
+
+@Article{Hummels,
+	Author = {David Hummels and Jun Ishii and Kei-Mu Yi},
+	Date-Modified = {2015-11-02 14:59:00 +0000},
+	Doi = {http://dx.doi.org/10.1016/S0022-1996(00)00093-3},
+	Issn = {0022-1996},
+	Journal = {Journal of International Economics},
+	Number = {1},
+	Pages = {75 -- 96},
+	Title = {The nature and growth of vertical specialization in world trade},
+	Url = {http://www.sciencedirect.com/science/article/pii/S0022199600000933},
+	Volume = {54},
+	Year = {2001} 
+	}
+
+@Article{hinloopen2001,
+	Author = {Hinloopen, Jeroen and Van Marrewijk, Charles},
+	Journal = {Weltwirtschaftliches Archiv},
+	Number = {1},
+	Pages = {1--35},
+	Publisher = {Springer},
+	Title = {On the empirical distribution of the Balassa index},
+	Volume = {137},
+	Year = {2001}}
+
+
+@techreport{Johnson2012,
+	Author = {Robert C. Johnson and Guillermo Noguera},
+	Doi = {10.3386/w18186},
+	Institution = {National Bureau of Economic Research},
+	Number = {18186},
+	Series = {Working Paper Series},
+	Title = {Fragmentation and Trade in Value Added over Four Decades},
+	Type = {Working Paper},
+	Url = {http://www.nber.org/papers/w18186},
+	Year = {2012}
+	}
+	
+	@Article{johnson,
+	Author = {Johnson, Robert C.},
+	Date-Added = {2015-03-14 22:12:48 +0000},
+	Date-Modified = {2015-03-14 22:12:48 +0000},
+	Journal = {The Journal of Economic Perspectives},
+	Pages = {119--142},
+	Publisher = {JSTOR},
+	Title = {Five facts about value-added exports and implications for macroeconomics and trade research},
+	Year = {2014}}
+
+@Article{Johnson2012b,
+title = {Accounting for intermediates: Production sharing and trade in value added },
+journal = {Journal of International Economics },
+volume = {86},
+number = {2},
+pages = {224 - 236},
+year = {2012},
+issn = {0022-1996}
+author = {Robert C. Johnson and Guillermo Noguera}
+}
+
+
+@Article{baldwin2014,
+	Author = {Baldwin, Richard and Lopez-Gonzalez, Javier},
+	Date-Added = {2015-03-14 22:12:28 +0000},
+	Date-Modified = {2015-03-14 22:12:28 +0000},
+	Journal = {The World Economy},
+	Pages = {1--40},
+	Publisher = {Wiley Online Library},
+	Title = {Supply-chain Trade: A Portrait of Global Patterns and Several Testable Hypotheses},
+	Year = {2014}}
+
+@Article{tiva,
+	Author = {OECD},
+	Doi = {http://dx.doi.org/10.1787/9789264189560-4-en},
+	Publisher = {OECD Publishing},
+	Title = {Interconnected Economies: Benefiting from Global Value Chains Measuring trade in value added},
+	Year = {2013},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1787/9789264189560-4-en}}
