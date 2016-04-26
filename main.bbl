@@ -66,6 +66,25 @@
       \field{pages}{69\bibrangedash 85}
       \range{pages}{17}
     \endentry
+    \entry{mastering}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f058a74347f866b4dc3e586b10672739}{Angrist}{A\bibinitperiod}{Joshua\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c8c1903dda562bace2e69bbac0d64e9e}{Pischke}{P\bibinitperiod}{Joern-Steffen}{J\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{026e4e93df03024722882ffd0b6d16f7}
+      \strng{fullhash}{026e4e93df03024722882ffd0b6d16f7}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mastering Metrics: The Path from Cause to Effect}
+      \field{year}{2014}
+    \endentry
     \entry{Balassa}{article}{}
       \name{author}{1}{}{%
         {{hash=fe0b8096ee37214413e70c8aba10bfa3}{Balassa}{B\bibinitperiod}{Bela}{B\bibinitperiod}{}{}{}{}}%
@@ -788,6 +807,68 @@
       \field{title}{Annual Statistical Bulletin}
       \field{year}{2008}
     \endentry
+    \entry{Rubin1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{37fe180f849ae0085cba2b45692be375}
+      \strng{fullhash}{37fe180f849ae0085cba2b45692be375}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1987}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{99}
+      \field{title}{Multiple Imputation for Nonresponse in Surveys (Wiley Series in Probability and Statistics)}
+      \field{year}{1987}
+    \endentry
+    \entry{schafer99}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1db323a8c1b976ce77980a0fb7764a5b}{Schafer}{S\bibinitperiod}{Joseph\bibnamedelima L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1db323a8c1b976ce77980a0fb7764a5b}
+      \strng{fullhash}{1db323a8c1b976ce77980a0fb7764a5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Methods in Medical Research}
+      \field{title}{Multiple imputation: a primer}
+      \field{volume}{8}
+      \field{year}{1999}
+      \field{pages}{3\bibrangedash 15}
+      \range{pages}{13}
+    \endentry
+    \entry{schafer1998multiple}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b74de7e1c28542f75be42b949dd0752f}{Schafer}{S\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=c4e848980fe28568ba96b5cf737a0857}{Olsen}{O\bibinitperiod}{Maren\bibnamedelima K}{M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{eb13cd6fda27a3d1fe0642b19922a32c}
+      \strng{fullhash}{eb13cd6fda27a3d1fe0642b19922a32c}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multivariate behavioral research}
+      \field{number}{4}
+      \field{title}{Multiple imputation for multivariate missing-data problems: A data analyst's perspective}
+      \field{volume}{33}
+      \field{year}{1998}
+      \field{pages}{545\bibrangedash 571}
+      \range{pages}{27}
+    \endentry
     \entry{Shikher}{article}{}
       \name{author}{1}{}{%
         {{hash=6630393f4eae58ec2db504bc81aea18a}{Shikher}{S\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
@@ -899,6 +980,32 @@
       \field{pages}{219\bibrangedash 242}
       \range{pages}{24}
     \endentry
+    \entry{van2006fully}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9fd78906a2be2ed38233127fd4117223}{Van\bibnamedelima Buuren}{V\bibinitperiod\bibinitdelim B\bibinitperiod}{Stef}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0c9e8aaf89dbc63396cedb204c4fd006}{Brand}{B\bibinitperiod}{Jaap\bibnamedelima PL}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c485c43848c6feb81817a4482de0b717}{Groothuis-Oudshoorn}{G\bibinithyphendelim O\bibinitperiod}{CGM}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=557f967471a621bf5ed42b091c523bd9}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{adb16ca6860433e3f7064b08ffe3e3f4}
+      \strng{fullhash}{b7462acafe61c817373d0ab513b41451}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of statistical computation and simulation}
+      \field{number}{12}
+      \field{title}{Fully conditional specification in multivariate imputation}
+      \field{volume}{76}
+      \field{year}{2006}
+      \field{pages}{1049\bibrangedash 1064}
+      \range{pages}{16}
+    \endentry
     \entry{wang2013}{article}{}
       \name{author}{3}{}{%
         {{hash=af9f7c73a3775f453b93fd3e906dd877}{Wang}{W\bibinitperiod}{Zhi}{Z\bibinitperiod}{}{}{}{}}%
@@ -949,14 +1056,11 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{bladwin}
-  \missing{(}
-  \missing{mastering}
-  \missing{Schaffer}
-  \missing{Rubin1987}
-  \missing{Eaton}
   \missing{Costinot}
+  \missing{(}
   \missing{daudin}
+  \missing{bladwin}
+  \missing{Eaton}
 \endrefsection
 \endinput
 

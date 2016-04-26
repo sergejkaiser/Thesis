@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.30)  26 APR 2016 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.30)  26 APR 2016 15:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2062,7 +2062,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                bladwin
+(biblatex)                Costinot
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2076,21 +2076,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                mastering
+(biblatex)                daudin
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Schaffer
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Rubin1987
+(biblatex)                bladwin
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2098,20 +2091,6 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
 (biblatex)                Eaton
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Costinot
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                daudin
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2570,13 +2549,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42977 strings out of 493091
- 832986 string characters out of 6134964
- 1467838 words of memory out of 5000000
- 45518 multiletter control sequences out of 15000+600000
+ 43002 strings out of 493091
+ 833392 string characters out of 6134964
+ 1467939 words of memory out of 5000000
+ 45538 multiletter control sequences out of 15000+600000
  102847 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,18n,110p,10356b,3282s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,18n,110p,10356b,3270s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2601,10 +2580,10 @@ c/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lms
 y5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (44 pages, 650750 bytes).
+Output written on main.pdf (44 pages, 650630 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 577 compressed objects within 6 object streams
- 157 named destinations out of 1000 (max. 500000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 592 compressed objects within 6 object streams
+ 162 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
