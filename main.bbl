@@ -1,0 +1,962 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{cms}{cms}
+    \entry{acemoglu2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d849e6f8de178bfb18aa67341c9f8d38}{Acemoglu}{A\bibinitperiod}{Daron}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4505975f6bea8270bdfd8abac5d2ed36}{Carvalho}{C\bibinitperiod}{Vasco\bibnamedelima M.}{V\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f265f26cb985781081b85b9fe4401795}{Ozdaglar}{O\bibinitperiod}{Asuman}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=36f43dd3d18c58095e5aa6bbc89a670c}{Tahbaz-Salehi}{T\bibinithyphendelim S\bibinitperiod}{Alireza}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{bb65b2b3855343e444a1cb84b6bff952}
+      \strng{fullhash}{75b0c20851cfa624bb3df85f5f2ed537}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{The network origins of aggregate fluctuations}
+      \field{volume}{80}
+      \field{year}{2012}
+      \field{pages}{1977\bibrangedash 2016}
+      \range{pages}{40}
+    \endentry
+    \entry{AngristKrueger01}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f058a74347f866b4dc3e586b10672739}{Angrist}{A\bibinitperiod}{Joshua\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=2126d88c1bdd7c4b3ad76d19273c70e2}{Krueger}{K\bibinitperiod}{Alan\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5d2022ca48322c0039eec63bd41a1b2b}
+      \strng{fullhash}{5d2022ca48322c0039eec63bd41a1b2b}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{number}{4}
+      \field{title}{Instrumental Variables and the Search for Identification: From Supply and Demand to Natural Experiments}
+      \field{volume}{15}
+      \field{year}{2001}
+      \field{pages}{69\bibrangedash 85}
+      \range{pages}{17}
+    \endentry
+    \entry{Balassa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fe0b8096ee37214413e70c8aba10bfa3}{Balassa}{B\bibinitperiod}{Bela}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fe0b8096ee37214413e70c8aba10bfa3}
+      \strng{fullhash}{fe0b8096ee37214413e70c8aba10bfa3}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1965}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Manchester School}
+      \field{number}{2}
+      \field{title}{Trade liberalisation and 'revealed' comparative advantage}
+      \field{volume}{33}
+      \field{year}{1965}
+      \field{pages}{99\bibrangedash 123}
+      \range{pages}{25}
+    \endentry
+    \entry{baldwin2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f923bf5fba7af4af14e45957ecc62b0a}{Baldwin}{B\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c257895b89d6b26b5b32affa06175f41}{Lopez-Gonzalez}{L\bibinithyphendelim G\bibinitperiod}{Javier}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2e6e70fec32a1d9a04c4e685a023013b}
+      \strng{fullhash}{2e6e70fec32a1d9a04c4e685a023013b}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The World Economy}
+      \field{title}{Supply-chain Trade: A Portrait of Global Patterns and Several Testable Hypotheses}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+    \endentry
+    \entry{bernard2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6d6dd5dcb1383f4ce1d3c34c2f327d25}{Bernard}{B\bibinitperiod}{Andrew\bibnamedelima B}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=fc86d0b3f8246d211f9ad536bb8a605f}{Jensen}{J\bibinitperiod}{J\bibnamedelima Bradford}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a953d6d1a718f8ebe965f4ae7425bf78}
+      \strng{fullhash}{a953d6d1a718f8ebe965f4ae7425bf78}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2004}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{number}{2}
+      \field{title}{Why some firms export}
+      \field{volume}{86}
+      \field{year}{2004}
+      \field{pages}{561\bibrangedash 569}
+      \range{pages}{9}
+    \endentry
+    \entry{Bonacich77}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12121ca52ec8a4201d394b3b282a1502}{Bonacich}{B\bibinitperiod}{Phillip}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{12121ca52ec8a4201d394b3b282a1502}
+      \strng{fullhash}{12121ca52ec8a4201d394b3b282a1502}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1972}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Mathematical Sociology}
+      \field{number}{1}
+      \field{title}{Factoring and weighting approaches to status scores and clique identification}
+      \field{volume}{2}
+      \field{year}{1972}
+      \field{pages}{113\bibrangedash 120}
+      \range{pages}{8}
+    \endentry
+    \entry{bound}{article}{}
+      \name{author}{3}{}{%
+        {{hash=206a431f3c3d7796c2f18f2c019cee45}{Bound}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5f122b9d83ecade93b92606e29c8876f}{Jaeger}{J\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=1ac7137e42b88c01c24ed3de290f6bdc}{Baker}{B\bibinitperiod}{Regina}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research, Inc}%
+      }
+      \strng{namehash}{434e52b547e62ae7b6db8f0f7ddcd094}
+      \strng{fullhash}{434e52b547e62ae7b6db8f0f7ddcd094}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1993}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER Working Papers}
+      \field{number}{0137}
+      \field{title}{The Cure Can Be Worse than the Disease: A Cautionary Tale Regarding Instrumental Variables}
+      \field{year}{1993}
+      \verb{url}
+      \verb http://EconPapers.repec.org/RePEc:nbr:nberte:0137
+      \endverb
+    \endentry
+    \entry{brownstone2001mi}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5fbd0efd970b5c587bcf2e02d86ab630}{Brownstone}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=5f4111051f0c1085834d7e8f9d9ca0be}{Valletta}{V\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{27cecb6d117d17da54059e5a215ce9bb}
+      \strng{fullhash}{27cecb6d117d17da54059e5a215ce9bb}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Economic Perspectives}
+      \field{number}{4}
+      \field{title}{The bootstrap and multiple imputations: harnessing increased computing power for improved statistical tests}
+      \field{volume}{15}
+      \field{year}{2001}
+      \field{pages}{129\bibrangedash 141}
+      \range{pages}{13}
+    \endentry
+    \entry{van2000mice}{report}{}
+      \name{author}{2}{}{%
+        {{hash=3e4be8f432c6fd524df2f2a65d49b199}{Buuren}{B\bibinitperiod}{S\bibnamedelima van}{S\bibinitperiod\bibinitdelim v\bibinitperiod}{}{}{}{}}%
+        {{hash=21609f7b0b668b328dfcd81c13e001dc}{Oudshoorn}{O\bibinitperiod}{CGM}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {TNO}%
+      }
+      \strng{namehash}{59bb96ce26fbdc22e9f24e2ab1a71a75}
+      \strng{fullhash}{59bb96ce26fbdc22e9f24e2ab1a71a75}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multivariate imputation by chained equations: MICE V1. 0 user's manual}
+      \field{type}{techreport}
+      \field{year}{2000}
+    \endentry
+    \entry{cameron2009}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f6d8ca556fa8c120234a4470f95efd9c}{Cameron}{C\bibinitperiod}{A.C.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=841769c768e65a04a37aac9ab8c82668}{Trivedi}{T\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eae492dbb09433c3e411a2cc2d2cd021}
+      \strng{fullhash}{eae492dbb09433c3e411a2cc2d2cd021}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521848053}
+      \field{title}{Microeconometrics: Methods and Applications}
+      \field{year}{2005}
+    \endentry
+    \entry{combes}{book}{}
+      \name{author}{3}{}{%
+        {{hash=6b10b63ab0496beb68d0312fe1b3a07e}{Combes}{C\bibinitperiod}{Pierre-Philippe}{P\bibinithyphendelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=fc95c9fb4c5e99cb7da7470c88d68f5d}{Mayer}{M\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4d2718154fe14deb292490bd0f31d5bd}{Thisse}{T\bibinitperiod}{Jacques-François}{J\bibinithyphendelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Princeton, N.J.}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{0d64ac79167d198179e0b5f9e21c5eda}
+      \strng{fullhash}{0d64ac79167d198179e0b5f9e21c5eda}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Economic geography: The integration of regions and nations}
+      \field{year}{2008}
+    \endentry
+    \entry{costinot}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b1dc24423c99ae873091803ac18c0577}{Costinot}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ebaa25e63560bd4b55d707322b3b0128}{Donaldson}{D\bibinitperiod}{Dave}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=708f5902f179e250208129f3cc526bac}{Komunjer}{K\bibinitperiod}{Ivana}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{62903f082bd23de09976c48f0f7472a3}
+      \strng{fullhash}{62903f082bd23de09976c48f0f7472a3}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{title}{What goods do countries trade? A quantitative exploration of Ricardoś ideas}
+      \field{volume}{79}
+      \field{year}{2011}
+      \field{pages}{581\bibrangedash 608}
+      \range{pages}{28}
+    \endentry
+    \entry{daudin2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4db15e2e2b7a2b7b49f340efd725f68d}{Daudin}{D\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3e44d82a1dc410fbb6e0053a193465f6}{Rifflart}{R\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=77fa887d0f560bd03b4e2a658ead169c}{Schweisguth}{S\bibinitperiod}{Danielle}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{88eef95e2409b917138ddeadf5b4f83e}
+      \strng{fullhash}{88eef95e2409b917138ddeadf5b4f83e}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Economics/Revue canadienne d'économique}
+      \field{number}{4}
+      \field{title}{Who produces for whom in the world economy?}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{1403\bibrangedash 1437}
+      \range{pages}{35}
+    \endentry
+    \entry{de2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7a34915422a880ccec4bf72e8b366d98}{De\bibnamedelima Benedictis}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{Luca}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0528d771667273b5c3c8fe5243a08835}{Tajoli}{T\bibinitperiod}{Lucia}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a91c15bd14a8d312124a4b12ca6132e7}
+      \strng{fullhash}{a91c15bd14a8d312124a4b12ca6132e7}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aussenwirtschaft}
+      \field{number}{2}
+      \field{title}{Comparing sectoral international trade networks}
+      \field{volume}{65}
+      \field{year}{2010}
+      \field{pages}{53\bibrangedash 73}
+      \range{pages}{21}
+    \endentry
+    \entry{Dhaene}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fd2551d6c605d6493a5e1b4235c49a84}{Dhaene}{D\bibinitperiod}{Geert}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Leuven}%
+      }
+      \list{publisher}{1}{%
+        {Leuven Ekonomika}%
+      }
+      \strng{namehash}{fd2551d6c605d6493a5e1b4235c49a84}
+      \strng{fullhash}{fd2551d6c605d6493a5e1b4235c49a84}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Advanced Econometrics}
+      \field{year}{2014}
+    \endentry
+    \entry{eaton}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c113ce4e769b4edfb314afd7098f105}{Eaton}{E\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=df870555d411aaf65a3c4de658174a35}{Kortum}{K\bibinitperiod}{Samuel\bibnamedelima S.}{S\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{794d5b7889cdd1d520727d2453d570ab}
+      \strng{fullhash}{794d5b7889cdd1d520727d2453d570ab}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{Technology, geography, and trade}
+      \field{volume}{70}
+      \field{year}{2002}
+      \field{pages}{1741\bibrangedash 1779}
+      \range{pages}{39}
+    \endentry
+    \entry{feenstra98}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad9fab55113c84ccce904066d13e7d1f}{Feenstra}{F\bibinitperiod}{Robert\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ad9fab55113c84ccce904066d13e7d1f}
+      \strng{fullhash}{ad9fab55113c84ccce904066d13e7d1f}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{number}{4}
+      \field{title}{Integration of Trade and Disintegration of Production in the Global Economy}
+      \field{volume}{12}
+      \field{year}{1998}
+      \field{pages}{31\bibrangedash 50}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1257/jep.12.4.31
+      \endverb
+      \verb{url}
+      \verb http://www.aeaweb.org/articles.php?doi=10.1257/jep.12.4.31
+      \endverb
+    \endentry
+    \entry{greene}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c568009b8581e69068dacb3feb9fcaf5}{Greene}{G\bibinitperiod}{William\bibnamedelima H}{W\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education India}%
+      }
+      \strng{namehash}{c568009b8581e69068dacb3feb9fcaf5}
+      \strng{fullhash}{c568009b8581e69068dacb3feb9fcaf5}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Econometric analysis}
+      \field{year}{2003}
+    \endentry
+    \entry{hausman1978}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b0386b0f5c6de0c2d0c3b813b5fca1c8}{Hausman}{H\bibinitperiod}{Jerry\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{b0386b0f5c6de0c2d0c3b813b5fca1c8}
+      \strng{fullhash}{b0386b0f5c6de0c2d0c3b813b5fca1c8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1978}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica: Journal of the Econometric Society}
+      \field{title}{Specification tests in econometrics}
+      \field{year}{1978}
+      \field{pages}{1251\bibrangedash 1271}
+      \range{pages}{21}
+    \endentry
+    \entry{helpman}{book}{}
+      \name{author}{2}{}{%
+        {{hash=21befab6a0c50cc5cd0e449398ffee8b}{Helpman}{H\bibinitperiod}{Elhanan}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=001bf4d0a3266fe59399001e392a3895}{Krugman}{K\bibinitperiod}{Paul\bibnamedelima Robin}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ec79fb91aa4d0543d88d3310275b6a71}
+      \strng{fullhash}{ec79fb91aa4d0543d88d3310275b6a71}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1985}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Market structure and foreign trade: Increasing returns, imperfect competition, and the international economy}
+      \field{year}{1985}
+    \endentry
+    \entry{hinloopen2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9df5fea9dd01b83efb3556adfd1a7603}{Hinloopen}{H\bibinitperiod}{Jeroen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=be680658c5a6cd04e7ac4f1b0fceb658}{Van\bibnamedelima Marrewijk}{V\bibinitperiod\bibinitdelim M\bibinitperiod}{Charles}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{aeb6888da6f3fc35a7d4fa7237833048}
+      \strng{fullhash}{aeb6888da6f3fc35a7d4fa7237833048}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weltwirtschaftliches Archiv}
+      \field{number}{1}
+      \field{title}{On the empirical distribution of the Balassa index}
+      \field{volume}{137}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+    \endentry
+    \entry{Hummels}{article}{}
+      \name{author}{3}{}{%
+        {{hash=17a15594338e70f299bc98db1a1d752a}{Hummels}{H\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=91e4d9dd27ecb33de0cd45b9d8b1386b}{Ishii}{I\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=923bf2781e5ceb510a1d6eb241cc50d6}{Yi}{Y\bibinitperiod}{Kei-Mu}{K\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fbc56989d1fc2f921bb39e4315bb53f4}
+      \strng{fullhash}{fbc56989d1fc2f921bb39e4315bb53f4}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{number}{1}
+      \field{title}{The nature and growth of vertical specialization in world trade}
+      \field{volume}{54}
+      \field{year}{2001}
+      \field{pages}{75\bibrangedash 96}
+      \range{pages}{22}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/S0022-1996(00)00093-3
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0022199600000933
+      \endverb
+    \endentry
+    \entry{Inklaar2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4fe796e727c5032c0bce181041e95365}{Inklaar}{I\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f6b2feeefb6e267457f00de7000edb02}{Timmer}{T\bibinitperiod}{Marcel\bibnamedelima P.}{M\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0196d407b1590bceedbc0abbe98bd354}
+      \strng{fullhash}{0196d407b1590bceedbc0abbe98bd354}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1475-4991}
+      \field{journaltitle}{Review of Income and Wealth}
+      \field{number}{4}
+      \field{title}{The Relative Price of Services}
+      \field{volume}{60}
+      \field{year}{2014}
+      \field{pages}{727\bibrangedash 746}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1111/roiw.12012
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1111/roiw.12012
+      \endverb
+      \keyw{Geary-Khamis system,Penn-effect,PPP,prices,services}
+    \endentry
+    \entry{jackson2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7a7c375df442b3268139625dbe543b29}{Jackson}{J\bibinitperiod}{M.\bibnamedelimi O.}{M\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{7a7c375df442b3268139625dbe543b29}
+      \strng{fullhash}{7a7c375df442b3268139625dbe543b29}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781400833993}
+      \field{title}{Social and Economic Networks}
+      \field{year}{2010}
+    \endentry
+    \entry{johnson}{article}{}
+      \name{author}{1}{}{%
+        {{hash=76d9005a30cff4c228a2dfaaee0206d4}{Johnson}{J\bibinitperiod}{Robert\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{76d9005a30cff4c228a2dfaaee0206d4}
+      \strng{fullhash}{76d9005a30cff4c228a2dfaaee0206d4}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Economic Perspectives}
+      \field{title}{Five facts about value-added exports and implications for macroeconomics and trade research}
+      \field{year}{2014}
+      \field{pages}{119\bibrangedash 142}
+      \range{pages}{24}
+    \endentry
+    \entry{Johnson2012}{report}{}
+      \name{author}{2}{}{%
+        {{hash=76d9005a30cff4c228a2dfaaee0206d4}{Johnson}{J\bibinitperiod}{Robert\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=5035cad68fb360bdd719a6a459c68140}{Noguera}{N\bibinitperiod}{Guillermo}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{d0b996ec5899da30dda5930439742278}
+      \strng{fullhash}{d0b996ec5899da30dda5930439742278}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{18186}
+      \field{series}{Working Paper Series}
+      \field{title}{Fragmentation and Trade in Value Added over Four Decades}
+      \field{type}{Working Paper}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.3386/w18186
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w18186
+      \endverb
+    \endentry
+    \entry{Koopman}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5bdd6a2fb18b7269d2a00d19e044d21c}{Koopman}{K\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=af9f7c73a3775f453b93fd3e906dd877}{Wang}{W\bibinitperiod}{Zhi}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=df9b412d2c1af54f77ba4680babc92fc}{Wei}{W\bibinitperiod}{Shang-Jin}{S\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{ad4cfb5edd289908a7635147dbe0ea55}
+      \strng{fullhash}{ad4cfb5edd289908a7635147dbe0ea55}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Economic Review}
+      \field{number}{2}
+      \field{title}{Tracing Value-Added and Double Counting in Gross Exports}
+      \field{volume}{104}
+      \field{year}{2014}
+      \field{pages}{459\bibrangedash 494}
+      \range{pages}{36}
+    \endentry
+    \entry{leontief}{article}{}
+      \name{author}{1}{}{%
+        {{hash=33d8450b063a93a1d55a09790163ec93}{Leontief}{L\bibinitperiod}{Wassily\bibnamedelima W.}{W\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{33d8450b063a93a1d55a09790163ec93}
+      \strng{fullhash}{33d8450b063a93a1d55a09790163ec93}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{1936}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The review of economic statistics}
+      \field{title}{Quantitative input and output relations in the economic systems of the United States}
+      \field{year}{1936}
+      \field{pages}{105\bibrangedash 125}
+      \range{pages}{21}
+    \endentry
+    \entry{Leromain}{article}{}
+      \name{author}{2}{}{%
+        {{hash=189d29f72cd5d0fc5a1fd5d11986dd4e}{Leromain}{L\bibinitperiod}{Elsa}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=0ba63900e02611d29b524f6f24455e58}{Orefice}{O\bibinitperiod}{Gianluca}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9f664fbab4da76dc256729879cd47754}
+      \strng{fullhash}{9f664fbab4da76dc256729879cd47754}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Economics}
+      \field{number}{139}
+      \field{title}{New revealed comparative advantage index: Dataset and empirical distribution}
+      \field{year}{2014}
+      \field{pages}{48\bibrangedash 70}
+      \range{pages}{23}
+      \verb{url}
+      \verb http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3
+      \endverb
+    \endentry
+    \entry{Morris2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a9c11a9a280df9a183ef804bfb7c60f4}{Morris}{M\bibinitperiod}{Tim\bibnamedelima P.}{T\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c6abac5590a6c14cb32798e94687c96a}{White}{W\bibinitperiod}{Ian\bibnamedelima R.}{I\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=d77ac0af604c52daf07a18aced65b51b}{Royston}{R\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{74d1a29b3fb62752fab0e11b21e56de3}
+      \strng{fullhash}{74d1a29b3fb62752fab0e11b21e56de3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Medical Research Methodology}
+      \field{number}{1}
+      \field{title}{Tuning multiple imputation by predictive mean matching and local residual draws}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
+    \entry{oecd-mfn}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{OECD}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2004}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Most-Favoured-Nation Treatment in International Investment Law}
+      \field{year}{2004}
+    \endentry
+    \entry{OECDSTAN}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{OECD}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STAN Database for Structural Analysis}
+      \field{year}{2011}
+    \endentry
+    \entry{stan2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{OECD}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STAN R \& D expenditures in Industry}
+      \field{year}{2013}
+    \endentry
+    \entry{tiva2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5f8414592918c89fdac1c59428c56de5}{OECD-WTO}{O\bibinithyphendelim W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5f8414592918c89fdac1c59428c56de5}
+      \strng{fullhash}{5f8414592918c89fdac1c59428c56de5}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trade in Value Added (TiVA)}
+      \field{year}{2015}
+    \endentry
+    \entry{opec}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fbd83b41b54f9066c04a33c468f5cfd6}{{Organization\bibnamedelimb of\bibnamedelimb the\bibnamedelimb Petroleum\bibnamedelimb Exporting\bibnamedelimb Countries\bibnamedelimb }}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{fbd83b41b54f9066c04a33c468f5cfd6}
+      \strng{fullhash}{fbd83b41b54f9066c04a33c468f5cfd6}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Annual Statistical Bulletin}
+      \field{year}{2008}
+    \endentry
+    \entry{Shikher}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6630393f4eae58ec2db504bc81aea18a}{Shikher}{S\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6630393f4eae58ec2db504bc81aea18a}
+      \strng{fullhash}{6630393f4eae58ec2db504bc81aea18a}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of International Economics}
+      \field{number}{2}
+      \field{title}{Capital, technology, and specialization in the neoclassical model}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{229\bibrangedash 242}
+      \range{pages}{14}
+    \endentry
+    \entry{silva}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a7ae69006708b06fb0476810adbe3885}{Silva}{S\bibinitperiod}{J.\bibnamedelimi M.\bibnamedelimi C.\bibnamedelimi Santos}{J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=476ad06d8906e302627f01a0af0a60aa}{Tenreyro}{T\bibinitperiod}{Silvana}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{4e32e526aa0e7f38ce7ac59e7e49bba5}
+      \strng{fullhash}{4e32e526aa0e7f38ce7ac59e7e49bba5}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economics and statistics}
+      \field{number}{4}
+      \field{title}{The log of gravity}
+      \field{volume}{88}
+      \field{year}{2006}
+      \field{pages}{641\bibrangedash 658}
+      \range{pages}{18}
+    \endentry
+    \entry{Timmer2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f6b2feeefb6e267457f00de7000edb02}{Timmer}{T\bibinitperiod}{Marcel\bibnamedelima P.}{M\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {University of Groningen, 2012}%
+      }
+      \strng{namehash}{f6b2feeefb6e267457f00de7000edb02}
+      \strng{fullhash}{f6b2feeefb6e267457f00de7000edb02}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WIOD Working Paper No. 10}
+      \field{title}{The world input-output database (WIOD): contents, sources and methods}
+      \field{year}{2012}
+    \endentry
+    \entry{timmer_gvc}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f6b2feeefb6e267457f00de7000edb02}{Timmer}{T\bibinitperiod}{Marcel\bibnamedelima P.}{M\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=11e3917c998b89af8d6e4e7d96d1bb7b}{Erumban}{E\bibinitperiod}{Abdul\bibnamedelima Azeez}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=ab2f2bfb5a361558c353051880ec9531}{Los}{L\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=21738f974696663208abae7f6135a08d}{Stehrer}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=a6b6884ba527eafce48f3b5adfba2825}{Vries}{V\bibinitperiod}{Gaaitzen\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{724700016d6f952ac21b3e556454c262}
+      \strng{fullhash}{9c4e8f86d7fe04af97c521f4b73b2fd6}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Economic Perspectives}
+      \field{title}{Slicing up global value chains}
+      \field{year}{2014}
+      \field{pages}{99\bibrangedash 118}
+      \range{pages}{20}
+    \endentry
+    \entry{van2007multiple}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9fd78906a2be2ed38233127fd4117223}{Van\bibnamedelima Buuren}{V\bibinitperiod\bibinitdelim B\bibinitperiod}{Stef}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{9fd78906a2be2ed38233127fd4117223}
+      \strng{fullhash}{9fd78906a2be2ed38233127fd4117223}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical methods in medical research}
+      \field{number}{3}
+      \field{title}{Multiple imputation of discrete and continuous data by fully conditional specification}
+      \field{volume}{16}
+      \field{year}{2007}
+      \field{pages}{219\bibrangedash 242}
+      \range{pages}{24}
+    \endentry
+    \entry{wang2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=af9f7c73a3775f453b93fd3e906dd877}{Wang}{W\bibinitperiod}{Zhi}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=df9b412d2c1af54f77ba4680babc92fc}{Wei}{W\bibinitperiod}{Shang-Jin}{S\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=1b5a3a3f7a792656a93e9927530c6415}{Zhu}{Z\bibinitperiod}{Kunfu}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research, Inc}%
+      }
+      \strng{namehash}{0b08ae4900935ce2c46bfeb1b518abdf}
+      \strng{fullhash}{0b08ae4900935ce2c46bfeb1b518abdf}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER Working Papers}
+      \field{number}{w19677}
+      \field{title}{Quantifying International Production Sharing at the Bilateral and Sector Levels}
+      \field{year}{2013}
+    \endentry
+    \entry{yeats}{article}{}
+      \name{author}{1}{}{%
+        {{hash=153129d32be63baf67c8d5c1b81bf7c3}{Yeats}{Y\bibinitperiod}{AlexanderJ.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{153129d32be63baf67c8d5c1b81bf7c3}
+      \strng{fullhash}{153129d32be63baf67c8d5c1b81bf7c3}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelyear}{1985}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0043-2636}
+      \field{journaltitle}{Weltwirtschaftliches Archiv}
+      \field{number}{1}
+      \field{title}{On the appropriate interpretation of the revealed comparative advantage index: Implications of a methodology based on industry sector analysis}
+      \field{volume}{121}
+      \field{year}{1985}
+      \field{pages}{61\bibrangedash 73}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/BF02705840
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{bladwin}
+  \missing{(}
+  \missing{mastering}
+  \missing{Schaffer}
+  \missing{Rubin1987}
+  \missing{Eaton}
+  \missing{Costinot}
+  \missing{daudin}
+\endrefsection
+\endinput
+

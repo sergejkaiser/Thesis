@@ -51,8 +51,6 @@ volume = {30},
 number = {4},
 publisher = {John Wiley & Sons, Ltd.},
 issn = {1097-0258},
-url = {http://dx.doi.org/10.1002/sim.4067},
-doi = {10.1002/sim.4067},
 pages = {377--399},
 keywords = {missing data, multiple imputation, fully conditional specification},
 year = {2011},
@@ -85,7 +83,7 @@ year = {2011},
   year={2004}
 }
 
-@book{rubin1987,
+@book{Rubin1987,
     author = {Rubin, Donald B.},
     edition = {99},
     publisher = {Wiley},
@@ -100,14 +98,12 @@ journal={BMC Medical Research Methodology},
 year={2014},
 volume={14},
 number={1},
-pages={1--13},
-doi={10.1186/1471-2288-14-75}
+pages={1--13}
 }
 
-
-@book{Angrist,
-author={Angrist, Joshua D. and Pischke ,J{\{o}rn-Steffen },
-title={Mastering' Metrics:  The Path from Cause to Effect},
+@book{mastering,
+author={Angrist, Joshua D. and Pischke , Joern-Steffen},
+title={Mastering Metrics:  The Path from Cause to Effect},
 year={2014},
 publisher={Princeton University Press}
 }
@@ -126,8 +122,7 @@ publisher={Princeton University Press}
 Institution = {National Bureau of Economic Research, Inc},
 Journal = {NBER Working Papers},
  number = {16262},
- year = {2010},
- doi = {10.3386/w16262}
+ year = {2010}
 }
 
 @Article{brownstone2001mi,
@@ -141,7 +136,7 @@ Journal = {NBER Working Papers},
   publisher={JSTOR}
 }
 
-@Article{Angrist-Krueger01,
+@Article{AngristKrueger01,
 Author = {Angrist, Joshua D. and Krueger, Alan B.},
 Title = {Instrumental Variables and the Search for Identification: From Supply and Demand to Natural Experiments},
 Journal = {Journal of Economic Perspectives},
@@ -217,7 +212,6 @@ chapter = {3}
 
 @Article{Stock-Staiger,
  ISSN = {00129682, 14680262},
- URL = {http://www.jstor.org/stable/2171753},
  author = {Douglas Staiger, James H. Stock},
  journal = {Econometrica},
  number = {3},
@@ -238,8 +232,8 @@ chapter = {3}
 	Title = {Firms in International Trade},
 	Url = {http://www.jstor.org/stable/30033737},
 	Volume = {21},
-	Year = {2007},
-	Bdsk-Url-1 = {http://www.jstor.org/stable/30033737}}
+	Year = {2007}
+	}
 
 @book{cameron2009,
 	Author = {Cameron, A.C. and Trivedi, P.K.},
@@ -285,8 +279,8 @@ chapter = {3}
 	Publisher = {Springer-Verlag},
 	Title = {On the appropriate interpretation of the revealed comparative advantage index: Implications of a methodology based on industry sector analysis},
 	Volume = {121},
-	Year = {1985},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/BF02705840}}
+	Year = {1985}
+}
 
 @Article{Leromain,
 	Author = {Leromain, Elsa and Orefice, Gianluca},
@@ -295,8 +289,8 @@ chapter = {3}
 	Pages = {48--70},
 	Title = {New revealed comparative advantage index: Dataset and empirical distribution},
 	Url = {http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3},
-	Year = {2014},
-	Bdsk-Url-1 = {http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3}}
+	Year = {2014}
+}
 
 @Article{krugman1998,
 	Author = {Krugman, Paul R.},
@@ -308,8 +302,8 @@ chapter = {3}
 	Title = {Space: The Final Frontier},
 	Url = {http://www.jstor.org/stable/2646968},
 	Volume = {12},
-	Year = {1998},
-	Bdsk-Url-1 = {http://www.jstor.org/stable/2646968}}
+	Year = {1998}
+	}
 
 @book{Ricardo,
 	Author = {Ricardo, David},
@@ -330,8 +324,8 @@ chapter = {3}
 	Title = {An Empirical Demonstration of Classical Comparative Cost Theory},
 	Url = {http://www.jstor.org/stable/1923892},
 	Volume = {45},
-	Year = {1963},
-	Bdsk-Url-1 = {http://www.jstor.org/stable/1923892}}
+	Year = {1963}
+}
 
 @misc{tiva2,
 	Author = {OECD-WTO},
@@ -350,8 +344,8 @@ chapter = {3}
 	Title = {The Happy Few: The Internationalisation of European Firms},
 	Url = {http://dx.doi.org/10.1007/s10272-008-0247-x},
 	Volume = {43},
-	Year = {2008},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10272-008-0247-x}}
+	Year = {2008}
+}
 
 @techreport{acemoglu2015,
 	Author = {Acemoglu, Daron and Ozdaglar, Asuman and Tahbaz-Salehi,Alireza},
@@ -361,8 +355,8 @@ chapter = {3}
 	Series = {Working Paper Series},
 	Title = {Networks, Shocks, and Systemic Risk},
 	Type = {Working Paper},
-	Year = {2015},
-	Bdsk-Url-1 = {http://dx.doi.org/10.3386/w20931}}
+	Year = {2015}
+}
 
 @Article{acemoglu2012,
 	Author = {Acemoglu, Daron and Carvalho, Vasco M. and Ozdaglar, Asuman and Tahbaz-Salehi, Alireza},
@@ -385,8 +379,8 @@ chapter = {3}
 	Title = {Testing Identifiability and Specification in Instrumental Variable Models},
 	Url = {http://www.jstor.org/stable/3532477},
 	Volume = {9},
-	Year = {1993},
-	Bdsk-Url-1 = {http://www.jstor.org/stable/3532477}}
+	Year = {1993}
+	}
 
 @Article{stock,
 	Author = {Stock, James H and Yogo, Motohiro},
@@ -449,7 +443,6 @@ chapter = {3}
 
 @Article{melitz08,
 	Author = {Melitz, Marc J. and Ottaviano, Gianmarco I. P.},
-	Doi = {10.1111/j.1467-937X.2007.00463.x},
 	Journal = {The Review of Economic Studies},
 	Number = {1},
 	Pages = {295-316},
@@ -493,18 +486,16 @@ chapter = {3}
 
 @Article{Simonovska,
 	Author = {Ina Simonovska and Michael E. Waugh},
-	Doi = {http://dx.doi.org/10.1016/j.jinteco.2013.10.001},
 	Issn = {0022-1996},
 	Journal = {Journal of International Economics},
 	Keywords = {Indirect inference},
 	Number = {1},
 	Pages = {34 - 50},
 	Title = {The elasticity of trade: Estimates and evidence},
-	Url = {http://www.sciencedirect.com/science/article/pii/S0022199613000986},
 	Volume = {92},
-	Year = {2014},
-	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S0022199613000986},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.jinteco.2013.10.001}}
+	Year = {2014}
+	}
+
 
 @Article{eaton,
 	Author = {Eaton, Jonathan and Kortum, Samuel S.},
@@ -594,7 +585,6 @@ chapter = {3}
 	Publisher = {Elsevier},
 	Location={Amsterdam ; New York : North Holland ; New York, N.Y., U.S.A.},
 	Title = {Testing trade theories and predicting trade flows},
-	Url = {http://EconPapers.repec.org/RePEc:eee:intchp:1-10},
 	Volume = {1},
 	Year = {1984},
 	Bdsk-Url-1 = {http://EconPapers.repec.org/RePEc:eee:intchp:1-10}}
@@ -1087,6 +1077,7 @@ Institution = {National Bureau of Economic Research, Inc},
 	Year = {2014}}
 
 @Article{Johnson2012b,
+author = {Robert C. Johnson and Guillermo Noguera},
 title = {Accounting for intermediates: Production sharing and trade in value added },
 journal = {Journal of International Economics },
 volume = {86},
@@ -1094,7 +1085,6 @@ number = {2},
 pages = {224 - 236},
 year = {2012},
 issn = {0022-1996}
-author = {Robert C. Johnson and Guillermo Noguera}
 }
 
 
