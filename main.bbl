@@ -19,6 +19,30 @@
 
 \refsection{0}
   \sortlist{cms}{cms}
+    \entry{abdi2007kendall}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=c580255ca139872e5f15d7fe98f8fcfc}{Abdi}{A\bibinitperiod}{Hervé}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=68700d7d04e853ebffaef7f8d4eca092}{Salkind}{S\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage}%
+      }
+      \strng{namehash}{c580255ca139872e5f15d7fe98f8fcfc}
+      \strng{fullhash}{c580255ca139872e5f15d7fe98f8fcfc}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of Measurement and Statistics}
+      \field{title}{The Kendall rank correlation coefficient}
+      \field{year}{2007}
+      \field{pages}{508\bibrangedash 510}
+      \range{pages}{3}
+    \endentry
     \entry{acemoglu2012}{article}{}
       \name{author}{4}{}{%
         {{hash=d849e6f8de178bfb18aa67341c9f8d38}{Acemoglu}{A\bibinitperiod}{Daron}{D\bibinitperiod}{}{}{}{}}%
@@ -1056,9 +1080,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{Costinot}
   \missing{(}
   \missing{daudin}
+  \missing{Costinot}
   \missing{bladwin}
   \missing{Eaton}
 \endrefsection

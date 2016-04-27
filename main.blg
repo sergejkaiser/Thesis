@@ -1,25 +1,24 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
-[1] Config.pm:327> INFO - Logfile is 'main.blg'
-[75] biber-darwin:276> INFO - === Tue Apr 26, 2016, 15:03:36
-[75] Biber.pm:333> INFO - Reading 'main.bcf'
-[292] Biber.pm:645> INFO - Found 52 citekeys in bib section 0
-[319] Biber.pm:2977> INFO - Processing section 0
-[349] Biber.pm:3115> INFO - Looking for bibtex format file 'main.bib' for section 0
-[371] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[382] bibtex.pm:895> INFO - Found BibTeX data source 'main.bib'
-[447] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Costinot' and 'costinot' in file 'main.bib'
-[452] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Eaton' and 'eaton' in file 'main.bib'
-[484] Utils.pm:146> WARN - I didn't find a database entry for 'daudin' (section 0)
-[484] Utils.pm:146> WARN - I didn't find a database entry for '(' (section 0)
-[485] Utils.pm:146> WARN - I didn't find a database entry for 'bladwin' (section 0)
-[485] Utils.pm:146> WARN - I didn't find a database entry for 'Costinot' (section 0)
-[485] Utils.pm:146> WARN - I didn't find a database entry for 'Eaton' (section 0)
-[490] Utils.pm:146> WARN - The field 'number' in entry 'schafer99' cannot be null, deleting it
-[1239] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1239] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1240] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[1240] Biber.pm:2854> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
-[1240] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[1371] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1378] bbl.pm:596> INFO - Output to main.bbl
-[1378] Biber.pm:106> INFO - WARNINGS: 8
+[0] Config.pm:327> INFO - Logfile is 'main.blg'
+[49] biber-darwin:276> INFO - === Wed Apr 27, 2016, 17:57:01
+[50] Biber.pm:333> INFO - Reading 'main.bcf'
+[187] Biber.pm:645> INFO - Found 53 citekeys in bib section 0
+[214] Biber.pm:2977> INFO - Processing section 0
+[239] Biber.pm:3115> INFO - Looking for bibtex format file 'main.bib' for section 0
+[247] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[255] bibtex.pm:895> INFO - Found BibTeX data source 'main.bib'
+[294] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Costinot' and 'costinot' in file 'main.bib'
+[298] Utils.pm:146> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Eaton' and 'eaton' in file 'main.bib'
+[326] Utils.pm:146> WARN - I didn't find a database entry for 'daudin' (section 0)
+[326] Utils.pm:146> WARN - I didn't find a database entry for '(' (section 0)
+[326] Utils.pm:146> WARN - I didn't find a database entry for 'bladwin' (section 0)
+[326] Utils.pm:146> WARN - I didn't find a database entry for 'Costinot' (section 0)
+[327] Utils.pm:146> WARN - I didn't find a database entry for 'Eaton' (section 0)
+[784] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[784] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[784] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[785] Biber.pm:2854> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
+[785] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[914] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[919] bbl.pm:596> INFO - Output to main.bbl
+[919] Biber.pm:106> INFO - WARNINGS: 7
