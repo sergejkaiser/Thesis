@@ -1,3 +1,4 @@
+%!TEX TS-program=pdflatexmk
 \documentclass[11pt,leqno,a4paper]{scrbook}
 \usepackage[backend=biber, authordate, autocite=inline ,firstinits=true, uniquename=false, isbn=false, url=false,  hyperref=true , doi=false]{biblatex-chicago}
 \usepackage[margin=2.5cm]{geometry}
@@ -14,7 +15,7 @@
 		        round-mode              = places,
         round-precision         = 2
  }
- 
+
 \usepackage{textcomp}
 \newcommand*\vtick{\textsc{\char13}}
 \addbibresource{main.bib}
@@ -56,7 +57,7 @@ ANBERD&Analytical Business Enterprise Research and Development \\
 Backw. & Backward \\
 F.O.B. & Free on Board  \\
 Forw. & Forward \\
-G7& Group of Seven Leading Industry Nations \\ 
+G7& Group of Seven Leading Industry Nations \\
 I.I.D. & Independent and Identical Distributed \\
 ISIC & International Standard Industry Classification \\
 IV & Instrumental Variable  \\
@@ -82,7 +83,7 @@ VAX & Value-Added Exports \\
 \addcontentsline{toc}{chapter}{Symbols}
 \markboth{Symbols}{Symbols}
 \footnotesize
-\begin{tabular}[h]{ll} 
+\begin{tabular}[h]{ll}
 Variable & Description \\ \midrule
   $\theta$ & Cost dispersion parameter \\
 $V$ & Domestic value-added share matrix \\
@@ -103,7 +104,7 @@ $\cG^k$ &Binary trade network in industry $k$ \\
 $N$ & Graph nodes \\
 $x^k_{i,j} $ & Gross exports from  industry $k$ in country $i$ to country $j$  \\
 $\tilde{x_i}^k $ & Openness corrected gross exports from  industry $k$ in country $i$ to country $j$   \\
- $\tilde{z_i}^k$& Observed productivity \\ 
+ $\tilde{z_i}^k$& Observed productivity \\
   $\omega$ & Variety \\
  % $v_i$ & random variable \\
  $W^k$ & Weight matrix for industry $k$ \\
@@ -127,9 +128,9 @@ $ITN^k$& International Trade Network in industry $k$ \\ \bottomrule
 \chapter*{Preface\hfill} \addcontentsline{toc}{chapter}{Preface}
 
 \begin{flushright}
-This Master thesis  is submitted to partially fulfill the requirements to obtain the degree of Mast of Science in
-Economics from the KU Leuven. Especially  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, which helped me advancing this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.  
-Leuven, 15/03/2016. 
+This Master thesis  is submitted to partially fulfill the requirements to obtain the degree of Master of Science in
+Economics from the KU Leuven. Especially  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, helping me to advance this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.
+Leuven, 15/03/2016.
 \end{flushright}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -150,7 +151,7 @@ Leuven, 15/03/2016.
 \printbibliography
 \vfill
 \pagestyle{empty}
-\appendix 
+\appendix
 \sisetup{
 	detect-mode,
 		group-digits		= false,
@@ -160,7 +161,7 @@ Leuven, 15/03/2016.
 		        round-mode              = places,
         round-precision         = 2
  }
- 
+
 
 \tocless \chapter{Appendix}
 \addcontentsline{toc}{chapter}{Appendix}

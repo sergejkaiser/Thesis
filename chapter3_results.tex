@@ -1,3 +1,4 @@
+%!TEX root=/Users/sergej/Documents/Master/Thesis/main.tex 
 \section{Empirical results structural RCA}
 \label{sec:cross-section}
 In this section, I describe the empirical results of the two step procedure to estimate the structural RCA measure.  The first step, is to estimate $\theta$ with OLS and IV methods. %Further, to assess the robustness of the estimates I further present the PPML results.  
@@ -24,31 +25,32 @@ Further, another reason is that a simultaneity bias may occur due to agglomerati
 The IV regression requires that the instrument is valid, which means that it satisfies the exclusion restriction and that it is relevant.  The exclusion restriction requires that the instrument R\& D has no explanatory power for exports except through productivity. The restriction is plausible  \textcite{costinot} showed that for their sample the estimates of $\theta$ were not sensitive, to changes of productivity as total factor productivity. The interpretation is that the variations of the prices, which are explained by R \& D are orthogonal to factor endowment trade motifs.
 \par   The results of the first stage regression address two concerns about the validity of the IV regression, first the relevance of the instrument and whether the instrument affects the endogenous regressor in the hypothesized way. First, concerning the relevance of the instrument, the table (see appendix) shows the F-statistic of the excluded instrument in the first stage is across the specifications very high. This implies  that the instrument is highly relevant.  Further, the first stage shows a statistical significant positive effect of  R\&D on the inverse of producer prices. Concluding, the first stage confirms the expected positive effect of R\& D on the inverse of producer prices and confirms the statistical validity of the IV regression.   %Further, to gauge the relevance I comparing the magnitude of the effect of R\& D on the inverse of producer prices to  the results of the authors \textcite{costinot}, I find that the effect of R\&D on producer prices is 42 percent lower in my sample \footnote{The estimated effect of R\& D on the inverse of producer prices is 0.038 with an standard error of 0.003 in the sample of \textcite{costinot} . The estimate in my full sample is only 0.022 with an SE of 0.002. } . Since the IV estimator for one instrument may be obtained by the reduced form coefficient scaled by the first stage estimate, the reduced coefficient of the first stage likely accounts partly for the increased estimate of $\theta$ in direct comparison. I conclude that statistically the estimates are not weakly identified and diagnostic plots of the residuals against the fitted values does not suggest misspecification. However, the magnitude of the estimates is compared to the directly obtainable   
  \par
-The IV estimates of $\theta$ across the samples and the dependent variables gross exports and backward value-added exports show following results. First, the comparison between the full and the sample excluding primary industries shows that the estimates are similar for $\theta$ for the dependent variable backward value-added and gross exports.  In general the estimates of $\theta$ for both dependent variables are very close and the difference is statistically indistinguishable. Second, the pattern for both dependent variables shows that the estimate base on the sample excluding the primary industries is decreased, however statistically not significant decrease compared to the full sample. Third,  the sample excluding no high-income countries and primary industries shows an statistically significantly increased estimate \footnote{ I performed an significance based  on the t-test. The distribution of test statistic is a t-distribution with $v$ degrees of freedom, where $v=(m-1)*(1+ ((1+M^-1)*B/ \bar{U})^-1)^2$ and $\bar{U}$ denotes the average within-imputation variance and $B$ denotes the between imputation variation of the estimated parameter \textcite(p.77){rubin1987}}.  The magnitude of the increase of $\theta$ is about  28 \%. A higher estimate of $\theta$ implies a decreased dispersion of relative cost, this is what I expected for the sample with high income countries. The estimates of $\theta$ for forward value-added exports do not show a clear pattern.  \par  Comparing the IV results to the estimates to the results of \textcite{costinot}, I obtain a similar estimate to the authors results for gross exports as dependent variable ($\theta$11.1 SE 0.981). However, the authors favorite estimate uses openness corrected exports, for which they obtained an  estimate of 6.58.  They motivated using openness corrected gross exports to account for trade selection \footnote{ Trade selection denotes that a country does not produce certain goods for which they receive a low productivity draw and instead import them (\cite{costinot}).}  downward biases  the differences in observed productivity compared to the fundamental productivity. Therefore, they reasoned that the estimates of  $\theta$ with gross exports are upward biased. \par For two reasons I decided to use gross exports and value added exports without correcting for openness. First the data on the import penetration ratio is only available for the manufacturing industries, which would reduce the sample considerably. Second, I was unable to obtain a similar correction for VAX \footnote{ A possible definition openness for value-added exports might be the ratio of re-imported value added from domestic industries to VAX . However, this measure was not bounded between 0 and 1 and the results of estimating $\theta$ with this correction showed  .} 
+The IV estimates of $\theta$ across the samples and the dependent variables gross exports and backward value-added exports show following results. First, the comparison between the full and the sample excluding primary industries shows that the estimates are similar for $\theta$ for the dependent variable backward value-added and gross exports.  In general the estimates of $\theta$ for both dependent variables are very close and the difference is statistically indistinguishable. Second, the pattern for both dependent variables shows that the estimate base on the sample excluding the primary industries is decreased, however statistically not significant decrease compared to the full sample. Third,  the sample excluding no high-income countries and primary industries shows an statistically significantly increased estimate \footnote{ I performed an significance based  on the t-test. The distribution of test statistic is a t-distribution with $v$ degrees of freedom, where $v=(m-1)*(1+ ((1+M{-1})*B/ \bar{U}){-1})^2$ and $\bar{U}$ denotes the average within-imputation variance and $B$ denotes the between imputation variation of the estimated parameter \textcite(p.77){Rubin1987}}.  The magnitude of the increase of $\theta$ is about  28 \%. A higher estimate of $\theta$ implies a decreased dispersion of relative cost, this is what I expected for the sample with high income countries. The estimates of $\theta$ for forward value-added exports do not show a clear pattern.  \par  Comparing the IV results to the estimates to the results of \textcite{costinot}, I obtain a similar estimate to the authors results for gross exports as dependent variable ($\theta$11.1 SE 0.981). However, the authors favorite estimate uses openness corrected exports, for which they obtained an  estimate of 6.58.  They motivated using openness corrected gross exports to account for trade selection \footnote{ Trade selection denotes that a country does not produce certain goods for which they receive a low productivity draw and instead import them (\cite{costinot}).}  downward biases  the differences in observed productivity compared to the fundamental productivity. Therefore, they reasoned that the estimates of  $\theta$ with gross exports are upward biased. \par For two reasons I decided to use gross exports and value added exports without correcting for openness. First the data on the import penetration ratio is only available for the manufacturing industries, which would reduce the sample considerably. Second, I was unable to obtain a similar correction for VAX \footnote{ A possible definition openness for value-added exports might be the ratio of re-imported value added from domestic industries to VAX . However, this measure was not bounded between 0 and 1 and the results of estimating $\theta$ with this correction showed  .} 
 
 \begin{table}[H]
 \caption{Cross-section Results OLS and IV}
 \scriptsize
 \begin{savenotes}
-\begin{subtable}{\textwidth}
+\begin{subtable}{0.9\textwidth}
 \centering \caption{Cross-section results I}
 \label{tab:EXGR}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{5}{S}}
+\begin{tabular}{l*{4}{S}}
 \toprule
             &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}  \\ %& %\multicolumn{1}{c}{(5)}  
-            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}& \multicolumn{1}{c}{Without primary industries high \footnote{\footnotesize denotes highly developed countries, in the sample this includes the following countries AUS, AUT  BEL, CAN\\
-CZE, DEU, ESP, EST, FIN, FRA, GBR, GRC, HUN, IRL, ITA, JPN, KOR, LUX, NLD, POL, PRT, RUS, SVK, SVN, USA} } \\%&\multicolumn{1}{c}{EU} 
+            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary}& \multicolumn{1}{c}{Without primary} \\
+        & \multicolumn{1}{c}{}    & &\multicolumn{1}{c}{industries} & \multicolumn{1}{c}{industries high \footnote{\footnotesize denotes highly developed countries, in the sample this includes the following countries AUS, AUT  BEL, CAN\\
+CZE, DEU, ESP, EST, FIN, FRA, GBR, GRC, HUN, IRL, ITA, JPN, KOR, LUX, NLD, POL, PRT, RUS, SVK, SVN, USA} } %\\&\multicolumn{1}{c}{EU} 
             \\ \midrule
-                        \multicolumn{4}{c}{Regressand log gross exports in 2005} \\
+                        \multicolumn{5}{c}{Dependent variable log gross exports in 2005} \\
 \midrule
 Log productivity&     0.43368 &     12.653 & 11.424 & 14.689  \\
 & (0.067) & (1.331) & (1.422) & (2.13) \\
 
 % 0.43\sym{***}&        15.97296\sym{***}&       16.66\sym{***}&     19.13\sym{***} \\%&       17.19\sym{***}\\
 %            &      (0.07)         &      (.3127033)         &      (1.99)         &       (2.52)         &      
-       \\%     (2.19)         \\
+       %\\%     (2.19)         \\
 \midrule
 
 Exporter-Importer Fixed Effects & \multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&
@@ -68,7 +70,7 @@ First-stage F-statistic exc. instrument    &        &  151.41&     125.60      &
 \end{tabular}
 }
 \end{subtable}
-\begin{subtable}{\textwidth}
+\begin{subtable}{0.9\textwidth}
 \scriptsize
 \centering \caption{Cross-section results II}
 \label{tab:EXGR-DVA}
@@ -77,13 +79,13 @@ First-stage F-statistic exc. instrument    &        &  151.41&     125.60      &
 \begin{tabular}{l*{4}{S}} \toprule
       &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}  \\
       %&\multicolumn{1}{c}{(5)} 
-            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}&\multicolumn{1}{c}{Without primary industries high}            \\ \midrule %&   \multicolumn{1}{c}{EU} 
-
-                               \multicolumn{5}{c}{Regressand log backward value-added exports in 2005} \\ \midrule
+                      &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary}& \multicolumn{1}{c}{Without primary} \\
+        &   &  & \multicolumn{1}{c}{industries} & \multicolumn{1}{c}{industries high}\\ \midrule
+                               \multicolumn{5}{c}{Dependent variable log backward value-added exports in 2005} \\ \midrule
  Log Productivity&   0.476 & 12.911 & 11.762 & 15.080 \\ 
    &( 0.066) & (1.340) & (1.447) & (2.180) \\ 
 %            &      (0.07)         &      (1.78)         &      (2.01)         &      (2.54)                
-           \\%    (2.17)         \\
+%           \\%    (2.17)         \\
            
 Exporter            Importer Fixed Effects & \multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}% &\multicolumn{1}{c}{YES}
 \\
@@ -96,7 +98,7 @@ Observations     &        \multicolumn{1}{c}{18085}         &       \multicolumn
    % \\%  63.94        \\ 
 %Kleibergen-Paap rk Wald F-statistic&                      &  109.81         &       85.94         &     68.84              
 First-stage F-statistic of exc. instrument &  &151.41&     125.60      &      85.24           \\
-   \\ \bottomrule %     70.78      \\ 
+    \bottomrule %     70.78      \\ 
 \multicolumn{5}{l}{\footnotesize Heteroscedasticity robust standard errors in parentheses}\\
 \multicolumn{5}{l}{\footnotesize Log Productivity is instrumented in columns 2-6 with log of R\&D expenditures}\\
 \multicolumn{5}{l}{\footnotesize Without primary industries excludes mining and agriculture industry} \\
@@ -104,7 +106,7 @@ First-stage F-statistic of exc. instrument &  &151.41&     125.60      &      85
 \end{tabular}
 }
 \end{subtable}
-\begin{subtable}{\textwidth}
+\begin{subtable}{0.9\textwidth}
 \scriptsize
 \centering \caption{Cross-section results III}
 \label{tab:EXGR-FDDVA}
@@ -113,11 +115,12 @@ First-stage F-statistic of exc. instrument &  &151.41&     125.60      &      85
 \begin{tabular}{l*{4}{S}} \toprule
       &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}
         \\%&\multicolumn{1}{c}{(5)} 
-            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}&\multicolumn{1}{c}{Without primary industries high} \\\midrule %&    \multicolumn{1}{c}{EU}
-                                    \multicolumn{5}{c}{Regressand log forward value-added exports in 2005} \\ \midrule
-             \\ \midrule
- Log Productivity&          -0.01908376         &  9.286 & 10.325 & 10.218  \\%   12.87\sym{***}&       16.10\sym{***}&       16.10\sym{***} \\%&       12.73\sym{***}\\
-            &      (0.04542576)        &(0.868) & (1.291) & (1.199) \\ %     (1.15)         &      (2.05)         &      (1.94)         \\%&      (1.39)         \\
+                    &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary}& \multicolumn{1}{c}{Without primary} \\
+        &   &  & \multicolumn{1}{c}{industries} & \multicolumn{1}{c}{industries high}\\ \midrule
+                                    \multicolumn{5}{c}{Dependent variable log forward value-added exports in 2005} \\ \midrule
+           %  \\ \midrule
+ Log Productivity&          -0.01908         &  9.286 & 10.325 & 10.218  \\%   12.87\sym{***}&       16.10\sym{***}&       16.10\sym{***} \\%&       12.73\sym{***}\\
+            &      (0.0454)        &(0.868) & (1.291) & (1.199) \\ %     (1.15)         &      (2.05)         &      (1.94)         \\%&      (1.39)         \\
 Exporter   Importer Fixed Effects & \multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&
 \multicolumn{1}{c}{YES} \\ %&\multicolumn{1}{c}{YES}\\
  Importer Industry Fixed Effects & \multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES}&\multicolumn{1}{c}{YES} &\multicolumn{1}{c}{YES} 
@@ -139,7 +142,7 @@ First-Stage F-statistic of exc. instrument&                       &     151.41& 
 % \subsection{Poisson maximum likelihood}
 %To assess the robustness of the estimates in the following I report the PPML estimation results. 
 %%As mentioned above \textcite{silva} argued that the PPML estimator should be preferred to OLS, when estimating equations as  \ref{eq:1}.
-% Using the PPML estimation technique I obtain estimates in the  range of 14.22- 17.198. All the estimates in the columns 1-4 are in the 95 \% CI of the previous estimations. The point estimates show the same decreasing and then increasing pattern, similar to the results in the IV estimation. Further the estimates of $\theta$ with domestic value-added as regressand were increased compared to the table with gross exports. Yet the differences were not statistically significant different. Interestingly the last column  shows in this estimation method increased estimates for $\theta$. 
+% Using the PPML estimation technique I obtain estimates in the  range of 14.22- 17.198. All the estimates in the columns 1-4 are in the 95 \% CI of the previous estimations. The point estimates show the same decreasing and then increasing pattern, similar to the results in the IV estimation. Further the estimates of $\theta$ with domestic value-added as Dependent Variablewere increased compared to the table with gross exports. Yet the differences were not statistically significant different. Interestingly the last column  shows in this estimation method increased estimates for $\theta$. 
 %\begin{table}[ht]
 %\centering\caption{Poisson Pseudo Maximum Likelihood Estimation}
 %\scriptsize
@@ -153,7 +156,7 @@ First-Stage F-statistic of exc. instrument&                       &     151.41& 
 %            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)} \\ %&\multicolumn{1}{c}{(4)}
 %    &       \multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}&\multicolumn{1}{c}{Without primary industries $\text{high}^1$} %&\multicolumn{1}{c}{EU} \
 %           \\ \midrule
-%               \multicolumn{4}{c}{Regressand gross exports} \\\midrule
+%               \multicolumn{4}{c}{Dependent Variablegross exports} \\\midrule
 %Log productivity &      17.19\sym{***}&            14.22\sym{***}         &            15.63\sym{***}        \\
 %
 %      % 18.98\sym{***}             \\
@@ -187,7 +190,7 @@ First-Stage F-statistic of exc. instrument&                       &     151.41& 
 %            \\
 %        &  \multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}&\multicolumn{1}{c}{Without primary industries $\text{high}^1$} %& \multicolumn{1}{c}{EU}
 %             \\ \midrule
-%                        \multicolumn{4}{c}{Regressand back. value-added exports} \\
+%                        \multicolumn{4}{c}{Dependent Variableback. value-added exports} \\
 %\midrule
 %Log of Productivity &     17.83\sym{***}&                    14.62\sym{***}   &     15.32\sym{***}        \\ %&   18.71\sym{***}               \\
 %            &      (1.40)         &              (1.27)         &             (1.21)    %  &  (1.20)    
@@ -221,7 +224,7 @@ First-Stage F-statistic of exc. instrument&                       &     151.41& 
 %            \\
 %     &     \multicolumn{1}{c}{Full Sample}&\multicolumn{1}{c}{Without primary industries}&\multicolumn{1}{c}{Without primary industries $\text{high}^1$} \\ \midrule% &
 %          %  \multicolumn{1}{c}{EU}
-%                        \multicolumn{4}{c}{Regressand forw. value-added exports} \\
+%                        \multicolumn{4}{c}{Dependent Variableforw. value-added exports} \\
 %\midrule
 %Log of Productivity &       13.93\sym{***}&           11.66\sym{***}          &    12.25\sym{***}                 %&    13.36\sym{***}
 %\\

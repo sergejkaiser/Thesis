@@ -451,6 +451,30 @@
       \verb http://www.aeaweb.org/articles.php?doi=10.1257/jep.12.4.31
       \endverb
     \endentry
+    \entry{fredricks2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fce3056c262e9dd7f7dea6d6df16e6c1}{Fredricks}{F\bibinitperiod}{Gregory\bibnamedelima A}{G\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d26ff5ada9582d0e09a54da51d3a3149}{Nelsen}{N\bibinitperiod}{Roger\bibnamedelima B}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8f59a9fb709d244ea6ea73bb414869e2}
+      \strng{fullhash}{8f59a9fb709d244ea6ea73bb414869e2}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Planning and Inference}
+      \field{number}{7}
+      \field{title}{On the relationship between Spearman's rho and Kendall's tau for pairs of continuous random variables}
+      \field{volume}{137}
+      \field{year}{2007}
+      \field{pages}{2143\bibrangedash 2150}
+      \range{pages}{8}
+    \endentry
     \entry{greene}{book}{}
       \name{author}{1}{}{%
         {{hash=c568009b8581e69068dacb3feb9fcaf5}{Greene}{G\bibinitperiod}{William\bibnamedelima H}{W\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
@@ -708,10 +732,13 @@
       \field{pages}{105\bibrangedash 125}
       \range{pages}{21}
     \endentry
-    \entry{Leromain}{article}{}
+    \entry{leromain2014}{article}{}
       \name{author}{2}{}{%
         {{hash=189d29f72cd5d0fc5a1fd5d11986dd4e}{Leromain}{L\bibinitperiod}{Elsa}{E\bibinitperiod}{}{}{}{}}%
         {{hash=0ba63900e02611d29b524f6f24455e58}{Orefice}{O\bibinitperiod}{Gianluca}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
       }
       \strng{namehash}{9f664fbab4da76dc256729879cd47754}
       \strng{fullhash}{9f664fbab4da76dc256729879cd47754}
@@ -722,14 +749,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Economics}
-      \field{number}{139}
-      \field{title}{New revealed comparative advantage index: Dataset and empirical distribution}
+      \field{title}{New revealed comparative advantage index: dataset and empirical distribution}
+      \field{volume}{139}
       \field{year}{2014}
       \field{pages}{48\bibrangedash 70}
       \range{pages}{23}
-      \verb{url}
-      \verb http://EconPapers.repec.org/RePEc:cii:cepiei:2014-q3-139-3
-      \endverb
     \endentry
     \entry{Morris2014}{article}{}
       \name{author}{3}{}{%
@@ -1080,11 +1104,11 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{(}
-  \missing{daudin}
   \missing{Costinot}
   \missing{bladwin}
-  \missing{Eaton}
+  \missing{(}
+  \missing{daudin}
+  \missing{Leromain}
 \endrefsection
 \endinput
 
