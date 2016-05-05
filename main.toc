@@ -12,14 +12,14 @@
 \contentsline {section}{\numberline {2.4}Generalization}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}Estimation method}{8}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Missing data imputation}{8}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Empirical results structural RCA}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Ranking of structural Ricardian comparative advantage}{11}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Structural Ricardian comparative advantage based gross exports and value-added exports}{12}{subsection.2.7.1}
-\contentsline {chapter}{\numberline {3}Relative network centrality and structural Ricardian comparative advantage}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}International trade network}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Network centrality}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}Network centrality and structural Ricardian comparative advantage}{16}{section.3.3}
-\contentsline {section}{\numberline {3.4}Robustness}{17}{section.3.4}
+\contentsline {subsection}{\numberline {2.5.2}Sample}{10}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Empirical results structural RCA}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Ranking of structural Ricardian comparative advantage}{12}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Structural Ricardian comparative advantage based gross exports and value-added exports}{13}{subsection.2.7.1}
+\contentsline {chapter}{\numberline {3}Relative network centrality and structural Ricardian comparative advantage}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}International trade network}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Network centrality}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}Network centrality and structural Ricardian comparative advantage}{18}{section.3.3}
 \contentsline {chapter}{\numberline {4}Conclusion}{19}{chapter.4}
 \contentsline {chapter}{Appendix}{25}{appendix.A}
 \contentsline {section}{\numberline {A.1}Decomposition of gross exports into value-added exports}{26}{section.A.1}

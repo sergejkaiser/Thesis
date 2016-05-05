@@ -90,25 +90,6 @@
       \field{pages}{69\bibrangedash 85}
       \range{pages}{17}
     \endentry
-    \entry{mastering}{book}{}
-      \name{author}{2}{}{%
-        {{hash=f058a74347f866b4dc3e586b10672739}{Angrist}{A\bibinitperiod}{Joshua\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=c8c1903dda562bace2e69bbac0d64e9e}{Pischke}{P\bibinitperiod}{Joern-Steffen}{J\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Princeton University Press}%
-      }
-      \strng{namehash}{026e4e93df03024722882ffd0b6d16f7}
-      \strng{fullhash}{026e4e93df03024722882ffd0b6d16f7}
-      \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
-      \field{labelyear}{2014}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mastering Metrics: The Path from Cause to Effect}
-      \field{year}{2014}
-    \endentry
     \entry{Balassa}{article}{}
       \name{author}{1}{}{%
         {{hash=fe0b8096ee37214413e70c8aba10bfa3}{Balassa}{B\bibinitperiod}{Bela}{B\bibinitperiod}{}{}{}{}}%
@@ -175,6 +156,30 @@
       \field{pages}{561\bibrangedash 569}
       \range{pages}{9}
     \endentry
+    \entry{bhaskaran}{article}{}
+      \name{author}{2}{}{%
+        {{hash=88369c663768fb5f41bc255c0822c5e6}{Bhaskaran}{B\bibinitperiod}{Krishnan}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=3c9b94de3818a977bacad63200c50038}{Smeeth}{S\bibinitperiod}{Liam}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEA}%
+      }
+      \strng{namehash}{7bcba2b17aa8d8a5d16abb63f3b092af}
+      \strng{fullhash}{7bcba2b17aa8d8a5d16abb63f3b092af}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Epidemiology}
+      \field{number}{4}
+      \field{title}{What is the difference between missing completely at random and missing at random?}
+      \field{volume}{43}
+      \field{year}{2014}
+      \field{pages}{1336\bibrangedash 1339.}
+      \range{pages}{-1}
+    \endentry
     \entry{Bonacich77}{article}{}
       \name{author}{1}{}{%
         {{hash=12121ca52ec8a4201d394b3b282a1502}{Bonacich}{B\bibinitperiod}{Phillip}{P\bibinitperiod}{}{}{}{}}%
@@ -219,30 +224,6 @@
       \verb{url}
       \verb http://EconPapers.repec.org/RePEc:nbr:nberte:0137
       \endverb
-    \endentry
-    \entry{brownstone2001mi}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5fbd0efd970b5c587bcf2e02d86ab630}{Brownstone}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=5f4111051f0c1085834d7e8f9d9ca0be}{Valletta}{V\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {JSTOR}%
-      }
-      \strng{namehash}{27cecb6d117d17da54059e5a215ce9bb}
-      \strng{fullhash}{27cecb6d117d17da54059e5a215ce9bb}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{2001}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Economic Perspectives}
-      \field{number}{4}
-      \field{title}{The bootstrap and multiple imputations: harnessing increased computing power for improved statistical tests}
-      \field{volume}{15}
-      \field{year}{2001}
-      \field{pages}{129\bibrangedash 141}
-      \range{pages}{13}
     \endentry
     \entry{van2000mice}{report}{}
       \name{author}{2}{}{%
@@ -401,6 +382,30 @@
       \field{title}{Advanced Econometrics}
       \field{year}{2014}
     \endentry
+    \entry{Stock-Staiger}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0d5fc29397ce56b03775e3030920e464}{Douglas\bibnamedelima Staiger}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{James\bibnamedelimb H.\bibnamedelimi Stock}{J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {The Econometric Society}%
+      }
+      \strng{namehash}{0d5fc29397ce56b03775e3030920e464}
+      \strng{fullhash}{0d5fc29397ce56b03775e3030920e464}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00129682, 14680262}
+      \field{journaltitle}{Econometrica}
+      \field{number}{3}
+      \field{title}{Instrumental Variables Regression with Weak Instruments}
+      \field{volume}{65}
+      \field{year}{1997}
+      \field{pages}{557\bibrangedash 586}
+      \range{pages}{30}
+    \endentry
     \entry{eaton}{article}{}
       \name{author}{2}{}{%
         {{hash=1c113ce4e769b4edfb314afd7098f105}{Eaton}{E\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
@@ -492,6 +497,30 @@
       \field{labeltitlesource}{title}
       \field{title}{Econometric analysis}
       \field{year}{2003}
+    \endentry
+    \entry{Griffith-R_D-2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=58ed36a91a3bcb95bdc01cd68f741ef2}{Griffith}{G\bibinitperiod}{Rachel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=1279a1ded0365efaa9c26610d605e309}{Redding}{R\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=69dddbb80ecd019e68b9b1f3d54844fb}{Reenen}{R\bibinitperiod}{John\bibnamedelima Van}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b9cece8b2ed2dcabc212ce06a70cc49e}
+      \strng{fullhash}{b9cece8b2ed2dcabc212ce06a70cc49e}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2004}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Mapping the Two Faces of R\&D: Productivity Growth in a Panel of OECD Industries}
+      \field{volume}{86}
+      \field{year}{2004}
+      \field{pages}{883\bibrangedash 895}
+      \range{pages}{13}
     \endentry
     \entry{hausman1978}{article}{}
       \name{author}{1}{}{%
@@ -588,6 +617,23 @@
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0022199600000933
       \endverb
+    \endentry
+    \entry{Wooldridge}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f74fd63923a56fa58b8687fdf1cc7ff2}{Imbens}{I\bibinitperiod}{Guido}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=576b608c76167ff863620eecf0a9767c}{Wooldridge}{W\bibinitperiod}{Jeffrey}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2f4563af418e95ede366251783b7cbbd}
+      \strng{fullhash}{2f4563af418e95ede366251783b7cbbd}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{http://ww.nber.org/WNE/lect_12_missing.pdf [accessed on 30.04.2016]}
+      \field{title}{What is New in Econometrics? Lecture Notes 12, Missing Data}
+      \field{year}{2007}
     \endentry
     \entry{Inklaar2012}{article}{}
       \name{author}{2}{}{%
@@ -755,6 +801,60 @@
       \field{pages}{48\bibrangedash 70}
       \range{pages}{23}
     \endentry
+    \entry{Little:2002a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=59556bd371e553c3cc09dd0c708823c9}{Little}{L\bibinitperiod}{Roderick\bibnamedelimb J.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Inc.}%
+      }
+      \strng{namehash}{56900bfab65cbfda680bc2f14ce054e6}
+      \strng{fullhash}{56900bfab65cbfda680bc2f14ce054e6}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{isbn}{9781119013563}
+      \field{series}{Wiley series in probability and statistics}
+      \field{title}{Statistical Analysis with Missing Data}
+      \field{year}{2002}
+      \verb{doi}
+      \verb 10.1002/9781119013563.ch10
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/9781119013563.ch10
+      \endverb
+      \keyw{Bayes,multiple imputation (ML)}
+    \endentry
+    \entry{Moons:2006a}{article}{}
+      \name{author}{4}{}{%
+        {{hash=cdcbb78dedf5893d858e0a5189fc33f8}{Moons}{M\bibinitperiod}{Karel\bibnamedelimb G\bibnamedelima M}{K\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=44349407f32a40e6e6bad65ff0af0346}{Donders}{D\bibinitperiod}{Rogier\bibnamedelimb A\bibnamedelimb R\bibnamedelima T}{R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=8981bab4f217a3e3eb7e451f8c93574a}{Stijnen}{S\bibinitperiod}{Theo}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=05533ed8097428a9426eb345fdaf8675}{Harrell}{H\bibinitperiod}{Frank\bibnamedelimb E\bibnamedelima Jr}{F\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ccee46af354c40b53ff99817665f699c}
+      \strng{fullhash}{18b9ef22783cc26d1f2830b6f6e18185}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2006}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of clinical epidemiology}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Using the outcome for imputation of missing predictor values was preferred.}
+      \field{volume}{59}
+      \field{year}{2006}
+      \field{pages}{1092\bibrangedash 1101}
+      \range{pages}{10}
+    \endentry
     \entry{Morris2014}{article}{}
       \name{author}{3}{}{%
         {{hash=a9c11a9a280df9a183ef804bfb7c60f4}{Morris}{M\bibinitperiod}{Tim\bibnamedelima P.}{T\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
@@ -855,6 +955,71 @@
       \field{title}{Annual Statistical Bulletin}
       \field{year}{2008}
     \endentry
+    \entry{royston2011multiple}{article}{}
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=d77ac0af604c52daf07a18aced65b51b}{Royston}{R\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=5c34dcd02ba5142624e7705ffbe28d8a}{White}{W\bibinitperiod}{Ian\bibnamedelima R}{I\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Statistical Association}%
+      }
+      \strng{namehash}{2f02a363587ddeb5bb10d038708b4549}
+      \strng{fullhash}{b012a2e4cc81c090af8f6e573b3f9438}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{4}
+      \field{title}{Multiple imputation by chained equations (MICE): implementation in Stata}
+      \field{volume}{45}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+    \endentry
+    \entry{rubin1978}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{37fe180f849ae0085cba2b45692be375}
+      \strng{fullhash}{37fe180f849ae0085cba2b45692be375}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1978}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the survey research methods section of the American Statistical Association. Vol. 1.}
+      \field{title}{Multiple imputations in sample surveys-a phenomenological Bayesian approach to nonresponse}
+      \field{year}{1978}
+    \endentry
+    \entry{Rubin_matching}{article}{}
+      \name{author}{1}{}{%
+        {{hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Statistical Association, Taylor \& Francis, Ltd.}%
+      }
+      \strng{namehash}{37fe180f849ae0085cba2b45692be375}
+      \strng{fullhash}{37fe180f849ae0085cba2b45692be375}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1986}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{07350015}
+      \field{journaltitle}{Journal of Business \& Economic Statistics}
+      \field{number}{1}
+      \field{title}{Statistical Matching Using File Concatenation with Adjusted Weights and Multiple Imputations}
+      \field{volume}{4}
+      \field{year}{1986}
+      \field{pages}{87\bibrangedash 94}
+      \range{pages}{8}
+    \endentry
     \entry{Rubin1987}{book}{}
       \name{author}{1}{}{%
         {{hash=37fe180f849ae0085cba2b45692be375}{Rubin}{R\bibinitperiod}{Donald\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
@@ -871,27 +1036,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{99}
-      \field{title}{Multiple Imputation for Nonresponse in Surveys (Wiley Series in Probability and Statistics)}
+      \field{title}{Multiple Imputation for Nonresponse in Surveys}
       \field{year}{1987}
-    \endentry
-    \entry{schafer99}{article}{}
-      \name{author}{1}{}{%
-        {{hash=1db323a8c1b976ce77980a0fb7764a5b}{Schafer}{S\bibinitperiod}{Joseph\bibnamedelima L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{1db323a8c1b976ce77980a0fb7764a5b}
-      \strng{fullhash}{1db323a8c1b976ce77980a0fb7764a5b}
-      \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{1999}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Statistical Methods in Medical Research}
-      \field{title}{Multiple imputation: a primer}
-      \field{volume}{8}
-      \field{year}{1999}
-      \field{pages}{3\bibrangedash 15}
-      \range{pages}{13}
     \endentry
     \entry{schafer1998multiple}{article}{}
       \name{author}{2}{}{%
@@ -1076,6 +1222,33 @@
       \field{title}{Quantifying International Production Sharing at the Bilateral and Sector Levels}
       \field{year}{2013}
     \endentry
+    \entry{White_MI_chained}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c6abac5590a6c14cb32798e94687c96a}{White}{W\bibinitperiod}{Ian\bibnamedelima R.}{I\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=d77ac0af604c52daf07a18aced65b51b}{Royston}{R\bibinitperiod}{Patrick}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=7d446bd7c93659e7007e4ff7094941c5}{Wood}{W\bibinitperiod}{Angela\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd.}%
+      }
+      \strng{namehash}{7c75f01a1f20212b6e07726a95c24f28}
+      \strng{fullhash}{7c75f01a1f20212b6e07726a95c24f28}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1097-0258}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{number}{4}
+      \field{title}{Multiple imputation using chained equations: Issues and guidance for practice}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{pages}{377\bibrangedash 399}
+      \range{pages}{23}
+      \keyw{missing data,multiple imputation,fully conditional specification}
+    \endentry
     \entry{yeats}{article}{}
       \name{author}{1}{}{%
         {{hash=153129d32be63baf67c8d5c1b81bf7c3}{Yeats}{Y\bibinitperiod}{AlexanderJ.}{A\bibinitperiod}{}{}{}{}}%
@@ -1104,11 +1277,11 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{Costinot}
   \missing{bladwin}
   \missing{(}
-  \missing{daudin}
   \missing{Leromain}
+  \missing{daudin}
+  \missing{Costinot}
 \endrefsection
 \endinput
 

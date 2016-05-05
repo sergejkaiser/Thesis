@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.30)  29 APR 2016 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.30)  5 MAY 2016 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1819,13 +1819,6 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Costinot
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                bladwin
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1840,6 +1833,13 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Leromain
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                daudin
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1847,7 +1847,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Leromain
+(biblatex)                Costinot
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2017,7 +2017,7 @@ Package geometry Warning: Over-specification in `h'-direction.
 
 \openout2 = `./first_page.aux'.
 
-(./first_page.tex <Picture1.png, id=95, 546.843pt x 78.2925pt>
+(./first_page.tex <Picture1.png, id=91, 546.843pt x 78.2925pt>
 File: Picture1.png Graphic file (type png)
  <use Picture1.png>
 Package pdftex.def Info: Picture1.png used on input line 3.
@@ -2032,7 +2032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-<Picture2.png, id=96, 287.27325pt x 250.536pt>
+<Picture2.png, id=92, 287.27325pt x 250.536pt>
 File: Picture2.png Graphic file (type png)
  <use Picture2.png>
 Package pdftex.def Info: Picture2.png used on input line 18.
@@ -2074,12 +2074,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
  [7] [8
 
 
-] (./main.lot
-Overfull \hbox (2.19125pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/lmr/m/n/10.95 Correlation struc-tural RCA and rel-a-tive net-work cen-tral-ity -- ro-bust-ness to changes 
- []
-
-)
+] (./main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
@@ -2119,7 +2114,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 11.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 24.
 
 [1
 
@@ -2143,11 +2138,14 @@ chapter 2.
 
 ] [6]) [7] (./chapter3_estimation.tex
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 21.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 14.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 33.
 
 [8
 
-]) (./chapter3_results.tex [9]
+] [9]) (./chapter3_results.tex [10]
 Overfull \hbox (7.65677pt too wide) in paragraph at lines 79--108
  [][] 
  []
@@ -2167,9 +2165,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--140
 []$
  []
 
-) (./chapter3_relative_ranking.tex [10] [11]
+) (./chapter3_relative_ranking.tex [11] [12]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 8.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 21.
 
 (./fig/spearman_fddva_std_balassa-march.tex)
 File: ./fig/spearman_fddva_std_balassa-march.tex Graphic file (type tex)
@@ -2179,29 +2177,38 @@ File: ./fig/kendall_fddva_exgr_std_balassa-march.tex Graphic file (type tex)
 File: ./fig/spearman_exgr_dva_std_balassa-march.tex Graphic file (type tex)
  (./fig/kendall_dva_exgr_std_balassa-march.tex)
 File: ./fig/kendall_dva_exgr_std_balassa-march.tex Graphic file (type tex)
- [12] [13] (./fig/forw_exgr_DEU_BEL_tiva.tex)
+ [13] [14] (./fig/forw_exgr_DEU_BEL_tiva.tex)
 File: ./fig/forw_exgr_DEU_BEL_tiva.tex Graphic file (type tex)
  (./fig/back_exgr_DEU_BEL_tiva.tex)
 File: ./fig/back_exgr_DEU_BEL_tiva.tex Graphic file (type tex)
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 23--25
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 67--69
 [][] [] 
  []
 
-) [14]
+) [15]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex
+ (./chapter4.tex [16
+
+
+
+]
 chapter 3.
-[15
+[17]
+
+LaTeX Warning: Reference `tab:prod_cent' on page 18 undefined on input line 63.
 
 
+LaTeX Warning: Reference `tab:prod_cent' on page 18 undefined on input line 65.
 
-] [16] [17]
-Overfull \hbox (44.08784pt too wide) in paragraph at lines 129--129
-[][] 
- []
 
+LaTeX Warning: Reference `kend_spear_RCA_cent' on page 18 undefined on input line 66.
+
+(./fig/kend_spear_RCA_cent_april_i.tex)
+File: ./fig/kend_spear_RCA_cent_april_i.tex Graphic file (type tex)
+ (./fig/kend_spear_RCA_cent_april_ii.tex)
+File: ./fig/kend_spear_RCA_cent_april_ii.tex Graphic file (type tex)
 ) [18]
 \openout2 = `chapter5.aux'.
 
@@ -2217,12 +2224,12 @@ chapter 4.
 
 
 
-] [22] [23] [24
+] [22] [23] [24]
+chapter A.
+[25
 
 
 ]
-chapter A.
-[25]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex [26
@@ -2278,27 +2285,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3856F94B4CC99D8D35C509C23FA9A450;1565.
+(rerunfilecheck)             Checksum: D9805A7563C50848B515285C7510249E;1509.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43028 strings out of 493091
- 834346 string characters out of 6134964
- 1479055 words of memory out of 5000000
- 45555 multiletter control sequences out of 15000+600000
+ 43085 strings out of 493091
+ 835724 string characters out of 6134964
+ 1478029 words of memory out of 5000000
+ 45600 multiletter control sequences out of 15000+600000
  102847 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,18n,110p,10356b,3273s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,16n,110p,10356b,3280s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on main.pdf (44 pages, 674614 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on main.pdf (44 pages, 708338 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

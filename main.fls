@@ -569,6 +569,12 @@ INPUT ./fig/back_exgr_DEU_BEL_tiva.tex
 OUTPUT chapter4.aux
 INPUT chapter4.tex
 INPUT chapter4.tex
+INPUT ./fig/kend_spear_RCA_cent_april_i.tex
+INPUT ./fig/kend_spear_RCA_cent_april_i.tex
+INPUT ./fig/kend_spear_RCA_cent_april_i.tex
+INPUT ./fig/kend_spear_RCA_cent_april_ii.tex
+INPUT ./fig/kend_spear_RCA_cent_april_ii.tex
+INPUT ./fig/kend_spear_RCA_cent_april_ii.tex
 OUTPUT chapter5.aux
 INPUT chapter5.tex
 INPUT chapter5.tex
@@ -597,11 +603,12 @@ INPUT ./main.out
 INPUT ./main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb
