@@ -1,8 +1,13 @@
 %!TEX TS-program=pdflatexmk
 \documentclass[11pt,leqno,a4paper]{scrbook}
-\usepackage[backend=biber, authordate, autocite=inline ,firstinits=true, uniquename=false, isbn=false, url=false,  hyperref=true , doi=false]{biblatex-chicago}
+\usepackage[backend=biber, authordate, autocite=inline , firstinits=true, uniquename=false, isbn=false, url=false,  hyperref=true , doi=false]{biblatex-chicago}
 \usepackage[margin=2.5cm]{geometry}
+\usepackage{overpic}
 \usepackage{thesisMacros}
+\definecolor{kuleuven}{RGB}{29,141,176}
+\definecolor{kuleuven1}{RGB}{82,189,236}
+\usepackage{geometry}
+
 
 \renewcommand{\baselinestretch}{1.2}
 
@@ -39,10 +44,10 @@
 
 \frontmatter
 \pagenumbering{Roman}
-\include{./first_page}
+%\include{first_page}
+\pagestyle{empty}
+\tableofcontents
 
-
-\cleardoublepage
 \restoregeometry
 \setcounter{tocdepth}{1}
 
@@ -129,7 +134,7 @@ $ITN^k$& International Trade Network in industry $k$ \\ \bottomrule
 
 \begin{flushright}
 This Master thesis  is submitted to partially fulfill the requirements to obtain the degree of Master of Science in
-Economics from the KU Leuven. Especially  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, helping me to advance this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.
+Economics from the KU Leuven. Especially,  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, which helped me to advance this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.
 Leuven, 15/03/2016.
 \end{flushright}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
