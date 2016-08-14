@@ -3,21 +3,21 @@
 \chapter{Structural Ricardian comparative advantage for value-added trade}
 \label{cha:empirical}
 In this chapter I outline the necessary concepts to test the first hypothesis about RCA.
-The first hypothesis is that given the large extent of IPF, I expect that the ranking of RCA is different when IPF is taken into account.
-First, I outline the concept of value-added exports, which were suggested as a correct measure to understand ``who is producing for whom'' \textcite{daudin2011}.
+The first hypothesis is that the RCA ranking is different if IPF is taken into account.
+First, I outline the concept of value-added exports, which were put forward to answer policy questions as ``who is producing for whom'' \textcite{daudin2011}.
  Moreover, I outline important aspects of the Ricardo model of \textcite{costinot} to explain the construction of the structural RCA measure.
  After outlining the model, I highlight with a simple extension how the structural RCA measure can be used to test the first hypothesis.
 Next, I discuss the estimation of the two components of the RCA measure.
-I highlight the construction of the sample and
+I highlight the construction of the sample and explain the data source choices.
 In the last part of this chapter, I compare the structural RCA ranking for value-added exports and gross exports.
 . %The correlation analysis is answering the first objective, whether IPF has an important impacts on RCA.
 %I expect that if IPF has a strong impact on technological comparative advantage that the sector-specific sourcing and input structures strongly vary in different sectors.  The result of this would be that the rankings based on gross exports and domestic value-added exports would be significantly different.
 \section{What for value-added exports and which indicator of value added exports ?} \label{sec:vax}
-%
+%why not exgr
 The literature on value-added exports is motivated by shortcomings of gross exports due to international production fragmentation (IPF).
-Whereas before IPF emerged  goods were produced in a industry with a vertical-integrated production process \textcite{Feenstra}, since then
-goods are produced in several production sites in different countries.
-Therefore intermediate goods  frequently cross country borders in the production process.
+Before IPF emerged goods were produced in a industry with a vertical-integrated production process \textcite{Feenstra}, since IPF emerged
+goods are produced in several production sites in different countries \textcite{daudin2011}.
+Therefore intermediate goods frequently cross country borders in the production process.
  As a result of IPF gross exports include a large share of double counting, foreign value added and overstate the domestic value-added in exports \textcite{johson}.
 Hence, they are not reliable to understand how value-added is traded between countries \parencite{johnson}. \par
 
@@ -27,80 +27,66 @@ Hence, they are not reliable to understand how value-added is traded between cou
 %    \textcite{Koopman} criticiz  ed this indicator of vertical trade for two reasons.
 %    First, it assumes that the amount of imported inputs used in domestic and exports industry is the same and certain types of exports violate this assumption. Second, the concept assumes that imports are completely sourced abroad. The authors argued that this assumption no longer necessarily holds for more than two countries. Therefore, they reasoned that a different indicator value-added exports is better suited to study IPF, as it does not include any double counting and correctly attributes value-added in the production process to . %In the next paragraph I describe the intuition behind the domestic value-added concept. I turn to the work of \textcite{Koopman} and \textcite{johnson},  which both put forth accounting frameworks to decompose gross exports into value-added exports (VAX) and further decompose VAX into different items as domestic value-added exports.
 % \par
-Value-added exports is to describe how much domestic value-added (GDP) is sold across destinations \textcite{johnson}.
-Specifically, they trace how much domestic-value added is included in the final expenditures in each destination \textcite{Johnson2012}.
+Value-added exports describe how much domestic value-added (GDP) is sold across destinations \textcite{johnson}.
+Specifically, they trace how much domestic-value added is included in the final expenditures across destination \textcite{Johnson2012}.
 Moreover, value-added exports is net of any double counting \textcite{Koopman}.
 \par
 %
 To decompose gross exports into value-added exports it is sufficient to apply Leontief's insight \textcite{wang2013}.
  I describe the intuition behind the decomposition below and give more detail in the appendix.
   Leontief showed based on input-output tables, which collect input requirements at each stage of the production, that one can trace the type and amount of intermediate  requirements to produce one unit of output across countries and industries.
-  Based on Leontief  the intuition of decomposition gross exports into value-added exports for the two countries home and foreign is as follows.
-  Initially, a firm producing an export of the value of one dollar, creates direct domestic value-added.
-  The good is produced with intermediate goods itself.
-  The production of the intermediate goods created a indirect value-added.
-  The intermediate goods, however, may be also produced using intermediate goods etc.
-  The total domestic value-added, which is induced by the production of the one dollar export, is thus the sum of all direct and indirect value-added.
+ Initially, a firm producing an export of the value of one dollar, creates direct domestic value-added.
+  In addition, the exported good is produced with intermediate goods.
+  The production of the intermediate goods emobdied in the export created a first round of indirect value-added.
+Furthermore, the intermediate goods were also produced using intermediate goods.
+The production of those intermediate goods created as well indirect value-added.
+Keeping track of the production structure for the whole economy, it becomes clear that
+  the total domestic value-added induced by the production of the one dollar export, is the sum of all direct and indirect value-added.
      \par
-  At the country level the accounting framework of \textcite{Koopman} showed how to decompose gross exports into value-adeed exports and pure double counting.
-   A further refinement of the framework by \textcite{wang2013} exports at the bilateral, sectoral, sectoral-country level leads to two different important perspectives,
-   the backward linkages perspective and the forward linkages perspective \textcite{wang2013}. \par
-Backward linkage value-added exports of an industry include the direct domestic value-added of that industry and other upstream domestic industries in the gross exports of the exporting industry.
- This perspective is based on the destination country's view.
+  At the country level the accounting framework of \textcite{Koopman} showed how to decompose gross exports into value-added exports and pure double counting.
+   A further refinement of the framework by \textcite{wang2013} extended the decomposition to the bilateral, sectoral, sectoral-country level.
+However, at this level two different perspectives emerge about value-added exports.
+   Firstly, the backward linkages perspective and secondly the forward linkages perspective \textcite{wang2013}. \par
+ Backward linkage value-added exports of an industry include the direct domestic value-added of that industry and further upstream domestic industries in the gross exports of the exporting industry.
+ This perspective is based on the importing country's view.
   It traces the sources of exports back to a country-sector \textcite{wang2013}. \par
-  The forward linkages perspective  traces the value-added of an industry, which is either directly or indirectly  through other industry is used to satisfy foreign final demand.
+  The forward linkages perspective  traces the value-added of an industry, whether it is directly or indirectly via other industry used to satisfy foreign final demand.
   This perspective is a supply side view.
-  It describes how the value-added produced in one industry is used to satisfy foreign final demand through direct and indirect exports \textcite{wang2013}. Further, this perspective is in line with the factor content view of trade.
+  It describes how the value-added produced in one industry is used to satisfy foreign final demand through direct and indirect exports \textcite{wang2013}.
+  Further, this perspective is in line with the factor content view of trade.
 \par
-%Why use DVA
-% KWW (2014) p.32 "Because domestic value added or
-%GDP in a country?s exports describes the characteristics of a country?s production
-%(total domestic factor content in exports), it does not depend on where the exports
-%are absorbed. For those applications in which a production-based RCA is the right
-%measure, we can use GDP in exports to compute RCA."
-%WWZ . "In other words, it decomposes GDP (domestic value-added) by industries according to where (i.e., which
-%sector/country) it is used. Such a forward linkage perspective is consistent with the
-%literature on factor content of trade.
-%The traditional RCA ignores both domestic production sharing and
-%international production sharing. To be more specific, first, it ignores the fact that a
-%country-sector’s value added may be exported indirectly via the country’s exports in
-%other sectors. Indirect exports of a sector’s value added should be included in a
-%conceptually correct measure of a country’s sector’s comparative advantage. Second,
-%it also ignores the fact that a country-sector’s gross exports partly reflect foreign
-%contents (which show up in both FVA and a portion of PDC). A conceptually correct
-%measure of comparative advantage needs to exclude foreign-originated value added
-%and pure double counted terms in gross exports but include indirect exports of a
-%sector’s value added through other sectors of the exporting country."
+ % one wishes to understand the fraction of a country-sector’s gross exports that reflects a country’s domestic value added,
+ %  one should look at the backward-linkage based value added for that sector, which by our decomposition formula
+ %  is DVA = gross exports – FVA–RDV–PDC. If one wishes to understand the contribution of all value added from a given sector
+ %  to the country’s aggregate exports, one should look at the forward- linkage based measure of value added exports.
 The two perspectives are useful for different purposes \textcite{wang2013}.
-First a backward-linkages based view is useful to understand a country's domestic value added which is embodied in it's exports.
-In the context of RCA, the domestic value-added in gross exports, is consistent with a production based RCA,
- since it measures the 'total domestic factor content in exports'  \textcite(p.490){Koopman} note. \par
- Second, \textcite{wang2013} describe that  the forward linkages perspective on value-added exports is helpful to understand how much value-added a given sector contributes to a country's exports.
+Firstly, a backward-linkages based view is useful to understand how large the share is of a sector country   domestic value added in it's exports.
+% In the context of RCA, the domestic value-added in gross exports, is consistent with a production based RCA,
+%  since it measures the 'total domestic factor content in exports'  \textcite(p.490){Koopman} note. \par
+ % Second, \textcite{wang2013} describe that  the forward linkages perspective - is helpful to understand how much value-added a given sector contributes to a country's exports.
   This indicator correctly attributes how much value-added an industry exports either directly or indirectly through further downstream industries.
-  The RCA ranking with this indicator shows how efficiently an industry uses the domestic factors of production  \textcite{bladwin}. % Further, they use this indicator to compute an RCA ranking with the ad-hoc Balassa index of RCA in several industries and compared it with gross exports and found significant differences.. \par
+  The RCA ranking with this indicator shows how efficiently an industry uses the domestic factors of production  \textcite{baldwin}. % Further, they use this indicator to compute an RCA ranking with the ad-hoc Balassa index of RCA in several industries and compared it with gross exports and found significant differences.. \par
+Secondly, the forward perspective is useful to understand how much value-added of a sector is exported by itself and other domestic industries.
 %. Based on this indicator they analyze the evolution of RCA over time for the country pair China and the USA in the sector "Electrical and Optical Equipment". \par
 % I will create rankings based on both indicators. The motivation to create an RCA ranking based on backward linkages is that it implies the view that a country's  RCA in an industry is also based on domestic supply chains. Further creating such a ranking allows to compare the results I obtain to \textcite{Koopman}. On the other hand, the forward linkages view may be valuable as it is close to the factor content view of trade. Creating a ranking would indicate that a industry in one country employs the factors of production more efficiently.
-\par %Why
-Various sources on value added trade expor data exist.
- In this thesis I use the value-added export data from the TiVA \textcite{tiva2} database.
- This choice is motivated at first that the estimation of the structural RCA requires matching different databases, which are based on a industry classification similar to the classification of use in TiVA.
- Further, from a substantial point TiVA data provides a larger country coverage with a more regional diverse focus.
-  In addition, to my knowledge showed only one author has employed the TiVA data based on \textcite{johnson}. \par
-Further, to construct the structural RCA indicator, I obtained the following data, R \&D expenditure from \textcite{stan2} ANBERD and  international producer price data from the GGDC  \parencite{Inklaar2012}.
-The sample I obtain by combining this sources is the estimation sample.
+\par %Which VAX source
+ In this thesis I use the value-added export data from the TiVA \textcite{tiva2} database and in a further step cross-validate the results with the WIOD \textcite{Timmer2012}.
+I choose the TiVA database as the main source as the TiVA data provides a larger country coverage with a more regional diverse focus.
+In addition, to my knowledge only one author has previously employed the TiVA data  \parencite{johnson}.
+In addition, the TiVA data is at a similar aggregate industry level as the other data sources. \par
+I combine the TiVA data with other data sources to create the estimation sample.
+The sample includes R \&D expenditure data from \textcite{stan2} ANBERD and  international producer price data from the GGDC  \parencite{Inklaar2012}.
 It includes twenty nine countries and twenty two industries at the ISIC Rev.3 level. \par
-At the second stage I require only the value-added exports data of the TiVA.
-This larger dataset includes the twenty two industries at the ISIC Rev.3 classification and fifty six countries.
+Further, I create a large sample, which uses only the TiVA to estimate a fixed effects regression.
+I included in this larger dataset all countries, which had records on forward \&backward value-added exports \footnote{15 countries did not have positive records on forward linkages value-added exports and were therefore omitted from the sample.
+The following countries were thus ommited, Lithuania Latvia, Malta, Malaysia, Philippines, Romania, Rest of the World, Russia, Singapore, Thailand, Tunisia, Taiwan, Vietnam, South Africa, Costa Rica, Brunai Darussalem, Khambodia, Island.}.
+Further, to obtain a consistent sample across industries I excluded some countries because they had no exports recorded in at least one sector \footnote{ Island, Costa Rica, Brunei Darussalam}. % For the last two countries, the extensive margin at the industry level, which is the number of destinations of non-zero exports from industry divided by the theoretical maximum was less than fifty percent.
+Another adjustment is that I excluded Saudi Arabia because its exports mainly consist of oil \footnote{ For 2005, the share of petroleum exports accounts for  90\% of the fob exports. Fob denotes the price of a good at the factory excluding delivery and insurance costs \parencite[p.78]{combes}} \parencite{opec}.
+The final sample includes twenty two industries at the ISIC Rev.3 classification and fifty six countries.
 \par
-Further to create the first sample several data managements steps were necessary.
-To reconcile the industry coverage of TiVA and the GGDC international price data I aggregated the international price data using the ISIC Rev. 3.1 two digits classification.
- The data management steps enabled me to extend the sample to include a larger proportion of service sectors. In practice, I aggregated  the prices using a weighted average.
-  I specified as the  weights the relative share of the industries in terms of its sector value-added share with country industry data from the  \textcite{OECDSTAN} STAN database.
-  Further, in case of missing data on value-added output data  I aggregated the prices by a simple average.
-  The resulting cross-section sample spans 22 industries and  29 countries for the year 2005.
-   Moreover in the appendix in table \ref{tab:sumstat} I report the descriptive statistics of the sample.  \par
-Further, compared to the full country coverage of the TiVA November release I excluded some countries because they had no exports to any destination recorded in at least one sector \footnote{ Island, Costa Rica, Brunei Darussalam}. % For the last two countries, the extensive margin at the industry level, which is the number of destinations of non-zero exports from industry divided by the theoretical maximum was less than fifty percent.
-Further, I excluded Saudi Arabia because its exports mainly consist of oil \footnote{ For 2005, the share of petroleum exports accounts for  90\% of the fob exports. Fob denotes the price of a good at the factory excluding delivery and insurance costs \parencite[p.78]{combes}} \parencite{opec}.
-Moreover, fifteen  countries did not have records on forward linkages value-added exports and were therefore as well omitted from the sample \footnote{Lithuania Latvia, Malta, Malaysia, Philippines, Romania, Rest of the World, Russia, Singapore, Thailand, Tunisia, Taiwan, Vietnam, South Africa, Costa Rica, Brunai Darussalem, Khambodia, Island}.
-Thus, the fixed-effects sample includes 22 industries and 43 countries for the year 2005.
+In order to create the estimation sample several data adjustments were necessary.
+I reconciled the industry coverage of TiVA and the GGDC international price data by aggregating the international price data using the ISIC Rev. 3.1 two digits classification.
+The aggregation extended the sample such that it includes a larger share of service sector industries.
+Specifically, I aggregated  the prices using a weighted average with weights equivalent to the relative value-added of an industry across the aggregate industries. I obtained the value-added output data from  \textcite{OECDSTAN} STAN database.
+Moreover in the appendix in table \ref{tab:sumstat} I report the descriptive statistics of the sample.
 \endinput

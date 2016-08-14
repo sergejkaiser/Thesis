@@ -130,18 +130,18 @@ Further, the standard error is computed as follows $SE=\sqrt{W+ 1/(m-1)*B}$.
 Moreover, I apply the Fisher transformation to the $m$ R-squared and then average them, and reverse the transformation after averaging.
 This step is suggested to improve the asymptotic normality, as Rubins Rules are obtained for asymptotically normal distributed variables.
 \par
-\subsection{Sample}
-I have created two samples for the estimation the RCA.
-The first smaller estimation sample, constis of the international price data from the GGDC \parencite{Inklaar2012}, the value-added exports and gross exports data from the \cite{tiva2}  database, and R \&D expenditure data from the \textcite{stan2} ANBRED.
-To construct the sample I merged the data sources using the ISIC Rev.3.1 two digits classification.
-Especially, I to allow merging of the international price data I aggregated several service industries using a weighted average. I chose the weights to be equal to the sectoral share of value added output constructed with the data from the \textcite{OECDSTAN} STAN database. \par
-Further, I constructed a larger fixed effect sample to obtain the exporter-industry fixed efffect.
-The sample includes nearly the complete countries of the TiVA, as it only requires gross exports and value-added export data.
-I made several adjustments to the sample industry and country coverage due to missing observations. First, concerning the industry coverage I excluded the "Utilities" industry from all estimations due to missing observations.
-Further I excluded certain countries (Malta, Island, Costa Rica, Brunei Darussalam, Cambodia) because they had no positive exports in at least one sector in 2005.
-Especially, the last two countries recorded many zero exports. The data recorded for both countries positive exports in less than fifty percent of the cases.
-Further, I excluded Saudi Arabia from the estimations because it exports mainly oil. Hence, I expect that for Saudi Arabia the soruces of CA are rather factor endowments than productivity differences.
-E.g. in 2005 the share of petroleum exports accounts for  90\% of the fob exports of Saudi Arabia \parencite{opec}.
+% \subsection{Sample}
+% I have created two samples for the estimation the RCA.
+% The first smaller estimation sample, constis of the international price data from the GGDC \parencite{Inklaar2012}, the value-added exports and gross exports data from the \cite{tiva2}  database, and R \&D expenditure data from the \textcite{stan2} ANBRED.
+% To construct the sample I merged the data sources using the ISIC Rev.3.1 two digits classification.
+% Especially, I to allow merging of the international price data I aggregated several service industries using a weighted average. I chose the weights to be equal to the sectoral share of value added output constructed with the data from the \textcite{OECDSTAN} STAN database. \par
+% Further, I constructed a larger fixed effect sample to obtain the exporter-industry fixed efffect.
+% The sample includes nearly the complete countries of the TiVA, as it only requires gross exports and value-added export data.
+% I made several adjustments to the sample industry and country coverage due to missing observations. First, concerning the industry coverage I excluded the "Utilities" industry from all estimations due to missing observations.
+% Further I excluded certain countries (Malta, Island, Costa Rica, Brunei Darussalam, Cambodia) because they had no positive exports in at least one sector in 2005.
+% Especially, the last two countries recorded many zero exports. The data recorded for both countries positive exports in less than fifty percent of the cases.
+% Further, I excluded Saudi Arabia from the estimations because it exports mainly oil. Hence, I expect that for Saudi Arabia the soruces of CA are rather factor endowments than productivity differences.
+% E.g. in 2005 the share of petroleum exports accounts for  90\% of the fob exports of Saudi Arabia \parencite{opec}.
 \endinput
 %  In the first step each missing value is imputed with value from random sampling with replacement from the observed values.
 %"Multiple imputation using chained equations: Issues and guidance for practice" Ian R.White,a ?? Patrick Roystonb and AngelaM.Woodc
