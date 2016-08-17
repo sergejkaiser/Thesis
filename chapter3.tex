@@ -60,33 +60,41 @@ However, at this level two different perspectives emerge about value-added expor
  %  is DVA = gross exports – FVA–RDV–PDC. If one wishes to understand the contribution of all value added from a given sector
  %  to the country’s aggregate exports, one should look at the forward- linkage based measure of value added exports.
 The two perspectives are useful for different purposes \textcite{wang2013}.
-Firstly, a backward-linkages based view is useful to understand how large the share is of a sector country   domestic value added in it's exports.
+Firstly, an indicator baed on backward-linkages is useful to understand how much domestic value added of a country is expored via the country-setor's exports.
 % In the context of RCA, the domestic value-added in gross exports, is consistent with a production based RCA,
 %  since it measures the 'total domestic factor content in exports'  \textcite(p.490){Koopman} note. \par
  % Second, \textcite{wang2013} describe that  the forward linkages perspective - is helpful to understand how much value-added a given sector contributes to a country's exports.
   This indicator correctly attributes how much value-added an industry exports either directly or indirectly through further downstream industries.
-  The RCA ranking with this indicator shows how efficiently an industry uses the domestic factors of production  \textcite{baldwin}. % Further, they use this indicator to compute an RCA ranking with the ad-hoc Balassa index of RCA in several industries and compared it with gross exports and found significant differences.. \par
+  The RCA ranking with this indicator shows how efficiently an industry uses the domestic factors of production  \textcite{baldwin2014}. % Further, they use this indicator to compute an RCA ranking with the ad-hoc Balassa index of RCA in several industries and compared it with gross exports and found significant differences.. \par
 Secondly, the forward perspective is useful to understand how much value-added of a sector is exported by itself and other domestic industries.
 %. Based on this indicator they analyze the evolution of RCA over time for the country pair China and the USA in the sector "Electrical and Optical Equipment". \par
 % I will create rankings based on both indicators. The motivation to create an RCA ranking based on backward linkages is that it implies the view that a country's  RCA in an industry is also based on domestic supply chains. Further creating such a ranking allows to compare the results I obtain to \textcite{Koopman}. On the other hand, the forward linkages view may be valuable as it is close to the factor content view of trade. Creating a ranking would indicate that a industry in one country employs the factors of production more efficiently.
 \par %Which VAX source
- In this thesis I use the value-added export data from the TiVA \textcite{tiva2} database and in a further step cross-validate the results with the WIOD \textcite{Timmer2012}.
-I choose the TiVA database as the main source as the TiVA data provides a larger country coverage with a more regional diverse focus.
-In addition, to my knowledge only one author has previously employed the TiVA data  \parencite{johnson}.
-In addition, the TiVA data is at a similar aggregate industry level as the other data sources. \par
-I combine the TiVA data with other data sources to create the estimation sample.
-The sample includes R \&D expenditure data from \textcite{stan2} ANBERD and  international producer price data from the GGDC  \parencite{Inklaar2012}.
-It includes twenty nine countries and twenty two industries at the ISIC Rev.3 level. \par
-Further, I create a large sample, which uses only the TiVA to estimate a fixed effects regression.
-I included in this larger dataset all countries, which had records on forward \&backward value-added exports \footnote{15 countries did not have positive records on forward linkages value-added exports and were therefore omitted from the sample.
-The following countries were thus ommited, Lithuania Latvia, Malta, Malaysia, Philippines, Romania, Rest of the World, Russia, Singapore, Thailand, Tunisia, Taiwan, Vietnam, South Africa, Costa Rica, Brunai Darussalem, Khambodia, Island.}.
-Further, to obtain a consistent sample across industries I excluded some countries because they had no exports recorded in at least one sector \footnote{ Island, Costa Rica, Brunei Darussalam}. % For the last two countries, the extensive margin at the industry level, which is the number of destinations of non-zero exports from industry divided by the theoretical maximum was less than fifty percent.
-Another adjustment is that I excluded Saudi Arabia because its exports mainly consist of oil \footnote{ For 2005, the share of petroleum exports accounts for  90\% of the fob exports. Fob denotes the price of a good at the factory excluding delivery and insurance costs \parencite[p.78]{combes}} \parencite{opec}.
-The final sample includes twenty two industries at the ISIC Rev.3 classification and fifty six countries.
+ In this thesis I use the value-added export data from the TiVA \textcite{tiva2} database and in a further step cross-validate the results with the input-output data from WIOD \textcite{Timmer2012}.
+I choose the TiVA database as the main source it has a larger country coverage with a regionally more diverse focus.
+In addition, to my knowledge only one author has previously used the TiVA data  \parencite{johnson}.
+Finaly, I chose the TiVA data  as they  have a similar aggregate industry coverage as the other two data sources. \par
+I constructed the estimation sample with value-added export data from TIVA, R \&D expenditure data from \textcite{stan2} ANBERD and  international producer price data from the GGDC  \parencite{Inklaar2012}.
+The estimation sample includes twenty nine countries and twenty two industries. \par
+Further, I concstructed a large sample with value-added exports and gross exports from the TiVA database in order to estimate a fixed effects regression.
+The sample covers all countries from TiVA, which had records on forward \&backward value-added exports \footnote{15 countries did not have positive records on forward linkages value-added exports and were therefore omitted from the sample.
+The following countries were thus omitted, Lithuania Latvia, Malta, Malaysia, Philippines, Romania, Rest of the World, Russia, Singapore, Thailand, Tunisia, Taiwan, Vietnam, South Africa, Costa Rica, Brunai Darussalem, Khambodia, Island.}.
+Further, to obtain a consistent sample across industries I excluded some countries, which had no exports recorded in at least one sector \footnote{ Island, Costa Rica, Brunei Darussalam}. % For the last two countries, the extensive margin at the industry level, which is the number of destinations of non-zero exports from industry divided by the theoretical maximum was less than fifty percent.
+Finaly, excluded Saudi Arabia because its exports mainly consist of oil \footnote{ For 2005, the share of petroleum exports accounts for  90\% of the fob exports. Fob denotes the price of a good at the factory excluding delivery and insurance costs \parencite[p.78]{combes}} \parencite{opec}.
+This sample includes twenty two industries and fifty six countries.
 \par
-In order to create the estimation sample several data adjustments were necessary.
-I reconciled the industry coverage of TiVA and the GGDC international price data by aggregating the international price data using the ISIC Rev. 3.1 two digits classification.
-The aggregation extended the sample such that it includes a larger share of service sector industries.
-Specifically, I aggregated  the prices using a weighted average with weights equivalent to the relative value-added of an industry across the aggregate industries. I obtained the value-added output data from  \textcite{OECDSTAN} STAN database.
-Moreover in the appendix in table \ref{tab:sumstat} I report the descriptive statistics of the sample.
+I conducted the following data reconciliations, to construct the  estimation sample.
+To combine the TiVA data with the GGDC data, I aggregated the international price data for to create the manufacturing industry 17-19 (ISIC rev.3.1) from the industries 17 and 18-19.
+Further, I aggregated three service industries.
+First, I constructed the industry 50-55 from the industries 50, 51 ,52 and 55.
+Second, I took a weighted average  of industry 60 and 64 for the industry 60-64.
+Finally, the international price data for industry 75-95 is constructed from the industries 75, 80, 90-93 and 95.
+%*50 51 52 55
+%*60-64
+%75,80,85,90-93,95
+% weights of 75,80,85,90-93,95
+%The aggregation extended the sample such that it includes a larger share of service sector industries.
+Specifically, I aggregated  the prices using a weighted average with weights equivalent to the share value-added of an industry among the industries aggregated in this step.
+I obtained the value-added output data from  \textcite{OECDSTAN} STAN database.
+I report in the appendix a table \ref{tab:sumstat} with the descriptive statistics of the sample.
 \endinput

@@ -58,36 +58,45 @@ As a rule-of-thumb a weak instrument can be ruled out if this F-statistic exceed
 %In the data set, I have missing data in the variables, R \& D and producer prices.
 Concerns about missing data are (1) efficiency losses (2) complications in data handling and data analysis (3) bias due to differences between the observed and unobserved data \parencite{schafer1998multiple}.
 In the first sample, I have missing data in the instrumental variables, R \& D.
-The concern in my estimation is that efficiency losses in the first stage regression  may reduce the strength of the first stage association between R\&D and the inverse of producer prices.
- The IV estimates would therefore show upward biased estimates.
+The concern for the IV estimation here, are that efficiency losses in the first stage regression may reduce the strength of the first stage association between R\&D and the inverse of producer prices.
+ The second stage IV estimates would therefore show upward biased estimate of $\theta$.
 %For these reasons I will impute the instrumented and instrumental variable.
 In the following I motivate and describe the employed missing data technique.  \par
  %motivate choice of technqiue
-To impute the missing data I used the method of multiple imputation, which is a Bayesian technique to impute missing data by simulated draws from a predictive posterior distribution \textcite{}.
+To impute the missing data I used the method of multiple imputation, which is a Bayesian technique to impute missing data by simulated draws from the posterior predictive distribution\footnote{The posterior distrubiton is in Bayesian interference obtained by divding the product of the assumd prior distribution and the Likelihood by normalizing constant.
+The  posterior predicitive distribution describes the predicted value average over the posterior distribution. } \textcite{Rubin1987}.
 It was initially proposed in \textcite{rubin1978} for nonresponse in surveys and it's statistical properties were developed in  \textcite{Rubin1987}.
-I chose multiple imputations  for mainly three reasons.
-Firstly, techniques  ignoring the missing observations in the analysis as e.g complete case methods or case-wise deletion require stronger assumptions than imputation.
-Valid and unbiased statistical results using these technique are obtained only under the strong assumptions that the missing data is a random subset of all observations \parencite{bhaskaran}.
-In the analysis I would therefore assume that the probability of missing values in the producer prices or R\&D are independent of the observed data.
-Secondly, single imputation methods have the draw back that they do not take into account the uncertainty induced by the missing values.
-As a result the estimated variance of a single imputation would be downward biased \parencite{Wooldridge} .
+I chose multiple imputations for the following reasons.
+Firstly, techniques  ignoring the missing observations in the analysis as e.g complete case methods or case-wise deletion require stronger assumptions about the missing data.
+Ignoring the missing observations leads to unbiased interference if the missing data is a random subset of all observations \parencite{bhaskaran}.
+%In the analysis I would therefore assume that the probability of missing values in the producer prices or R\&D are independent of the observed data.
+Secondly, single imputation methods do not take into account the uncertainty induced by the missing values and
+as a result the estimated variances would be downward biased \parencite{Wooldridge}.
 %Finally, maximum likelihood techniques are case specific and are difficult to implement \parencite{schafer1998multiple}.
-Thirdly, multiple imputation offers a  simple and general approach to deal with missing data, which correctly accounts for the uncertainty induced by missing observations \parencite{schafer1998multiple}.
+Multiple imputation offers a  simple and general approach to deal with missing data, which correctly accounts for the uncertainty induced by missing observations \parencite{schafer1998multiple}.
  \par
 In the following, I outline multiple imputation based on \textcite[p.209-211]{Little:2002a}.
-To start with I assume that the indicators of missing values are random variables with a distribution described by a set of parameters $\kappa$.
-Additionally, I assume that the probability of missing observations depends only on observed data and is independent of unobserved data.
+Initially I describe certain assumptions and some notation, which I use in the outline of multiple imputation.
+To start with I assume that the indicators of missing values are random variables with a distribution.
+Additionally, I assume probability of missingness depends only on observed data and is independent of unobserved data.
+Further, I denote with $\kappa$ the parameter of interest.\par
 Multiple imputation is a  simulation method to impute missing values by draws based on the predictive posterior distribution.
 The basic idea is to relate the observed posterior distribution to the complete-data posterior, which would be observed in the absence of missing data.
-It can be shown that the complete-data posterior distribution can be simulated by drawing the missing values from the joint posterior distrbution of the missing data and the observed data
-and in turn drawing the parameters of the distribution from the corresponding complete data posterior.
-Importantly, the authors show that the mean of the posterior distribution can be approximated by the simulated draws $\bar{kappa}=1/M \sum_m=1^M *\kappa$  and the variance can be expressed by the average of the simulated draws of the variance and the between imputations variance $Var(\kappa|X)=\sqrt{\bar{V}+ 1/(m-1)*B}m \, where B=1/{M-1}*\sum_m=1^M(\kappa_m-\bar{kappa}_m)^2 \, \text{and} \,\bar{V}=1/M * sum_m=1^M V_m \, \text{with} V_M=Var{X_obs,X_mis^(d)}$.
-Further, the flexibility of the multiple imputation method allows to use different models for the imputation and the analysis \textcite[p.217]{Little:2002a}.
-After the imputation complete-data methods can be used independently on the $M$ data-sets and the mean and the variance can be pooled based on simulated draws as described.
-Therefore multiple imputation can be regarded as three step procedure.
-In a first step the data set is imputed using simulated draws and in the second step complete-data methods can be used on the $M$ data sets and in the third step the results are pooled.
+It can be shown that the complete-data posterior distribution can be simulated by drawing the missing observations from the joint posterior distribution of the missing data and the observed data.
+The predicted missing values are used to impute the data set.
+The estimate of the parameter is obtained by drawing from the complete data posterior distribution.
+Moreover, if the complete data posterior mean and variance are of interest only, these quantities can be obtained by simulated draws
+from the predictive posterior distribution.
+Specifically, the posterior mean is obtained by taking the mean of simulated draws from the predictive posterior distribution $\kappa=1/m \sum_{imp=1} ^m \kappa^{imp}$.
+Slightly more complex, the variance is a combination of the average of the variance of each imputed data set and the between imputations variance $Var(\kappa|X)=\sqrt{\bar{V}+ 1/(m-1)*B}m \, where B=1/{M-1}*\sum_m=1^M(\kappa_m-\bar{kappa}_m)^2 \, \text{and} \,\bar{V}=1/M * sum_m=1^M V_m \, \text{with} V_M=Var{X_obs,X_mis^(d)}$.
+\par
+The strength of the multiple imputation method allows is that the imputation and the analysis model can be different \textcite[p.217]{Little:2002a}.
+The interference obtained is valid and leads only in extreme cases
 %Van Buren The assumption of ignorability is essentially the belief on the part of the user that the available data are sufficient to correct for the effects of the missing data. The assump- tion cannot be tested on the data itself, but it can be checked against suitable external validation data
 \par
+%Therefore multiple imputation can be regarded as three step procedure.
+After the imputation complete-data methods can be used independently on the $M$ data-sets and the mean and the variance can be pooled based on simulated draws as described.
+In a first step the data set is imputed using simulated draws and in the second step complete-data methods can be used on the $M$ data sets and in the third step the results are pooled.
 % Another multivariate imputation method, which can be used with multiple imputation, is the fully conditional specification.
 % This approach, which is also known as sequential regression or chained equaitions, splits the problem of imputing a joint distribution into several univariate problems \textcite{van2007multiple}.
 % %In this approach I specify for each variable with missing data a conditional specification.
@@ -101,36 +110,32 @@ In a first step the data set is imputed using simulated draws and in the second 
 % The two steps are called a cycle.
 % Usually, several cycles are conducted for each of the $M$ imputations until the algorithm converged to the implicit joint distribution  (\textcite{van2007multiple}).
 %  \par
- Moreover, I combine use multiple imputation with predictive mean matching (PMM).
+ Moreover, I combine multiple imputation with predictive mean matching (PMM).
  PMM  is a nearest neighbor matching technique suggested by \textcite{Rubin_matching}.
-In the framework of MI the PMM technique replaces the missing values with draws from the observed data instead of draws from a posterior distribution.
-As a consequence, the distribution of the imputed variables closely resembles the observed variables.
-The imputation method may be used to impute skewed variables for which normality assumptions are not tenable \parencite{White_MI_chained}.
-Moreover, the PMM technique showed good results in the simulation study of \textcite{Morris2014}.   \par
-In a first step each missing variable is regressed on the imputation model and other variables with missing values.
-From the regression I obtain a set of parameters $\beta$ and responding variances $V$. Further, a simulated $\beta^*$ is than obtained from a multivariate normal distrubiton
-The imputation of the missing values is based on a random draw  from the $q$ \footnote{I chose $q= 10$, therefore the missing value is filled by a random draw from the 10 closest observations.
- This choice rests on the recommendations in the simulation study of \textcite{Morris2014}.} closest  observations, which minimize the distance between the observed parameter multiplied by the covariates $\beta * x_h \quad h=1, \dots n_obs$  and the simulated parameter multiplied by the covariates  $\beta^* * x_p \quad p=1, \dots n_obs$ .
-In the following step, the $q$  observations with the smallest difference between the $\beta$ and $\beta^*$ are identified and from the $q$ closest observations one observations is randomly chosen as imputed value.
+In the framework of MI the PMM technique replaces imputes the missing data with draws from the observed data, which are the closested to the values of a simulated regression model.
+Because the missing data is imputed from the observed data, the distribution of the imputed variables is similar to the observed variables. \par
+The imputation method is suited to impute skewed variables, which would violate the normality assumption invoked by multiple imputation using regression techniques \parencite{White_MI_chained}.
+Both imputed variables R\&D and producer prices are highly skewed variables.
+Moreover, simulation studies analyzing MI with PMM  found that the imputation results were efficient and unbiased \textcite{Morris2014}.   \par
+In the following I outline PMM based on \parencite{White_MI_chained}.
+Initially, each missing variable is regressed on the imputation model and the other variables with missing values.
+From this regression a set of estimates $\beta$ and corresponding variances $V$ are obtained.
+ Further, a simulated $\beta^*$ is than obtained from a multivariate normal distribution.
+The imputation of the missing values is based on a random draw from the $q$ \footnote{I chose $q= 10$, therefore the missing value is filled by a random draw from the 10 closest observations.
+ This choice rests on the recommendations in the simulation study of \textcite{Morris2014}.} closest observations, which minimize the distance between the product of the predicted value of the regresion $\beta x_h$ and the predicted values based on the simulated parameter $\beta^* x_h$.
+%In the following step, the $q$  observations with the smallest difference between the $\beta$ and $\beta^*$ are identified and from the $q$ closest observations one observations is randomly chosen as imputed value.
   \par
-  I specified the imputation model as follows.
-  I decided to impute the R\& D and producer prices since the focus of the imputation is the analysis model of the first stage regression.
-  Further, a simulation study of \textcite{Moons:2006a} suggests that multiple imputation using the outcome leads to unbiased results whereas ignoring the outcome leads to biased results.
-Specifically, the imputation for both the log of R\& D and the log of the inverse of producer prices are based on the country and industry fixed effects dummies.
+  I implemented the imputation as follows.
+  First, I decided to impute both independent and the dependent variable of the first stage regression.
+  Therefore both variables R\& D and producer prices are imputed.
+  In this choice, I follow the recommendation in the simulation study \textcite{Moons:2006a}, which found that multiple imputation without imputing the outcome leads to biased results. \par
+Moreover, I included in the regression imputation model country and industry fixed effects dummies.
  %Moreover, the imputation method  I chose requires that the probability of an missing observations after controlling for observed variables does not depend on unobserved variables \textcite{White_MI_chained}.
 %  In econometrics terminology, ignorable may be interpreted as exogeneous.
-  In the case here, I argue that the assumption of ignorable missigness is plausible  given that I specify  country and industry fixed effect as covaraites to account for unobserved variables.
-  The imputation model is motivated by a similar specification a regression imputation for the log of R\&D in \textcite{costinot}.
-  \par
-  After the multiple imputation the complete-data techniques can be used on each of the $m$ data sets.
-The $m$ results of this step are pooled using Rubins Rules \textcite[p.77]{Rubin1987}.
- These rules suggest that to obtain parameter estimate of $\theta$ I will take the simple average,
-therefore $\theta=1/m  \sum_{imp=1} ^m \theta^{imp}$.
-Further, the standard error is computed as follows $SE=\sqrt{W+ 1/(m-1)*B}$.
-Moreover, I apply the Fisher transformation to the $m$ R-squared and then average them, and reverse the transformation after averaging.
-This step is suggested to improve the asymptotic normality, as Rubins Rules are obtained for asymptotically normal distributed variables.
-\par
-% \subsection{Sample}
+The country and industry fixed effect as covariates account for the variation at country and industry level.
+The fixed effects variables should therefore account for the time-invariant determinants of both variables.
+Moreover, the imputation of the log of R\&D in \textcite{costinot} was based on the same covariates.
+  % \subsection{Sample}
 % I have created two samples for the estimation the RCA.
 % The first smaller estimation sample, constis of the international price data from the GGDC \parencite{Inklaar2012}, the value-added exports and gross exports data from the \cite{tiva2}  database, and R \&D expenditure data from the \textcite{stan2} ANBRED.
 % To construct the sample I merged the data sources using the ISIC Rev.3.1 two digits classification.
