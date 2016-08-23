@@ -1,8 +1,11 @@
 %!TEX TS-program=pdflatexmk
 \documentclass[11pt,leqno,a4paper]{scrbook}
-\usepackage[backend=biber, authordate, autocite=inline ,firstinits=true, uniquename=false, isbn=false, url=false,  hyperref=true , doi=false]{biblatex-chicago}
+\usepackage[backend=biber, authordate, autocite=inline , firstinits=true, uniquename=false, isbn=false, url=false,  hyperref=true , doi=false]{biblatex-chicago}
 \usepackage[margin=2.5cm]{geometry}
+\usepackage{overpic}
 \usepackage{thesisMacros}
+\usepackage{geometry}
+
 
 \renewcommand{\baselinestretch}{1.2}
 
@@ -39,14 +42,15 @@
 
 \frontmatter
 \pagenumbering{Roman}
-\include{./first_page}
+\include{first_page}
+\pagestyle{empty}
+\tableofcontents
 
-
-\cleardoublepage
 \restoregeometry
+\setcounter{equation}{1}
 \setcounter{tocdepth}{1}
 
-\tableofcontents
+
 \chapter*{Abbreviations}\label{av}
 
 
@@ -55,9 +59,11 @@
 \begin{tabular}{ll}
 ANBERD&Analytical Business Enterprise Research and Development \\
 Backw. & Backward \\
+BVAX & Backward value-added exports \\
 F.O.B. & Free on Board  \\
 Forw. & Forward \\
-G7& Group of Seven Leading Industry Nations \\
+FVAX & Forward value-added exports \\
+%G7& Group of Seven Leading Industry Nations \\
 I.I.D. & Independent and Identical Distributed \\
 ISIC & International Standard Industry Classification \\
 IV & Instrumental Variable  \\
@@ -68,7 +74,7 @@ MLE & Maximum Likelihood \\
 PMM& Predictive Mean Matching \\
 %PMLE & Pseudo Maximum Likelihood \\
 %PPML & Poisson Pseudo Maximum Likelihood\\
-RCA& Ricardian Comparative Advantage \\
+RCA & Ricardian Comparative Advantage \\
 STAN & Structural Analysis Database \\
 TiVA& Trade in Value-Added \\
 WIOD & World Input-Output Database \\
@@ -100,7 +106,7 @@ $a^k_i $ & Labour unit requirement in industry $k$ in country $i$ \\
 %$\mu$ & Expected value  of a random variable with poisson distribution  \\
 $B$ & Leontief inverse \\
 $g^k$ & Matrix of graph links \\
-$\cG^k$ &Binary trade network in industry $k$ \\
+$\cG^k$ & Binary trade network in industry $k$ \\
 $N$ & Graph nodes \\
 $x^k_{i,j} $ & Gross exports from  industry $k$ in country $i$ to country $j$  \\
 $\tilde{x_i}^k $ & Openness corrected gross exports from  industry $k$ in country $i$ to country $j$   \\
@@ -129,7 +135,7 @@ $ITN^k$& International Trade Network in industry $k$ \\ \bottomrule
 
 \begin{flushright}
 This Master thesis  is submitted to partially fulfill the requirements to obtain the degree of Master of Science in
-Economics from the KU Leuven. Especially  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, helping me to advance this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.
+Economics from the KU Leuven. Especially,  I want to thank my promotor Liza Archanskaia for her helpful comments and discussions, which helped me to advance this thesis. %Furthermore, I want to thank the fellow students:  Burak,  Kazimira , Joana, Moritz, Nurul, Simon, Sean and Thomas, with whom I spent a lot of hours working on this thesis. Especially, I want to thank  Moritz, Nurul and Ilja for their valuable comments in the earlier stages of the thesis.
 Leuven, 15/03/2016.
 \end{flushright}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,7 +150,7 @@ Leuven, 15/03/2016.
 \include{Math_theorem_generalization}
 \input{chapter3_estimation}
 \input{chapter3_results}
-\input{chapter3_relative_ranking}
+%\input{chapter3_relative_ranking}
 \include{chapter4}
 \include{chapter5}
 \clearpage

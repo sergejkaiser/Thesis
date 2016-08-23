@@ -1,48 +1,49 @@
-%!TEX root=/Users/sergej/Documents/Master/Thesis/main.tex
+%!TEX root=/Users/sergej/Documents/Thesis-new/main.tex
 \section{Estimation method}
-In this section I describe the estimation procedure of  $\theta$ and the industry exporter fixed effects  to construct the structural RCA measure.
-Two aspects of the estimation are central in this section.
+In this section, I describe the estimation procedure of  $\theta$ and the industry exporter fixed effects to construct the structural RCA measure.
+Two aspects of the estimation are central to this section.
 Firstly, I motivate why I estimate $\theta$ with an instrumental variable (IV) regression.
 Secondly, I discuss the missing data techniques, which I employ in the estimation.
 In the last step, I describe the construction of the sample.
 \par %Moreover, I discuss a robustness check of the log linear specification of the regression with a Poisson pseudo maximum likelihood estimation as proposed in \textcite{silva}. \par
 %\subsection{Endogeneity and Errors in Variables}
 %\textcite{costinot} estimate the regression in equation \ref{eq:1} with OLS and IV methods.\par
-Estimating  $\theta$ using OLS yields unbiased  and consistent interference if the independent variable is uncorrelated with the error term.
+Estimating  $\theta$ under OLS yields unbiased and consistent interference if the independent variable is uncorrelated with the error term.
 To assess this assumption it useful to highlight the interpretation of the error term in the model.
-The error term may be interpreted as variable trade cost and other unobserved time varying variable.
-Hence, the assumption requires that the inverse of producer prices should be uncorelated to variabel trade cost.
+The error term may be interpreted as variable trade cost and other unobserved time-varying variables.
+Hence, the assumption requires that the inverse of producer prices should be uncorrelated to variable trade cost.
 \par
 \textcite{costinot} highlight two reasons, why they think that an IV estimation may be necessary.
 The first reason is a simultaneity bias.
 Agglomeration effects, e.g. positive spillover from an exporting firm on the exports of other firms in spatial proximity (\cite{bernard2004} )., could cause a simultaneity bias.
 The sign of the bias is a priori ambiguous \parencite{costinot}. \par
 Second, a measurement error may cause the estimate to be biased toward zero.
-In  general in can be shown that if the dependent variable is measured with a random error the estimated coefficient would be biased towards zero \textcite{angrist2008mostly}.
+In general in can be shown that if the dependent variable is measured with a random error the estimated coefficient would be biased towards zero \textcite{angrist2008mostly}.
 Both biases cause an endogeneity problem, which may be solved using an IV estimation  \parencite[p.139]{Dhaene}. \par
-Finally, under a more general cost function the inverse of producer prices may reflect other sources of comparative advantage than productivity differences.
+Finally, under a more general cost function, the inverse of producer prices may reflect other sources of comparative advantage than productivity differences.
 The IV estimation of the producer prices with the instrument R \& D expenditure may lead to a better identification of the effects of productivity.
  \par
-The IV estimation correctly estimates a causal effect  if the instrument satisfies  two assumptions.
+The IV identification strategy rests on two assumptions about the instrument.
 The exclusion assumption requires that the instrument is uncorrelated with the error term \parencite{cameron2009}.
-In other terms, the instrument R \& D expenditures should only affect the independent variable gross exports through the endogeonous producer prices.
-Further, the relevance assumption requires that  the instrument is sufficiently strong correlated with the endogenous regressor.
+In other terms, the instrument R \& D expenditures should only affect the independent variable gross exports through the endogenous producer prices.
+Further, the relevance assumption requires that the instrument is sufficiently strong correlated with the endogenous regressor.
  \par%In the next paragraph, I discuss the consequences if the second assumption is violated.\par
- The motivation to use  R \& D expenditures as instrument are as follows.
- Firstly, I expect that higher R \& D expenditures
- increase the productivity of a industry.
- In our model the lower production cost would be passed through to the producer pirce and hence increase the exports.
- According to this relationship, I expect that in the first stage the coefficient of R\& D expenditures is positive and statistical significant.
- Such an relationship between productivity of industries and R\&D is e.g. hypothesized in \textcite{Griffith-R_D-2004}.
- Moreover, under this hypothesis R\&D as an instrument would also satisfy the second assumption, which can not be empirically tested \parencite(p.109){cameron2009}.
-Secondly, R\&D is used as an instrument in both \textcite{costinot} and \textcite{eaton}. \par
-However, if R\&D would not be sufficiently strong correlated wit the endogeneous regressor, it
+ I use  R \& D expenditures as an instrument for the following reasons.
+ Firstly, I expect that higher R \& D expenditures increase the productivity of an industry.
+ In the model framework, a lower cost of producing a good would be directly passed through to the price and hence increase the exports.
+ According to this relationship, I expect that in the first stage the coefficient of R\& D expenditures is positive and statistically significant.
+ Such a relationship between productivity of industries and R\&D is e.g. hypothesized in \textcite{Griffith-R_D-2004}.
+ Moreover, under this hypothesis R\&D as an instrument would also satisfy the second assumption.
+ This assumption, however can not be empirically tested \parencite[p.109]{cameron2009}.
+Secondly, \textcite{costinot} estimation strategy used R\&D as instrument to   .%and \textcite{eaton}.
+\par
+However, if R\&D would not be sufficiently strong correlated wit the endogenous regressor, it
 would be a weak instrument.
-A weak instruments causes two problems. Firstly, the IV estimator would not
+A weak instrument causes two problems. Firstly, the IV estimator would not
  identify the causal effect of the endogenous variable  \parencite{bound}.
 Moreover,  the IV estimate becomes inconsistent if the weak instrument is correlated with the error term \parencite{bound}.
 In the estimation, I report the first-stage F-statistic of the excluded instrument.
-As a rule-of-thumb a weak instrument can be ruled out if this F-statistic exceeds 10 \parencite{Stock-Staiger}.   \par
+As a rule-of-thumb, a weak instrument can be ruled out if this F-statistic exceeds ten \parencite{Stock-Staiger}.   \par
 
 %The Kleibergen-Paap rk Wald F-statistic of \textcite{Kleibergen06} can be used to test for a weak identification problem. The test statistic is  a heteroscedasticity-robust. The critical values for a test using this test-statistic at the 5 \% level that relative bias of the IV is lower than ten percentage is 16.38. Although the thresholds was obtained by \textcite{stock} for a homoscedastic alternative of the test statistic, it may be used with caution for the robust alternative  \parencite{Baum07}. \par %critical values for the Cragg-Donald-Wald F-test statistic, such that the relative bias of the IV estimate compared to OLS is below a certain threshold. The critical value for the test of a significance of 5\% that the IV bias relative to the OLS bias is less than ten percent is 16.38 \parencite{stock}. . \par
 %\subsection{Poisson maximum likelihood}WARN - I didn't find a database entry for 'Leromain' (section 0)
@@ -50,8 +51,8 @@ As a rule-of-thumb a weak instrument can be ruled out if this F-statistic exceed
 %WARN - I didn't find a database entry for '(' (section 0)
 %WARN - I didn't find a database entry for 'bladwin' (section 0)
 %WARN - I didn't find a database entry for 'Costinot' (section 0)
-%WARN - I didn't find a database entry for 'Eaton' (section 0)
-\subsection{Missing data imputation -- work in progress}
+%WARN - I didn't find a database entry for '' (section 0)
+\subsection{Missing data imputation}
 %First motivate why multiple imputation
 %second sketch technicql
  %motivation still sketchy
@@ -59,26 +60,26 @@ As a rule-of-thumb a weak instrument can be ruled out if this F-statistic exceed
 Concerns about missing data are (1) efficiency losses (2) complications in data handling and data analysis (3) bias due to differences between the observed and unobserved data \parencite{schafer1998multiple}.
 In the first sample, I have missing data in the instrumental variables, R \& D.
 The concern for the IV estimation here, are that efficiency losses in the first stage regression may reduce the strength of the first stage association between R\&D and the inverse of producer prices.
- The second stage IV estimates would therefore show upward biased estimate of $\theta$.
+ The second stage IV estimates would, therefore, show an upward biased estimate of $\theta$.
 %For these reasons I will impute the instrumented and instrumental variable.
-In the following I motivate and describe the employed missing data technique.  \par
- %motivate choice of technqiue
-To impute the missing data I used the method of multiple imputation, which is a Bayesian technique to impute missing data by simulated draws from the posterior predictive distribution\footnote{The posterior distrubiton is in Bayesian interference obtained by divding the product of the assumd prior distribution and the Likelihood by normalizing constant.
-The  posterior predicitive distribution describes the predicted value average over the posterior distribution. } \textcite{Rubin1987}.
-It was initially proposed in \textcite{rubin1978} for nonresponse in surveys and it's statistical properties were developed in  \textcite{Rubin1987}.
+In the following, I motivate and describe the employed missing data technique.  \par
+ %motivate choice of technique
+To impute the missing data I used the method of multiple imputations, which is a Bayesian technique to impute missing data by simulated draws from the posterior predictive distribution\footnote{The posterior distribution is in Bayesian interference obtained by dividing the product of the assumed prior distribution and the Likelihood by normalizing constant.
+The posterior predictive distribution describes the predicted value average over the posterior distribution. } \textcite{Rubin1987}.
+It was initially proposed in \textcite{rubin1978} for nonresponse in surveys, and it's statistical properties were developed in  \textcite{Rubin1987}.
 I chose multiple imputations for the following reasons.
-Firstly, techniques  ignoring the missing observations in the analysis as e.g complete case methods or case-wise deletion require stronger assumptions about the missing data.
+Firstly, techniques ignoring the missing observations in the analysis as, e.g., complete case methods or case-wise deletion require stronger assumptions about the missing data.
 Ignoring the missing observations leads to unbiased interference if the missing data is a random subset of all observations \parencite{bhaskaran}.
-%In the analysis I would therefore assume that the probability of missing values in the producer prices or R\&D are independent of the observed data.
+%In the analysis I would, therefore, assume that the probability of missing values in the producer prices or R\&D is independent of the observed data.
 Secondly, single imputation methods do not take into account the uncertainty induced by the missing values and
-as a result the estimated variances would be downward biased \parencite{Wooldridge}.
-%Finally, maximum likelihood techniques are case specific and are difficult to implement \parencite{schafer1998multiple}.
-Multiple imputation offers a  simple and general approach to deal with missing data, which correctly accounts for the uncertainty induced by missing observations \parencite{schafer1998multiple}.
+as a result, the estimated variances would be downward biased \parencite{Wooldridge}.
+%Finally, maximum likelihood techniques are case-specific and are difficult to implement \parencite{schafer1998multiple}.
+Multiple imputation offer a  simple and general approach to deal with missing data, which correctly accounts for the uncertainty induced by missing observations \parencite{schafer1998multiple}.
  \par
 In the following, I outline multiple imputation based on \textcite[p.209-211]{Little:2002a}.
-Initially I describe certain assumptions and some notation, which I use in the outline of multiple imputation.
-To start with I assume that the indicators of missing values are random variables with a distribution.
-Additionally, I assume probability of missingness depends only on observed data and is independent of unobserved data.
+Initially, I describe certain assumptions and some notation, which I use in the outline of multiple imputations.
+To start with I assume that the indicators of missing values are random variables with distribution.
+Additionally, I assume the probability of missingness depends only on observed data and is independent of unobserved data.
 Further, I denote with $\kappa$ the parameter of interest.\par
 Multiple imputation is a  simulation method to impute missing values by draws based on the predictive posterior distribution.
 The basic idea is to relate the observed posterior distribution to the complete-data posterior, which would be observed in the absence of missing data.
@@ -88,15 +89,15 @@ The estimate of the parameter is obtained by drawing from the complete data post
 Moreover, if the complete data posterior mean and variance are of interest only, these quantities can be obtained by simulated draws
 from the predictive posterior distribution.
 Specifically, the posterior mean is obtained by taking the mean of simulated draws from the predictive posterior distribution $\kappa=1/m \sum_{imp=1} ^m \kappa^{imp}$.
-Slightly more complex, the variance is a combination of the average of the variance of each imputed data set and the between imputations variance $Var(\kappa|X)=\sqrt{\bar{V}+ 1/(m-1)*B}m \, where B=1/{M-1}*\sum_m=1^M(\kappa_m-\bar{kappa}_m)^2 \, \text{and} \,\bar{V}=1/M * sum_m=1^M V_m \, \text{with} V_M=Var{X_obs,X_mis^(d)}$.
+Slightly more complex, the variance is a combination of the average of the variance of each imputed data set and the between imputations variance $Var(\kappa|X)=\sqrt{\bar{V}+ 1/(M)*B} \, where B=1/{M-1}*\sum_m=1^M(\kappa_m-\bar{kappa}_m)^2 \, \text{and} \,\bar{V}=1/M * \sum_m=1^M V_m \, \text{with} V_M=Var{X_{obs},X_{mis}^(d)}$.
 \par
 The strength of the multiple imputation method allows is that the imputation and the analysis model can be different \textcite[p.217]{Little:2002a}.
-The interference obtained is valid and leads only in extreme cases
-%Van Buren The assumption of ignorability is essentially the belief on the part of the user that the available data are sufficient to correct for the effects of the missing data. The assump- tion cannot be tested on the data itself, but it can be checked against suitable external validation data
+The interference obtained is valid and leads only in extreme cases to problems.
+%Van Buren The assumption of ignitability is essentially the belief on the part of the user that the available data are sufficient to correct for the effects of the missing data. The assume- tion cannot be tested on the data itself, but it can be checked against suitable external validation data
 \par
 %Therefore multiple imputation can be regarded as three step procedure.
 After the imputation complete-data methods can be used independently on the $M$ data-sets and the mean and the variance can be pooled based on simulated draws as described.
-In a first step the data set is imputed using simulated draws and in the second step complete-data methods can be used on the $M$ data sets and in the third step the results are pooled.
+In a first step the data set is imputed using simulated draws and in the second step, complete-data methods can be used on the $M$ data sets and in the third step the results are pooled.
 % Another multivariate imputation method, which can be used with multiple imputation, is the fully conditional specification.
 % This approach, which is also known as sequential regression or chained equaitions, splits the problem of imputing a joint distribution into several univariate problems \textcite{van2007multiple}.
 % %In this approach I specify for each variable with missing data a conditional specification.
@@ -110,31 +111,32 @@ In a first step the data set is imputed using simulated draws and in the second 
 % The two steps are called a cycle.
 % Usually, several cycles are conducted for each of the $M$ imputations until the algorithm converged to the implicit joint distribution  (\textcite{van2007multiple}).
 %  \par
- Moreover, I combine multiple imputation with predictive mean matching (PMM).
- PMM  is a nearest neighbor matching technique suggested by \textcite{Rubin_matching}.
-In the framework of MI the PMM technique replaces imputes the missing data with draws from the observed data, which are the closested to the values of a simulated regression model.
+Moreover, I combine multiple imputation with predictive mean matching (PMM).
+PMM  is a nearest neighbour matching technique outlined by \textcite{Rubin_matching}.
+In the framework of MI the PMM technique replaces imputes the missing data with draws from the observed data, which are the closest to the values of a simulated regression model.
 Because the missing data is imputed from the observed data, the distribution of the imputed variables is similar to the observed variables. \par
 The imputation method is suited to impute skewed variables, which would violate the normality assumption invoked by multiple imputation using regression techniques \parencite{White_MI_chained}.
 Both imputed variables R\&D and producer prices are highly skewed variables.
 Moreover, simulation studies analyzing MI with PMM  found that the imputation results were efficient and unbiased \textcite{Morris2014}.   \par
-In the following I outline PMM based on \parencite{White_MI_chained}.
+In the following, I outline PMM based on \parencite{White_MI_chained}.
 Initially, each missing variable is regressed on the imputation model and the other variables with missing values.
 From this regression a set of estimates $\beta$ and corresponding variances $V$ are obtained.
- Further, a simulated $\beta^*$ is than obtained from a multivariate normal distribution.
-The imputation of the missing values is based on a random draw from the $q$ \footnote{I chose $q= 10$, therefore the missing value is filled by a random draw from the 10 closest observations.
- This choice rests on the recommendations in the simulation study of \textcite{Morris2014}.} closest observations, which minimize the distance between the product of the predicted value of the regresion $\beta x_h$ and the predicted values based on the simulated parameter $\beta^* x_h$.
-%In the following step, the $q$  observations with the smallest difference between the $\beta$ and $\beta^*$ are identified and from the $q$ closest observations one observations is randomly chosen as imputed value.
-  \par
-  I implemented the imputation as follows.
-  First, I decided to impute both independent and the dependent variable of the first stage regression.
-  Therefore both variables R\& D and producer prices are imputed.
-  In this choice, I follow the recommendation in the simulation study \textcite{Moons:2006a}, which found that multiple imputation without imputing the outcome leads to biased results. \par
+Further, a simulated $\beta^*$ is than obtained from a multivariate normal distribution.
+The imputation of the missing values is based on a random draw from the $q$ \footnote{I chose $q= 10$. Therefore a missing value is imputed by a random draw from the ten closest observations.
+This choice rests on the recommendations in the simulation study of \textcite{Morris2014}.} closest observations, which minimize the distance between the product of the predicted value of the regression $\beta x_h$ and the predicted values based on the simulated parameter $\beta^* x_h$.
+%In the following step, the $q$  observations with the smallest difference between the $\beta$ and $\beta^*$ are identified and from the $q$ closest observations one observation is randomly chosen as imputed value.
+ \par
+ I implemented the imputation as follows.
+ First, I decided to impute both independent and the dependent variable of the first stage regression.
+ Therefore both variables R\& D and producer prices are imputed.
+ In this choice, I follow the recommendation in the simulation study \textcite{Moons:2006a}, which found that multiple imputation without imputing the outcome leads to biased results. \par
 Moreover, I included in the regression imputation model country and industry fixed effects dummies.
- %Moreover, the imputation method  I chose requires that the probability of an missing observations after controlling for observed variables does not depend on unobserved variables \textcite{White_MI_chained}.
+%Moreover, the imputation method  I chose requires that the probability of a missing observations after controlling for observed variables does not depend on unobserved variables \textcite{White_MI_chained}.
 %  In econometrics terminology, ignorable may be interpreted as exogeneous.
 The country and industry fixed effect as covariates account for the variation at country and industry level.
-The fixed effects variables should therefore account for the time-invariant determinants of both variables.
+The fixed effects variables should, therefore, account for the time-invariant determinants of both variables.
 Moreover, the imputation of the log of R\&D in \textcite{costinot} was based on the same covariates.
+\endinput
   % \subsection{Sample}
 % I have created two samples for the estimation the RCA.
 % The first smaller estimation sample, constis of the international price data from the GGDC \parencite{Inklaar2012}, the value-added exports and gross exports data from the \cite{tiva2}  database, and R \&D expenditure data from the \textcite{stan2} ANBRED.
@@ -147,7 +149,6 @@ Moreover, the imputation of the log of R\&D in \textcite{costinot} was based on 
 % Especially, the last two countries recorded many zero exports. The data recorded for both countries positive exports in less than fifty percent of the cases.
 % Further, I excluded Saudi Arabia from the estimations because it exports mainly oil. Hence, I expect that for Saudi Arabia the soruces of CA are rather factor endowments than productivity differences.
 % E.g. in 2005 the share of petroleum exports accounts for  90\% of the fob exports of Saudi Arabia \parencite{opec}.
-\endinput
 %  In the first step each missing value is imputed with value from random sampling with replacement from the observed values.
 %"Multiple imputation using chained equations: Issues and guidance for practice" Ian R.White,a ?? Patrick Roystonb and AngelaM.Woodc
  %Initially, all missing values are filled in by simple random sampling with replacement from

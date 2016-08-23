@@ -1,30 +1,27 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
-\contentsline {chapter}{Abbreviations}{VII}{chapter*.5}
-\contentsline {chapter}{Symbols}{XIII}{chapter*.8}
-\contentsline {chapter}{Preface}{XV}{chapter*.9}
+\contentsline {chapter}{Abbreviations}{V}{chapter*.4}
+\contentsline {chapter}{Symbols}{XI}{chapter*.7}
+\contentsline {chapter}{Preface}{XIII}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Structural Ricardian comparative advantage for value-added trade}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}What for value-added exports and which indicator of value added exports ?}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Ricardian model}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Empirical predictions}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Generalization}{7}{section.2.4}
+\contentsline {section}{\numberline {2.4}Generalization}{6}{section.2.4}
 \contentsline {section}{\numberline {2.5}Estimation method}{8}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Missing data imputation}{8}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Sample}{10}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Empirical results structural RCA}{10}{section.2.6}
-\contentsline {section}{\numberline {2.7}Ranking of structural Ricardian comparative advantage}{12}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Structural Ricardian comparative advantage based gross exports and value-added exports}{13}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}RCA based on WIOD}{15}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.6.1}Structural Ricardian comparative advantage based gross exports and value-added exports}{13}{subsection.2.6.1}
 \contentsline {chapter}{\numberline {3}Relative network centrality and structural Ricardian comparative advantage}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}International trade network}{17}{section.3.1}
+\contentsline {section}{\numberline {3.1}International trade network and network centrality}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}Network centrality}{17}{section.3.2}
 \contentsline {section}{\numberline {3.3}Network centrality and structural Ricardian comparative advantage}{18}{section.3.3}
-\contentsline {chapter}{\numberline {4}Conclusion}{19}{chapter.4}
-\contentsline {chapter}{Appendix}{25}{appendix.A}
-\contentsline {section}{\numberline {A.1}Decomposition of gross exports into value-added exports}{26}{section.A.1}
-\contentsline {section}{\numberline {A.2}ISIC and ISO 3 Alpha Classification}{26}{section.A.2}
-\contentsline {section}{\numberline {A.3}Data Appendix}{27}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Sample Statistics}{27}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}First Stage}{30}{subsection.A.3.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{21}{chapter.4}
+\contentsline {chapter}{Appendix}{27}{appendix.A}
+\contentsline {section}{\numberline {A.1}Decomposition of gross exports into value-added exports}{28}{section.A.1}
+\contentsline {section}{\numberline {A.2}ISIC and ISO 3 Alpha Classification}{28}{section.A.2}
+\contentsline {section}{\numberline {A.3}Data Appendix}{29}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Sample Statistics}{29}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}First Stage}{32}{subsection.A.3.2}
